@@ -1,0 +1,132 @@
+{
+  "at": "2026-11-09T10:21:08+00:00",
+  "base_code_commit": "e8fb0a604c35a953c5d16de9ac83dccf0910cb4b",
+  "base_full_suite": 183,
+  "focused_tests": 16,
+  "focused_seconds": 0.596,
+  "focused_log_sha256": "2a87e5414b7fc6c84971d403adf6204544c9bd6350dd409fcbf9f32501e33fdc",
+  "changed_inputs": [
+    "automation.py",
+    "source_notices.py",
+    "tests/test_automation.py",
+    "tests/test_source_recovery.py"
+  ],
+  "inputs_matched": 77,
+  "full_suite_not_rerun_for_notification_only_change": true,
+  "policy": {
+    "short_reconnects": "log only",
+    "manual_stop_and_start": "log only",
+    "global_outage_warning_after_seconds": 300,
+    "source_retry_limit_warning_after_seconds": 300,
+    "source_manual_attention": "immediate plain-language action",
+    "recovery": "only after that incident failure was actually sent",
+    "timestamps_and_internal_errors": "local journals only",
+    "uncertain_sends": "never automatically retried"
+  },
+  "live_status": {
+    "operating_status": "работает",
+    "reading_sources": 3,
+    "enabled_source_count": 3,
+    "disabled_source_count": 17,
+    "active_filter_version": "maxmadepro-2026-11-07-v3.1",
+    "source_status": [
+      {
+        "username": "biznes_chat",
+        "reading_fresh": true,
+        "phase": "reading",
+        "last_successful_read_check": "2026-11-09T10:21:03+00:00",
+        "last_transport_check": "2026-11-09T10:20:45+00:00",
+        "error_type": null,
+        "attempts": 0,
+        "state": "читает",
+        "open_gaps": [],
+        "observed_seconds_in_run": 6230.0,
+        "last_new_event": "2026-11-09T10:15:22+00:00",
+        "last_successful_delivery": "2026-11-09T10:14:40+00:00",
+        "delivery_states": {
+          "sent": 4
+        }
+      },
+      {
+        "username": "freelead",
+        "reading_fresh": true,
+        "phase": "reading",
+        "last_successful_read_check": "2026-11-09T10:21:04+00:00",
+        "last_transport_check": "2026-11-09T10:20:54+00:00",
+        "error_type": null,
+        "attempts": 0,
+        "state": "читает",
+        "open_gaps": [],
+        "observed_seconds_in_run": 6106.0,
+        "last_new_event": "2026-11-09T10:16:16+00:00",
+        "last_successful_delivery": "2026-11-06T13:10:39+00:00",
+        "delivery_states": {
+          "sent": 2
+        }
+      },
+      {
+        "username": "top_ads_freelance",
+        "reading_fresh": true,
+        "phase": "reading",
+        "last_successful_read_check": "2026-11-09T10:21:03+00:00",
+        "last_transport_check": "2026-11-09T10:20:39+00:00",
+        "error_type": null,
+        "attempts": 0,
+        "state": "читает",
+        "open_gaps": [],
+        "observed_seconds_in_run": 6206.0,
+        "last_new_event": "2026-11-09T10:07:39+00:00",
+        "last_successful_delivery": "2026-11-07T17:25:34+00:00",
+        "delivery_states": {
+          "sent": 26
+        }
+      }
+    ],
+    "observation_run": {
+      "id": 2,
+      "start_at": "2026-11-09T08:31:39+00:00",
+      "end_at": null,
+      "label": "TG-3S: three fixed Chrome sources from20261109",
+      "sources": [
+        {
+          "run_id": 2,
+          "username": "biznes_chat",
+          "start_at": "2026-11-09T08:31:39+00:00",
+          "observed_seconds": 6230.0,
+          "complete_24h": false,
+          "last_sample_at": "2026-11-09T10:21:04+00:00"
+        },
+        {
+          "run_id": 2,
+          "username": "freelead",
+          "start_at": "2026-11-09T08:31:39+00:00",
+          "observed_seconds": 6106.0,
+          "complete_24h": false,
+          "last_sample_at": "2026-11-09T10:21:04+00:00"
+        },
+        {
+          "run_id": 2,
+          "username": "top_ads_freelance",
+          "start_at": "2026-11-09T08:31:39+00:00",
+          "observed_seconds": 6206.0,
+          "complete_24h": false,
+          "last_sample_at": "2026-11-09T10:21:04+00:00"
+        }
+      ]
+    }
+  },
+  "new_global_alert_states_after_restart": [
+    {
+      "kind": "failure",
+      "state": "quiet_log_only",
+      "count": 1
+    },
+    {
+      "kind": "recovery",
+      "state": "quiet_log_only",
+      "count": 1
+    }
+  ],
+  "existing_messages_deleted": false,
+  "filter_profile_recipient_changed": false
+}

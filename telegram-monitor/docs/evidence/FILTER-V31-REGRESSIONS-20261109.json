@@ -1,0 +1,24 @@
+{
+  "version": "maxmadepro-2026-11-07-v3.1",
+  "scope": "two additional live observations after original93 freeze; not a new independent holdout",
+  "rows": [
+    {
+      "candidate_id": 523,
+      "safe_excerpt": "так же нужно создать 2 сайта",
+      "expected_route": "main",
+      "actual_route": "main",
+      "kind": "demand",
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "history_rewritten": false
+    },
+    {
+      "candidate_id": 529,
+      "safe_excerpt": "Технические специалисты в подрядку. Разбираем поток задач",
+      "expected_route": "partnership",
+      "actual_route": "partnership",
+      "kind": "partnership",
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "history_rewritten": false
+    }
+  ]
+}

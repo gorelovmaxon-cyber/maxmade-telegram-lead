@@ -1,0 +1,11 @@
+[Unit]
+Description=MAXMADE monitor: AI worker every 3 minutes
+
+[Timer]
+OnBootSec=4min
+OnUnitActiveSec=3min
+AccuracySec=30s
+Unit=maxmade-monitor-ai.service
+
+[Install]
+WantedBy=timers.target

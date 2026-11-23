@@ -1,0 +1,5 @@
+# Isolated local Chrome prototype; no TinyFish SDK or API key required.
+playwright==1.63.0
+greenlet==3.5.6
+pyee==13.0.1
+typing-extensions==4.16.0

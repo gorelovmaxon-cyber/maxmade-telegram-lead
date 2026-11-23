@@ -1,0 +1,28 @@
+[Unit]
+Description=MaxMade monitor: read-only exchange feeds (FL.ru, Workspace, Kwork, connect.tg)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=maxmade-monitor
+Group=maxmade-monitor
+WorkingDirectory=/opt/maxmade-monitor/current
+EnvironmentFile=/etc/maxmade-monitor/monitor.env
+Environment=PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 HOME=/var/lib/maxmade-monitor
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectHome=true
+ProtectSystem=strict
+ProtectKernelTunables=true
+ProtectControlGroups=true
+ReadWritePaths=/var/lib/maxmade-monitor
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+Nice=10
+IOSchedulingClass=idle
+CPUQuota=30%
+MemoryMax=150M
+TimeoutStartSec=240
+ExecStart=/opt/maxmade-monitor/venv/bin/python feeds.py run

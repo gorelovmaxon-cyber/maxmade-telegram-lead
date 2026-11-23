@@ -1,0 +1,31 @@
+# Секреты и окружение
+.env
+.env.*
+!.env.example
+settings.json
+settings.local.json
+
+# Состояние монитора: базы, сессии, профиль Chrome, логи
+state/
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.session
+*.session-*
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+*.lock
+
+# Отладочные скрипты
+_dbg_*.py

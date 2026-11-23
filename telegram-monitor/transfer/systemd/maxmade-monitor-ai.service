@@ -1,0 +1,30 @@
+[Unit]
+Description=MAXMADE monitor: pre-compute AI verdicts, site review and reply drafts (no sending)
+After=network-online.target maxmade-monitor-bot.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Same unprivileged account as the bot: the database and state belong to it.
+User=maxmade-monitor
+Group=maxmade-monitor
+WorkingDirectory=/opt/maxmade-monitor/current
+EnvironmentFile=/etc/maxmade-monitor/monitor.env
+EnvironmentFile=-/etc/maxmade-monitor/proxy.env
+Environment=PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 HOME=/var/lib/maxmade-monitor
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectHome=true
+ProtectSystem=strict
+ProtectKernelTunables=true
+ProtectControlGroups=true
+ReadWritePaths=/var/lib/maxmade-monitor
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+ExecStart=/opt/maxmade-monitor/venv/bin/python monitor.py ai-worker
+# The model is optional: a failed call must never fail the timer unit.
+SuccessExitStatus=0 2
+TimeoutStartSec=300
+Nice=10
+IOSchedulingClass=idle

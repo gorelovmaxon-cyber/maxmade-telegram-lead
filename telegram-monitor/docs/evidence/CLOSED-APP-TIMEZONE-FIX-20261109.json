@@ -1,0 +1,37 @@
+{
+  "interval_start": "2026-11-09T09:05:00+00:00",
+  "interval_end": "2026-11-09T09:57:00+00:00",
+  "initial_report": {
+    "samples": 49,
+    "all_fresh": true,
+    "new_originals": 0,
+    "accepted": false
+  },
+  "cause": "SQL text comparison used user +03:00 bounds against UTC records before canonical conversion; not an observed reading outage",
+  "regression": "RED before patch; GREEN in final full 183-test suite, inputs77",
+  "corrected_report": {
+    "start_at": "2026-11-09T09:05:00+00:00",
+    "end_at": "2026-11-09T09:57:00+00:00",
+    "user_confirmed_app_closed": true,
+    "process_count_is_not_ui_closure_proof": true,
+    "expected_sources": [
+      "top_ads_freelance",
+      "biznes_chat",
+      "freelead"
+    ],
+    "samples": 49,
+    "fresh_source_samples": 49,
+    "fresh_five_source_samples": 49,
+    "failed_samples": [],
+    "maximum_sampling_gap_s": 67.0,
+    "new_originals_in_interval": {
+      "freelead": 3,
+      "top_ads_freelance": 5,
+      "biznes_chat": 5
+    },
+    "background_reading_observed": true,
+    "continuous_source_checks_accepted": true,
+    "full_stream_completeness_proven": false,
+    "recorded_at": "2026-11-09T09:59:09+00:00"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-09T18:14:22+00:00",
+  "publication_sha": "70e3eba141fd636fc00839fccb6550265f8bd0d8",
+  "filter": "maxmadepro-2026-11-09-v3.3",
+  "rules": "local-role-rules-20261109-v3-r1",
+  "policy": "maxmade-context-work-v3",
+  "hashes": {
+    "maxmade_selection.py": "1839e3dfc4714c81a866f1e98317629854cf165cf3b1b4afb57c4276914d948d",
+    "selection_engine.py": "f732927acc601825eb9820c4cf972a60ea470b9dc515cffa92b9e9f2ae72a439",
+    "selection_facts.py": "fe49bd650dcacdf7ff1e3a5394bd8266193e689096d700b0d8eb27f84a826097",
+    "intent_frames.py": "10bebd9c53810d7823df00947ef96d8d533a3e23b7f6e7169a160327cf4b3abe",
+    "order_profile.py": "b14e54f350fdee2e611775a18f035194b4fad593a56ed3e1f3f2dacbcb5bd35c",
+    "message_classification.py": "7dc23e71430166d7045d0c9fd15ba8afa25e1196e04cb1ddf747c0623dd8ec12",
+    "filter_policy.py": "2f070d4501a1ba6d761cfde9a7f71a2a0ffdf81d8707115462e1b932d91f230c",
+    "config/order-profile.json": "76bae2d6736d86a506bcba60d7c4f375504332c4ff39b3cb5be1a763fa84e600"
+  },
+  "new_rules_policy": "only a documented concrete error"
+}

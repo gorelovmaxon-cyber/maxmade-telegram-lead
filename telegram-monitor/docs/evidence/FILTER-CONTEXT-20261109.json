@@ -1,0 +1,290 @@
+{
+  "at": "2026-11-09T15:54:35+00:00",
+  "version": "maxmadepro-2026-11-09-v3.3",
+  "rules": "local-role-rules-20261109-v3",
+  "policy": "maxmade-context-work-v3",
+  "code_sha": "37c53978d6abaf33ebef39ca57f26ff1f4265193",
+  "connected": 3,
+  "reading": 3,
+  "disabled": 17,
+  "sources": [
+    {
+      "username": "biznes_chat",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T15:46:26+00:00",
+      "credited_hours": 6.891,
+      "calendar_hours": 7.246,
+      "gap_count": 17,
+      "gap_seconds": 1024.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 8,
+        "ConnectionError": 1,
+        "not_reading": 2
+      },
+      "new_originals": 57
+    },
+    {
+      "username": "freelead",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T15:46:26+00:00",
+      "credited_hours": 6.839,
+      "calendar_hours": 7.246,
+      "gap_count": 18,
+      "gap_seconds": 1157.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 8,
+        "ConnectionError": 2,
+        "not_reading": 2
+      },
+      "new_originals": 63
+    },
+    {
+      "username": "top_ads_freelance",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T15:46:26+00:00",
+      "credited_hours": 6.772,
+      "calendar_hours": 7.246,
+      "gap_count": 17,
+      "gap_seconds": 1529.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 9,
+        "ConnectionError": 1,
+        "sampling_gap_or_sleep": 1
+      },
+      "new_originals": 67
+    }
+  ],
+  "tests": {
+    "exit_code": 0,
+    "inputs": 87,
+    "log_sha256": "01801aad96d1650a0d870302b170dfe0ddae56635663e7c5f962f8b9ad03020e"
+  },
+  "full_tests": 212,
+  "synthetic_cases": 115,
+  "synthetic_comparison": {
+    "old": {
+      "mismatches": 74,
+      "missed_projects": 36,
+      "missed_subcontract": 6,
+      "extra_auto": 9
+    },
+    "new": {
+      "mismatches": 0,
+      "missed_projects": 0,
+      "missed_subcontract": 0,
+      "extra_auto": 0
+    }
+  },
+  "format_variants": 575,
+  "contrast_pairs": 8,
+  "additional_component_contrast": true,
+  "development": {
+    "rows": 199,
+    "sources": 9,
+    "expected_routes": {
+      "partnership": 3,
+      "none": 186,
+      "employment": 3,
+      "main": 4,
+      "review": 3
+    },
+    "new_routes": {
+      "partnership": 3,
+      "none": 181,
+      "review": 11,
+      "main": 4
+    },
+    "review": 11,
+    "owner_confirmed_positives": 1,
+    "old": {
+      "main": 4,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 1,
+      "correct_subcontract": 2
+    },
+    "new": {
+      "main": 4,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 3
+    }
+  },
+  "final_holdout": {
+    "rows": 19,
+    "sources": 8,
+    "expected_routes": {
+      "none": 18,
+      "review": 1
+    },
+    "new_routes": {
+      "none": 17,
+      "employment": 2
+    },
+    "review": 0,
+    "owner_confirmed_positives": 0,
+    "old": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    },
+    "new": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    }
+  },
+  "synthetic_metric_definition": {
+    "missed_projects": "wrong project route, including one delivered as subcontract",
+    "missed_subcontract": "wrong subcontract route, including three delivered as projects",
+    "old_no_auto_project": 35,
+    "old_no_auto_subcontract": 3,
+    "old_wrong_auto_route_project": 1,
+    "old_wrong_auto_route_subcontract": 3
+  },
+  "first_holdout_failed_preserved": {
+    "rows": 25,
+    "sources": 4,
+    "expected_routes": {
+      "none": 22,
+      "main": 2,
+      "partnership": 1
+    },
+    "new_routes": {
+      "none": 22,
+      "review": 1,
+      "main": 1,
+      "partnership": 1
+    },
+    "review": 1,
+    "owner_confirmed_positives": 0,
+    "old": {
+      "main": 2,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 1,
+      "correct_subcontract": 0
+    },
+    "new": {
+      "main": 1,
+      "extra_main": 0,
+      "missed_main": 1,
+      "extra_auto": 0,
+      "missed_auto": 1,
+      "correct_subcontract": 1
+    }
+  },
+  "first_failure": {
+    "id": 204,
+    "reason": "Website cover/menu treated as independent nonprofile cover",
+    "fixed": true
+  },
+  "holdout_family_audit": {
+    "removed_id": 52,
+    "reason": "Previously read variant of broad-scan398; moved before predictions; no rule/label changes"
+  },
+  "real_positive_scope": {
+    "known_projects": [
+      271,
+      204,
+      523,
+      615
+    ],
+    "subcontract": [
+      12,
+      529,
+      722
+    ],
+    "owner_confirmed": [
+      271
+    ],
+    "newly_found_missed_pool": 722,
+    "familiarity": "722 shares an older expanded recruitment template with43/305; first heldout pass, now regression;204/615 known positives, not unseen",
+    "final_holdout_real_positive_count": 0
+  },
+  "real_audit": {
+    "originals": 737,
+    "rejected_or_review": 682,
+    "profile_mentions": 28,
+    "not_in_prior_v32_sample": 23,
+    "broad_scan_unique_texts": 11,
+    "manual_review_of_all_682": false
+  },
+  "remaining_route_error": {
+    "id": 504,
+    "expected": "review",
+    "actual": "none",
+    "text_summary": "Help with unspecified project, no web scope; not established eligible work"
+  },
+  "rollback": {
+    "result": "OK",
+    "rollback_version": "maxmadepro-2026-11-09-v3.2",
+    "integrity": "ok",
+    "historical_statuses_checked": 745,
+    "historical_sent_checked": 58,
+    "old_sent_changed": 0,
+    "old_statuses_changed": 0,
+    "initial_cutoff_unchanged": true,
+    "fake_sink_delivery": 1,
+    "same_event_duplicate_deliveries": 0,
+    "network_calls": 0,
+    "live_database_writes": 0,
+    "old_adapter_match_semantics_preserved_cases": 115
+  },
+  "preservation": {
+    "manual_status_mismatches": 0,
+    "sent_mismatches": 0,
+    "settings_unchanged": true,
+    "business_integrity": "ok"
+  },
+  "source_restarts_at_switch": 0,
+  "host_pid_unchanged": true,
+  "source_generations_unchanged": true,
+  "bot": {
+    "at": "2026-11-09T15:44:58+00:00",
+    "getMe": "ok",
+    "username": "uffweb_bot",
+    "expected_bot": true,
+    "token_replaced": false
+  },
+  "loaded_profile_version": "maxmadepro-2026-11-09-v3.3",
+  "new_live_decisions": [
+    {
+      "version": "maxmadepro-2026-11-09-v3.3",
+      "route": "none",
+      "count": 12
+    },
+    {
+      "version": "maxmadepro-2026-11-09-v3.3",
+      "route": "review",
+      "count": 2
+    }
+  ],
+  "new_live_sent": 0,
+  "technical_pipeline": "Fake-sink tests preserve histories and exercise project/subcontract/review; no test clients or old cards sent",
+  "external_classifier_calls": 0,
+  "tinyfish_calls": 0,
+  "windows_checks": "Deferred by owner; sleep/login not accepted",
+  "continuous_autonomy_accepted": false,
+  "limits": [
+    "данных для оценки полноты недостаточно",
+    "Agent labels, not independent human acceptance",
+    "Final19 have no positive; seven positives are known after development",
+    "Review11/199 includes conservative extra reviews; one generic project504 remains none",
+    "Finite local rules do not cover all natural language",
+    "Actual eligible new v3.3 notification remains open if new_live_sent is zero"
+  ]
+}

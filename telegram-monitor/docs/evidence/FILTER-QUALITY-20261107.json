@@ -1,0 +1,233 @@
+{
+  "version": "maxmadepro-2026-11-07-v3.1",
+  "snapshot_sha256": "0f588b36f639c045d77ccdb166c26317d58a9469c6650661e28a410059b81d1d",
+  "labels_sha256": "a145cecee4f359884d22b4a9be0e7b7d99fbb218356ecfdf03d06b41eacff284",
+  "sample": {
+    "last_delivered": 43,
+    "rejected": 50,
+    "rejected_sources": 9,
+    "unique": 93,
+    "families": 51
+  },
+  "splits": {
+    "development": {
+      "rows": 83,
+      "families": 42,
+      "positives": 1,
+      "old": {
+        "main": 37,
+        "tp": 1,
+        "fp": 36,
+        "fn": 0,
+        "tn": 46
+      },
+      "new": {
+        "main": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 82
+      }
+    },
+    "holdout": {
+      "rows": 10,
+      "families": 9,
+      "positives": 1,
+      "old": {
+        "main": 6,
+        "tp": 1,
+        "fp": 5,
+        "fn": 0,
+        "tn": 4
+      },
+      "new": {
+        "main": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 9
+      }
+    }
+  },
+  "regressions": {
+    "410": {
+      "candidate_id": 410,
+      "family": "ad1061330895",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "ambiguous",
+      "new_kind": "offer",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "Создаю любых:",
+      "reason": "Автор предлагает создание ботов/сайтов, а не заказывает их"
+    },
+    "404": {
+      "candidate_id": 404,
+      "family": "ebafdb96db61",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "ambiguous",
+      "new_kind": "offer",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "Я сайтами и дизайном занимаюсь",
+      "reason": "Ответ-самопрезентация, не запрос"
+    },
+    "379": {
+      "candidate_id": 379,
+      "family": "83a4b5561b11",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "ambiguous",
+      "new_kind": "other",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "МЕНЕДЖЕР ПО ПРОДАЖАМ УСЛУГ ВЕБ-ДИЗАЙН СТУДИИ",
+      "reason": "Работа продавца студии, а не исполнение сайтов MAXMADE"
+    },
+    "383": {
+      "candidate_id": 383,
+      "family": "f47c500e46e3",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "demand",
+      "new_kind": "vacancy",
+      "queue": "employment",
+      "label_queue": "employment",
+      "evidence_excerpt": "У нас открыты вакансии digital-специалистов к разным заказчикам",
+      "reason": "Рекрутер публикует подборку разных вакансий; нет конкретного сайта/проекта"
+    },
+    "377": {
+      "candidate_id": 377,
+      "family": "1d832e9125c9",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "demand",
+      "new_kind": "vacancy",
+      "queue": "employment",
+      "label_queue": "employment",
+      "evidence_excerpt": "Обязателен опыт работы в fashion и присутствие в Москве",
+      "reason": "Набор нескольких должностей, требования присутствия/переработок, веб-результат не описан"
+    },
+    "445": {
+      "candidate_id": 445,
+      "family": "24fc3a1d8ad4",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "partnership",
+      "new_kind": "other",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "Ты занимаешься поиском клиентов. Разработку и запуск беру на себя",
+      "reason": "Нужны продажи услуг другого разработчика; разработку автор оставляет себе"
+    },
+    "443": {
+      "candidate_id": 443,
+      "family": "24fc3a1d8ad4",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "partnership",
+      "new_kind": "other",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "Ты занимаешься поиском клиентов. Разработку и запуск беру на себя",
+      "reason": "Нужны продажи услуг другого разработчика; разработку автор оставляет себе"
+    },
+    "367": {
+      "candidate_id": 367,
+      "family": "24fc3a1d8ad4",
+      "split": "development",
+      "expected_main": false,
+      "old_main": true,
+      "new_main": false,
+      "old_kind": "partnership",
+      "new_kind": "other",
+      "queue": "none",
+      "label_queue": "none",
+      "evidence_excerpt": "Ты занимаешься поиском клиентов. Разработку и запуск беру на себя",
+      "reason": "Нужны продажи услуг другого разработчика; разработку автор оставляет себе"
+    },
+    "271": {
+      "candidate_id": 271,
+      "family": "00cb9b1827a1",
+      "split": "development",
+      "expected_main": true,
+      "old_main": true,
+      "new_main": true,
+      "old_kind": "demand",
+      "new_kind": "demand",
+      "queue": "main",
+      "label_queue": "main",
+      "evidence_excerpt": "нужен сайт",
+      "reason": "Подтверждённый Максимом прямой запрос сайта. Бюджет/стек/контакт отсутствуют, это не запрет уведомления"
+    },
+    "204": {
+      "candidate_id": 204,
+      "family": "91ef3a26ff96",
+      "split": "holdout",
+      "expected_main": true,
+      "old_main": true,
+      "new_main": true,
+      "old_kind": "demand",
+      "new_kind": "demand",
+      "queue": "main",
+      "label_queue": "main",
+      "evidence_excerpt": "Все тексты, материалы и подробное техническое задание уже готовы",
+      "reason": "Конкретный клиентский сайт на Tilda, ТЗ и материалы готовы; сотрудничество здесь относится к этому проекту"
+    }
+  },
+  "queues": {
+    "none": 86,
+    "employment": 3,
+    "main": 2,
+    "review": 2
+  },
+  "repost_check": [
+    {
+      "candidate_id": 367,
+      "content_sha256": "24fc3a1d8ad4427eddc58aeb1a3b569c1654de3e3db895d59c0ea75debf09025",
+      "identity_present": true
+    },
+    {
+      "candidate_id": 443,
+      "content_sha256": "24fc3a1d8ad4427eddc58aeb1a3b569c1654de3e3db895d59c0ea75debf09025",
+      "identity_present": true
+    },
+    {
+      "candidate_id": 445,
+      "content_sha256": "24fc3a1d8ad4427eddc58aeb1a3b569c1654de3e3db895d59c0ea75debf09025",
+      "identity_present": true
+    }
+  ],
+  "newly_found_from_rejected": 0,
+  "unexplained_positive_losses": 0,
+  "network_calls": 0,
+  "live_database_writes": 0,
+  "selection_files_sha256": {
+    "order_profile.py": "526ca5637b149b55f9d24a9e2f3331db79f5c4c3650d516af92c001a7f40ec11",
+    "order_selection.py": "def69293f07224101ffd35f2246e8704fe3f04765359c6539dd2b8c1d3bf94ca",
+    "config/order-profile.json": "dae8de523d964baa3de34f900986935566358aa0f4bb1c5a563a1fa6789fc276"
+  },
+  "limitations": [
+    "Agent-labelled; not an independent blind audit",
+    "Only two actual positive requests; only #271 owner-confirmed",
+    "Holdout ten rows/nine publication families; development83/42; no family leakage",
+    "One saved fragment is at most2000 characters; open original before replying",
+    "No claim of population precision/recall or recovery of unseen messages"
+  ]
+}

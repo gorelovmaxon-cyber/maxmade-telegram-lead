@@ -1,0 +1,84 @@
+URL: https://www.youtube.com/watch?v=ot51MJLdaC4 | Автор: Tim Yakubson | Длительность: 11:01 | Способ: авто-субтитры YouTube (yt-dlp), en | Скачано: 2026-11-11 | Качество: авто, числа и термины могут быть искажены
+00:00:00  In today's video, I'll be walking you through the 10 cold emails that got positive replies for our clients very recently for our agency B2B boosted. Specifically, how you can copy and paste some of the copyrightiting principles and frameworks into your business, whether you're running any sort of outbound agency or whether you are just trying to figure out how to send code
+
+00:00:15  outreach at scale for your specific business. Now for context, we know that this works across both email automation and you can see some like random screenshots that I just took from these campaigns as I was just picking up the leads and also this works across LinkedIn automation where you can see a lot of reply rates over here in the double digits and that's from our cohort
+
+00:00:30  B2B boosted accounts where we enable our clients to test five different campaign ideas in one month just to find message market fit as fast as possible. So essentially the first thing I want to jump into is the first template and this is the first email reply that we received and this is just like a super generic offer where we don't we you this
+
+00:00:47  type of email requires zero personalization altogether. So essentially all we're doing is just saying like hey I know you get a lot of annoying emails so I'll be quick. Then we're jumping in with a quick unique selling point followed by social proof and a soft call to action. That's typically how you would write any email. In this case, the actual unique value
+
+00:01:04  proposition here is that we launched the first ever CRM, business texting, and marketing tool for plumbing businesses. Once again, that's quite self-explanatory. It just it's straight away it explains the three features that it has. It's specifically built for plumbing businesses. There are not many CRM, I don't think, that are just catered for plumbing businesses. A bit of social proof mentioning that, you
+
+00:01:20  know, over 3,000 home service businesses use this company already. And then a soft call to action, as I mentioned, of can I share more information. On top of that, a lot of the time people would ask about pricing. So for that reason, we just inserted a line in between to say, "Hey, it cost $25 a month unlimited users for this CRM." And straight away,
+
+00:01:35  of course, someone just says, "Hey, we're interested." And the main reason we launch such campaigns is because we can then run subsequences. And subsequences will then enroll those people in another automated chain of emails, which will share more information and basically ask the lead for an email for for a meeting. So that's that was the first template. It
+
+00:01:51  was super straightforward. It's just to warm you guys up. And this is my favorite template from all the ones over here probably. And it just shows how far our copyrightiting has come in the last 2 years I guess. So first of all you can see over here we've sourced this list from outs scraper and once again we're targeting plumbing businesses in Canada.
+
+00:02:06  And in this case we're just saying like hey you're at this store you see three pipe wrenches. One cost $10, another 25 and the third $50. Which one would you buy? The one that gets the job done for less right? So why would you overpay for a CRM that limits your users when you can get unlimited CRM users and all the
+
+00:02:22  features you need with our tool. This and then PS. It's the first ever CRM built specifically for home service businesses like yours, designed to help plumbers like you save time and grow your business. This is super generic, but where this hits it home and I think where this is incredibly good is because this is a template that we can recycle
+
+00:02:37  across all of our clients. And for context, let me just show you how this looks. This is template number two for our GPT that we have for generating our cold emails. And essentially all it is is we just give this example to our GPT where it's like, hey, you see Diet Coke, three options, $0, $1,150 for a can.
+
+00:02:54  What would you choose? Zero, right? Then why are you paying Stripe 1.5% in international processing fees when you could be paying nothing? And this is just like an example that we stole probably from like some other LinkedIn guru out there. So once again, I think this is a sick and when I say sick, like a really really good killer template. We
+
+00:03:10  run this across a ton a ton of our clients now where their unique selling point is cost savings. I very much recommend you do something similar to this. And all it would require is for you to just feed in a template like this. And by the way, I'll share this template with you in this scrappy Google doc, which will be linked right underneath as well. And all you would basically need to do is just copy and
+
+00:03:27  paste this into chat GPT and say, "Hey, like here is what my company does. Generate a similar email for me." And it will basically generate a very similar backbone for for you as well. So you can check that out underneath the video. Next up, we'll be talking about template number three, which is a cheesy opener with an offer. In this case, the only real thing that we do is we just insert
+
+00:03:45  a cheesy opener on the base on the basis of what the business does. So, in this case, once again, I think we're reaching out to plumbers. And this is just because I was just fetching random replies. And this, you can see we ran this quite a while ago for this client. But basically, we're saying a cheesy opening line here where we just feed
+
+00:04:00  into chat GPT what this business does. And then we say, hey, like create a relatable cheesy opener for this business. And then we say, hey, here's what the business does. So, in this case, I came up with this email opener where it's like, Sebastian, I bet your inbox is as backed up as a clogged drain
+
+00:04:16  on Monday morning. So, I'll flush out the details quickly and then it just jumps straight into a pitch where it's like, "Hey, we just built the first ever CRM for plumbers, $25 per month. Try it no cost for 30 days and I can bully my manager into extending it to 45 days to make your day." Sounds tempting. And then straight away, like with a lot of these kind of leads here, we have a lot
+
+00:04:33  of replies where it's like, "What's the price? Do you do you do this for like other local businesses, not just plumbers?" You know, that kind of thing. It just it just starts that two-way conversation. And from that point, we can then obviously enrich it with phone numbers from the email signature and so on. So once again, if you want the
+
+00:04:48  cheesy opener prompt, I have copied and pasted it over here. So it's just you copying and pasting this into chat GPT and it will then basically just create a cheesy opener for you. But the whole idea here is just a quick cheesy opener which is funny or relatable or whatever. And then after that, a quick offer and a soft call to action. Uh moving on,
+
+00:05:04  template number four. This is probably one of my favorite ones to run for most of our clients, but we basically use this tool called Scrapley where you can just go and get a bunch of competitor followers. And then let's say you sell Coca-Cola and you're reaching out to followers of Pepsi. You're going to say,
+
+00:05:19  "Hey, I noticed you follow this competitor. Guessing you've tried them before for this specific purpose." In this case, I don't know why we said this. We said like quick gut check, but this could be like not sure if it's relatable. How often does this happen? Then we name drop a colleague and we say like oh this colleague says that the link you sent out shows no availability.
+
+00:05:36  The other person forgets to book or isn't tech savvy techsavvy. Once again this is a case for selling like a calendarly alternative. So we're basically saying like hey how often does this happen that this specific colleague Rod threat you know is fed up of schedul scheduling calls and so on. The other
+
+00:05:51  person forgets to book and then you just pitch whatever your product is with a soft call to action. And also when you ask them to reply a specific word like C, you will automatically trigger another subsequence where they will be shared this information automatically. In this case, you can see the person just says, "Hey, let's schedule a demo, which is exactly what our client wants."
+
+00:06:08  Once again, I think this is a really good example of, you know, our kind of outreach for followers of competitors and I think it's a pretty straightforward email that we know we tried across a bunch of other coms a bunch of other clients before as well. Moving into template number five, and this is basically a big one for our
+
+00:06:24  podcast invites. A lot of the clients that we work with now, they have some sort of low friction call to action which does not require the person to jump on a call with you just for a sales pitch. So in this case, they have a really long complex sales cycle and basically the kind of service or
+
+00:06:40  software that we're selling in it to brick and mortar niche over here just basically requires this type of invite or podcast first. Obviously over the course of the podcast they get to know the guest, they get to speak with the guest and then after that they can then soft sell them something else. So in this case it's just saying like hey I saw the exciting news about this
+
+00:06:56  acquisition impressive move. For context this was fetched using clay agent. So once again we just ask Clayent to look for this information and then create an opening line using our prefix and it says we've just kicked off a series a series featuring this specific types of entrepreneur entrepreneurs. Are you
+
+00:07:11  taking on speaking opportunities right now? Uh then it says, "Hey, we'd be excited to have you on our podcast. Our new series highlights top innovators and leaders." Um the only other thing we then autofill here is just the number of locations the business has, which would grab using Client again. And then as always, it's just would you be open to a
+
+00:07:27  quick intro and then a quick PS line just to plant that idea that later down the line you may want to be selling something to them, right? And for context, you could also do this using Twain. So we over complicated things with a lot of clay in here, but you could use Twain for this as well. And you can see obviously the person is interested over here. The last kind of
+
+00:07:43  template and this is where I'll show you a couple more emails where we got a really really good hit rate. The last type of emails over here is very similar to that. We also used Claggent here where we just said like hey congrats on the new affiliation with this company and their team just came across it and
+
+00:07:58  that got me to to think about inviting you to this specific event. Once again when you sell like high ticket offers a lot of the time our clients would host events and this is another really cool use case to just drive traffic. And I think for this specific event, we got two people to fly over to whatever random state it is in America that
+
+00:08:14  hosted this event in some headquarters. So in this case, once again, it's just a matter of having an opening trigger or a hook which you know makes you want to scroll past that opening line of the email. And then in this case, we just use Clay to pick out how many locations they have, how many locations the business has. So in this case, they have
+
+00:08:30  12 locations. And then we just talk about some of the benefits. And then we say, would you or and then insert the name of a colleague that's very senior in the organization as And obviously we pick the name of the colleague using clay agent again and then we say hey just reply yes and I'll send the details. Once again that just saves us the time because we know that the
+
+00:08:45  subsequence will be triggered as soon as they reply yes to this email. So very much what we're doing in most of these emails as you can see by now is we're just basically creating a trigger using clayent by feeding it like a prefix or we use a tool like Twain. Like right now if we were to redo this we'd probably
+
+00:09:01  use Twain for this. And then finally in the call to action or throughout the email at some point we mention a colleague just to show them we've done some research and we also mention like the number of locations. Very similar story here. I've just picked up a bunch of other ones. This one is like the exact same email as well. Uh and you can
+
+00:09:18  see like it's just getting a good traction. And then same thing here we talk about like a clinic opening as the opening line. Also a really good email as well. And then over here it's just shows how much different research clasion can do for you because in this case it does research about the clinic
+
+00:09:33  openings again. Finally in this one it just talks about a recent change in ownership. And in this case once again the person is interested. So overall we went through 10 code email templates. I'll hope to start doing this in a monthly basis or so whenever I can be bothered to screenshots and anonymize all of the responses for the code
+
+00:09:48  outreach that we handle over B2B boosted. If you do wish to basically have some sort of copywriting done for you or any sort of code outreach to be tested for you, go check out B2B boosted. I'll make sure to link it down below. The end goal for us is to find message market fits in the first 3
+
+00:10:04  months of working with our clients. So in other words, in the first 3 months, we would try over 10 different campaign ideas and on that basis with 10 different copywriting angles and so on, we hopefully would arrive at a message market fit. And a message market fit in super simple terms is when for every 150
+
+00:10:19  emails you would be getting one positive reply or in this case you know you would be getting for every 160 emails you'd be getting one positive reply. And that's what we're aiming for to do with all of our clients over at B2B boosted. So you want to check that out. I'll link B2B boosted underneath um in the link in the description as well. And I'll also make
+
+00:10:35  sure to give you those Google Docs where you can basically copy and paste the prompt for the cheesy opener and also for the framework that we used for this you are overpaying kind of code email template as well. If you like this video, make sure to subscribe to the channel, like this video, and just yeah, just comment something nice down below if you made it this far. And I hope you
+
+00:10:51  enjoyed. Do give me some feedback on this one. I might be doing a lot more videos like this one, just walking walking through the kind of copyrightiting stuff that actually works and gives us positive advice. means on G.

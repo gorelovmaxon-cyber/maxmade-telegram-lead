@@ -1,0 +1,3 @@
+# Optional Claude assistance for the Telegram monitor.
+# The monitor works without these; cards simply carry no AI block.
+anthropic>=0.40

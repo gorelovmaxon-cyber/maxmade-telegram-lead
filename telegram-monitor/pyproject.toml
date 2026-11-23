@@ -1,0 +1,8 @@
+[project]
+name = "maxmade-telegram-monitor"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["tzdata==2026.3; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+client = ["Telethon==1.45.0", "python-socks[asyncio]==2.8.2"]

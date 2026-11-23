@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-09T12:13:01.755510+00:00",
+  "source_snapshot_name": "metadata-recovery-20261109T121201Z",
+  "restored_directory_name": "identity-data-restore-fresh-20261109",
+  "checks": [
+    {
+      "database": "business.sqlite3",
+      "tables_checked": 8,
+      "integrity": "ok",
+      "all_table_rows_match": true
+    },
+    {
+      "database": "sources.sqlite3",
+      "tables_checked": 12,
+      "integrity": "ok",
+      "all_table_rows_match": true
+    },
+    {
+      "database": "operations.sqlite3",
+      "tables_checked": 4,
+      "integrity": "ok",
+      "all_table_rows_match": true
+    },
+    {
+      "database": "operator-checks.sqlite3",
+      "tables_checked": 1,
+      "integrity": "ok",
+      "all_table_rows_match": true
+    }
+  ],
+  "settings_hash_match": true,
+  "current_schema_opened": true,
+  "enabled_sources": 3,
+  "disabled_sources": 17,
+  "active_filter": "maxmadepro-2026-11-07-v3.1",
+  "cutoff": 487,
+  "network_calls": 0,
+  "browser_profile_copied": false,
+  "scope": "offline state restore from current individual SQLite backups; not a portable browser session or cross-database atomic snapshot"
+}

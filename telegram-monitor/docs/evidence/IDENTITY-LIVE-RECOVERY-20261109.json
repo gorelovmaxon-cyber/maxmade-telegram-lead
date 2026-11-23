@@ -1,0 +1,266 @@
+{
+  "started_at": "2026-11-09T11:55:37+00:00",
+  "before": {
+    "at": "2026-11-09T11:55:35+00:00",
+    "pid": 16240,
+    "sources": [
+      {
+        "username": "top_ads_freelance",
+        "peer_id": -1001513982592,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 0,
+        "last_live_check": "2026-11-09T11:55:34+00:00",
+        "last_web_transport": "2026-11-09T11:55:07+00:00",
+        "baseline": 1835234,
+        "generation": 1,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": null
+      },
+      {
+        "username": "biznes_chat",
+        "peer_id": -1001371121321,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 0,
+        "last_live_check": "2026-11-09T11:55:35+00:00",
+        "last_web_transport": "2026-11-09T11:55:16+00:00",
+        "baseline": 950698,
+        "generation": 1,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": null
+      },
+      {
+        "username": "freelead",
+        "peer_id": -1001428955589,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 0,
+        "last_live_check": "2026-11-09T11:55:35+00:00",
+        "last_web_transport": "2026-11-09T11:55:25+00:00",
+        "baseline": 1347049,
+        "generation": 1,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": null
+      }
+    ]
+  },
+  "source": "top_ads_freelance",
+  "injection_requested": true,
+  "operator_resume_commands": 0,
+  "other_sources_fresh_at_every_sample": true,
+  "pending_identity_observed": true,
+  "injection": {
+    "injected": true,
+    "duration_ms": 4000,
+    "account_changed": false,
+    "group_content_changed": false,
+    "source": "top_ads_freelance",
+    "before_generation": 1
+  },
+  "observed_failure": {
+    "at": "2026-11-09T11:55:38+00:00",
+    "error_type": "BrowserAccessError",
+    "stage": "attached",
+    "failure_class": "identity_check_pending",
+    "guard_stage": "identity_snapshot",
+    "guard": null,
+    "identity_evidence": {
+      "username_rows": 0,
+      "expected_username_rows": 0,
+      "contradictory_username": false,
+      "public_source_present": true,
+      "public_source_matches": true
+    }
+  },
+  "result": "recovered_without_manual_resume",
+  "elapsed_s": 15.25,
+  "after": {
+    "at": "2026-11-09T11:55:51+00:00",
+    "pid": 16240,
+    "sources": [
+      {
+        "username": "top_ads_freelance",
+        "peer_id": -1001513982592,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 1,
+        "last_live_check": "2026-11-09T11:55:50+00:00",
+        "last_web_transport": "2026-11-09T11:55:50+00:00",
+        "baseline": 1835234,
+        "generation": 2,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": {
+          "at": "2026-11-09T11:55:38+00:00",
+          "error_type": "BrowserAccessError",
+          "stage": "attached",
+          "failure_class": "identity_check_pending",
+          "guard_stage": "identity_snapshot",
+          "guard": null,
+          "identity_evidence": {
+            "username_rows": 0,
+            "expected_username_rows": 0,
+            "contradictory_username": false,
+            "public_source_present": true,
+            "public_source_matches": true
+          }
+        }
+      },
+      {
+        "username": "biznes_chat",
+        "peer_id": -1001371121321,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 0,
+        "last_live_check": "2026-11-09T11:55:49+00:00",
+        "last_web_transport": "2026-11-09T11:55:47+00:00",
+        "baseline": 950698,
+        "generation": 1,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": null
+      },
+      {
+        "username": "freelead",
+        "peer_id": -1001428955589,
+        "phase": "reading",
+        "error_type": null,
+        "attempts": 0,
+        "last_live_check": "2026-11-09T11:55:49+00:00",
+        "last_web_transport": "2026-11-09T11:55:25+00:00",
+        "baseline": 1347049,
+        "generation": 1,
+        "capture_running": true,
+        "stage": "attached",
+        "last_failure": null
+      }
+    ]
+  },
+  "samples": [
+    {
+      "at": "2026-11-09T11:55:37+00:00",
+      "target_phase": "reading",
+      "target_generation": 1,
+      "target_fresh": true,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:37+00:00",
+      "target_phase": "reading",
+      "target_generation": 1,
+      "target_fresh": true,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:37+00:00",
+      "target_phase": "reading",
+      "target_generation": 1,
+      "target_fresh": true,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:39+00:00",
+      "target_phase": "recovering",
+      "target_generation": 1,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:40+00:00",
+      "target_phase": "recovering",
+      "target_generation": 1,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:41+00:00",
+      "target_phase": "recovering",
+      "target_generation": 1,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:42+00:00",
+      "target_phase": "recovering",
+      "target_generation": 1,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:43+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:44+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:45+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:46+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:47+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:48+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:49+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:49+00:00",
+      "target_phase": "recovering",
+      "target_generation": 2,
+      "target_fresh": false,
+      "others_fresh": true
+    },
+    {
+      "at": "2026-11-09T11:55:51+00:00",
+      "target_phase": "reading",
+      "target_generation": 2,
+      "target_fresh": true,
+      "others_fresh": true
+    }
+  ],
+  "other_generations_unchanged": true,
+  "delayed_auto_probe": {
+    "skip_reason": "source_runtime_owns_recovery",
+    "same_host": true,
+    "same_generations": true,
+    "all_three_fresh": true
+  },
+  "ended_at": "2026-11-09T11:55:54+00:00",
+  "scope": "one controlled UI disappearance; no real account change, group messages or manual recovery; not 24h autonomy proof"
+}

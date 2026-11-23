@@ -1,0 +1,3913 @@
+{
+  "at": "2026-11-07T15:02:59+00:00",
+  "baseline_sha": "4bf39665b38da97fbb01e5b180d68ea46aee3940",
+  "branch": "telegram/staged-sources-20261105",
+  "configured": 10,
+  "active_fresh_intakes": 10,
+  "sources": [
+    {
+      "username": "bitrixinside24",
+      "peer_id": -1001407270972,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T14:59:50+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Public about reviewed 2026-11-06: Bitrix24 user discussion; questions/projects routed to the named manager. No additional linked/pinned rules located. Local reading only; no permission for unsolicited member replies asserted.",
+      "reply_route": "questions_and_projects_via_profile_manager_no_automatic_contact",
+      "publish_permission": "unknown",
+      "read_permission": "local_client",
+      "last_received": "2026-11-07T14:56:15+00:00",
+      "events_during_observation": 3,
+      "new_messages_during_observation": 3,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 10457.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T09:09:10+00:00",
+          "end_at": "2026-11-06T09:09:28+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:10:04+00:00",
+          "end_at": "2026-11-06T09:10:26+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:26+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:40:44+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:47:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:40:38+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:52:22+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:19+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:26+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:14+00:00",
+          "end_at": "2026-11-06T12:16:00+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:38+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:48+00:00",
+          "end_at": "2026-11-06T12:39:19+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:16+00:00",
+          "end_at": "2026-11-06T12:50:27+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:53:34+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:16:36+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:19:08+00:00",
+          "end_at": "2026-11-06T13:23:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:45:44+00:00",
+          "end_at": "2026-11-07T14:52:07+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T14:59:10+00:00",
+          "end_at": "2026-11-07T15:01:13+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 3,
+        "max": 19.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 4.959254,
+      "last_attempt": {
+        "at": "2026-11-06T09:06:57+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:06:57+00:00",
+        "visible_messages": 19,
+        "latest_at": "2026-11-06T04:15:44+00:00",
+        "classification_counts": {
+          "other:rejected": 19
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "biznes_chat",
+      "peer_id": -1001371121321,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:05+00:00",
+      "rules_state": "reviewed",
+      "rules_url": "https://t.me/biznes_chat/585370",
+      "rules_note": "Rules post reviewed 2026-11-05: business discussion/recommendations allowed; unsolicited private service offers prohibited, advertising requires administration agreement. Optional 2026-11-06 re-fetch recorded separately; only read, no private pitching.",
+      "reply_route": "private_service_offers_prohibited",
+      "publish_permission": "admin_agreement_required",
+      "read_permission": "local_client",
+      "last_received": "2026-11-06T13:33:39+00:00",
+      "events_during_observation": 21,
+      "new_messages_during_observation": 21,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 17574.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T06:30:10+00:00",
+          "end_at": "2026-11-06T06:30:29+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:31:12+00:00",
+          "end_at": "2026-11-06T06:31:39+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:32:23+00:00",
+          "end_at": "2026-11-06T06:33:05+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:33:43+00:00",
+          "end_at": "2026-11-06T06:34:35+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:40:57+00:00",
+          "end_at": "2026-11-06T06:41:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:46:35+00:00",
+          "end_at": "2026-11-06T06:47:11+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:05:11+00:00",
+          "end_at": "2026-11-06T07:17:43+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:20:45+00:00",
+          "end_at": "2026-11-06T07:25:20+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:28:05+00:00",
+          "end_at": "2026-11-06T07:30:13+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T07:44:43+00:00",
+          "end_at": "2026-11-06T07:45:14+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:46:04+00:00",
+          "end_at": "2026-11-06T07:46:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T08:00:03+00:00",
+          "end_at": "2026-11-06T08:04:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:05:39+00:00",
+          "end_at": "2026-11-06T08:09:41+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T08:27:51+00:00",
+          "end_at": "2026-11-06T08:28:18+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:02:13+00:00",
+          "end_at": "2026-11-06T09:03:44+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:33+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:35+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:40:51+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:45:05+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T10:45:34+00:00",
+          "end_at": "2026-11-06T10:48:05+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:40:27+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:52:45+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:26+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:33+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:14:56+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:38+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:38:36+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:52:30+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:53:43+00:00",
+          "end_at": "2026-11-06T13:03:12+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:03:29+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:16:04+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:19:15+00:00",
+          "end_at": "2026-11-06T13:23:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:24:17+00:00",
+          "end_at": "2026-11-06T13:28:47+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:46:13+00:00",
+          "end_at": "2026-11-07T14:52:07+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T14:59:50+00:00",
+          "end_at": "2026-11-07T15:01:13+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 21,
+        "max": 47.0,
+        "min": 1.0
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 20.959254,
+      "last_attempt": {
+        "at": "2026-11-06T09:06:57+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:06:57+00:00",
+        "visible_messages": 19,
+        "latest_at": "2026-11-06T09:02:17+00:00",
+        "classification_counts": {
+          "other:rejected": 19
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "business_assistants",
+      "peer_id": -1001759451359,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:13+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Public about reviewed 2026-11-06: business-assistant community for questions and support; vacancy/advertising placement via profile manager. No further linked/pinned rules located. Local reading only; vacancy placement is not permission for private pitches.",
+      "reply_route": "vacancy_ad_placement_via_manager_member_response_route_unknown",
+      "publish_permission": "placement_via_manager",
+      "read_permission": "local_client",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 10484.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T09:11:03+00:00",
+          "end_at": "2026-11-06T09:11:22+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:12:28+00:00",
+          "end_at": "2026-11-06T09:12:47+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:42+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:30:31+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "ConnectionError"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:46:56+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:41:00+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:49:23+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:50:38+00:00",
+          "end_at": "2026-11-06T11:51:04+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:34+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:41+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:16:37+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:39+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:37:51+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:50:52+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:53:53+00:00",
+          "end_at": "2026-11-06T13:04:18+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:04:20+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:17:09+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:19:22+00:00",
+          "end_at": "2026-11-06T13:23:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:46:23+00:00",
+          "end_at": "2026-11-07T14:52:07+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:00:05+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 12.959254,
+      "last_attempt": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "visible_messages": 7,
+        "latest_at": "2026-11-05T11:31:13+00:00",
+        "classification_counts": {
+          "other:rejected": 7
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "free_chat_for_freelance",
+      "peer_id": -1001740614212,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:21+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Public freelance customer/performer community. No linked full rules or identified rules pin located; additional conditions unknown.",
+      "reply_route": "only_explicit_request_route_otherwise_unknown",
+      "publish_permission": "unknown",
+      "read_permission": "local_client",
+      "last_received": "2026-11-07T14:55:08+00:00",
+      "events_during_observation": 48,
+      "new_messages_during_observation": 48,
+      "observed_edits_during_observation": 6,
+      "observed_seconds": 10787.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T09:05:23+00:00",
+          "end_at": "2026-11-06T09:06:09+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:50+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:29:13+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:47:39+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:22+00:00",
+          "end_at": "2026-11-06T11:40:27+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:51:40+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:42+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:49+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:15:17+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:39+00:00",
+          "end_at": "2026-11-06T12:23:05+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:24:56+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:37:36+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:51:34+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:54:04+00:00",
+          "end_at": "2026-11-06T13:04:50+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:08:03+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:15:53+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:19:41+00:00",
+          "end_at": "2026-11-06T13:23:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:46:34+00:00",
+          "end_at": "2026-11-07T14:52:08+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:00:13+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 48,
+        "max": 158.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 14,
+        "max": 511.0,
+        "min": 4.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 1.959254,
+      "last_attempt": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "visible_messages": 16,
+        "latest_at": "2026-11-06T13:09:34+00:00",
+        "classification_counts": {
+          "other:rejected": 14,
+          "partnership:digest": 1,
+          "ambiguous:digest": 1
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "freelead",
+      "peer_id": -1001428955589,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:30+00:00",
+      "rules_state": "reviewed",
+      "rules_url": "https://t.me/freelead/1189432",
+      "rules_note": "No advertising or job-seeker posts; responses to specialist requests by personal message. No automatic replies. No explicit automated-reading clause found; no special permission asserted.",
+      "reply_route": "personal_reply_to_explicit_request",
+      "publish_permission": "advertising_prohibited",
+      "read_permission": "local_client",
+      "last_received": "2026-11-07T14:55:50+00:00",
+      "events_during_observation": 100,
+      "new_messages_during_observation": 76,
+      "observed_edits_during_observation": 3,
+      "observed_seconds": 23052.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-05T18:18:51+00:00",
+          "end_at": "2026-11-05T18:21:57+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T18:24:49+00:00",
+          "end_at": "2026-11-05T18:26:36+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-05T18:26:49+00:00",
+          "end_at": "2026-11-05T18:27:09+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-05T18:27:33+00:00",
+          "end_at": "2026-11-05T18:28:03+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-05T18:28:52+00:00",
+          "end_at": "2026-11-05T18:29:40+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-05T18:33:08+00:00",
+          "end_at": "2026-11-05T18:33:17+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T18:58:40+00:00",
+          "end_at": "2026-11-05T18:58:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T19:20:54+00:00",
+          "end_at": "2026-11-05T19:21:25+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:11:30+00:00",
+          "end_at": "2026-11-06T06:11:41+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:24:48+00:00",
+          "end_at": "2026-11-06T06:29:35+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:33:43+00:00",
+          "end_at": "2026-11-06T06:36:47+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:41:07+00:00",
+          "end_at": "2026-11-06T06:41:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:46:35+00:00",
+          "end_at": "2026-11-06T06:47:00+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:05:12+00:00",
+          "end_at": "2026-11-06T07:17:43+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:20:45+00:00",
+          "end_at": "2026-11-06T07:25:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:28:05+00:00",
+          "end_at": "2026-11-06T07:30:13+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T07:44:35+00:00",
+          "end_at": "2026-11-06T07:46:31+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:00:03+00:00",
+          "end_at": "2026-11-06T08:04:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:05:39+00:00",
+          "end_at": "2026-11-06T08:09:41+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T08:27:51+00:00",
+          "end_at": "2026-11-06T08:28:18+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:02:13+00:00",
+          "end_at": "2026-11-06T09:03:56+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:58+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:41:17+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:45:53+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:39:15+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:52:02+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:51+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:56+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:15:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:39+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:38:04+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:51:13+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:54:15+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:17:30+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:20:43+00:00",
+          "end_at": "2026-11-06T13:23:05+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:11+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:46:46+00:00",
+          "end_at": "2026-11-07T14:52:08+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:00:22+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 100,
+        "max": 34.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 2,
+        "max": 10.0,
+        "min": 6.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 24.959254,
+      "last_attempt": null,
+      "visible_tail_review": null
+    },
+    {
+      "username": "odp2021",
+      "peer_id": -1001113778769,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:40+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Public description reviewed 2026-11-06: entrepreneurs association with regional chats. No linked/pinned rules or response route identified. Local reading only; partnerships and announcements remain separate from direct orders.",
+      "reply_route": "unknown_no_automatic_outreach",
+      "publish_permission": "unknown",
+      "read_permission": "local_client",
+      "last_received": "2026-11-06T13:31:59+00:00",
+      "events_during_observation": 19,
+      "new_messages_during_observation": 19,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 10035.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T09:13:25+00:00",
+          "end_at": "2026-11-06T09:13:57+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:14:40+00:00",
+          "end_at": "2026-11-06T09:15:27+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:24:08+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:30:33+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "ConnectionError"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:46:27+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:39:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:47:45+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:54+00:00",
+          "end_at": "2026-11-06T11:51:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:08:01+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:12:07+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:14+00:00",
+          "end_at": "2026-11-06T12:16:21+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:39+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:38:14+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:16+00:00",
+          "end_at": "2026-11-06T12:49:41+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:54:43+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:15:42+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:20:55+00:00",
+          "end_at": "2026-11-06T13:23:05+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:10+00:00",
+          "end_at": "2026-11-07T14:56:19+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T15:00:31+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 19,
+        "max": 10.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 1,
+        "max": 9.0,
+        "min": 9.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 14.959254,
+      "last_attempt": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "visible_messages": 20,
+        "latest_at": "2026-11-05T19:04:41+00:00",
+        "classification_counts": {
+          "other:rejected": 20
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "onpeak_chat",
+      "peer_id": -1001942100197,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:00:51+00:00",
+      "rules_state": "reviewed",
+      "rules_url": "https://telegra.ph/Pravila-soobshchestva-predprinimatelej-Na-vershinu-10-24",
+      "rules_note": "General and Friday rules reviewed 2026-11-06: no spam or unsolicited private messages; contextual help allowed. Advertising Friday only with reciprocal community-post link; Friday terms https://telegra.ph/Informaciya-po-reklamnuyu-pyatnicu-soobshchestva-Na-vershinu-10-24. Local reading only; no special automated-reading permission asserted.",
+      "reply_route": "explicit_request_context_only_no_unsolicited_dm",
+      "publish_permission": "friday_only_reciprocal_publication_conditions",
+      "read_permission": "local_client",
+      "last_received": "2026-11-07T14:57:25+00:00",
+      "events_during_observation": 23,
+      "new_messages_during_observation": 23,
+      "observed_edits_during_observation": 2,
+      "observed_seconds": 5720.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T11:44:18+00:00",
+          "end_at": "2026-11-06T11:44:39+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T11:46:03+00:00",
+          "end_at": "2026-11-06T11:46:36+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:51:04+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:53:31+00:00",
+          "end_at": "2026-11-06T11:54:30+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:30+00:00",
+          "end_at": "2026-11-06T11:55:01+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:24+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:58:17+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T12:12:18+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:15:06+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:39+00:00",
+          "end_at": "2026-11-06T12:22:51+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:27:28+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:39:09+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:52:07+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:55:20+00:00",
+          "end_at": "2026-11-06T13:03:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:04:20+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:15:32+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:21:09+00:00",
+          "end_at": "2026-11-06T13:23:05+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:50:55+00:00",
+          "end_at": "2026-11-07T14:52:08+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:00:40+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 23,
+        "max": 29.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 1,
+        "max": 321.0,
+        "min": 321.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 5.959254,
+      "last_attempt": {
+        "at": "2026-11-06T11:39:55+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T11:39:55+00:00",
+        "visible_messages": 15,
+        "latest_at": "2026-11-06T11:38:03+00:00",
+        "classification_counts": {
+          "other:rejected": 13,
+          "ambiguous:digest": 2
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "smmruschats",
+      "peer_id": -1001440899387,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:01:01+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Public about: no abuse, flooding or posting as channel. No full additional rules located; further conditions unknown.",
+      "reply_route": "only_explicit_request_route_otherwise_unknown",
+      "publish_permission": "unknown",
+      "read_permission": "local_client",
+      "last_received": "2026-11-06T13:24:55+00:00",
+      "events_during_observation": 10,
+      "new_messages_during_observation": 10,
+      "observed_edits_during_observation": 1,
+      "observed_seconds": 18470.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T06:19:34+00:00",
+          "end_at": "2026-11-06T06:20:08+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:24:48+00:00",
+          "end_at": "2026-11-06T06:25:51+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:33:43+00:00",
+          "end_at": "2026-11-06T06:34:23+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:41:22+00:00",
+          "end_at": "2026-11-06T06:41:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:46:35+00:00",
+          "end_at": "2026-11-06T06:47:35+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:05:12+00:00",
+          "end_at": "2026-11-06T07:17:43+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:20:45+00:00",
+          "end_at": "2026-11-06T07:26:03+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:28:05+00:00",
+          "end_at": "2026-11-06T07:30:13+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:44:43+00:00",
+          "end_at": "2026-11-06T07:45:14+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:46:04+00:00",
+          "end_at": "2026-11-06T07:46:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T08:00:03+00:00",
+          "end_at": "2026-11-06T08:04:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:05:39+00:00",
+          "end_at": "2026-11-06T08:09:41+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T08:27:51+00:00",
+          "end_at": "2026-11-06T08:28:18+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:02:13+00:00",
+          "end_at": "2026-11-06T09:03:20+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:24:20+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:41:41+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:47:17+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:39:38+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:21+00:00",
+          "end_at": "2026-11-06T11:52:55+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:54:30+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:08:26+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:12:31+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:14+00:00",
+          "end_at": "2026-11-06T12:16:11+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:40+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:38:25+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:16+00:00",
+          "end_at": "2026-11-06T12:49:52+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:56:25+00:00",
+          "end_at": "2026-11-06T13:05:01+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:08:52+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:18:34+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:21:46+00:00",
+          "end_at": "2026-11-06T13:23:05+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:51:10+00:00",
+          "end_at": "2026-11-07T14:52:08+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:00:51+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 10,
+        "max": 23.0,
+        "min": 1.0
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 23.959254,
+      "last_attempt": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "visible_messages": 5,
+        "latest_at": "2026-11-06T08:21:28+00:00",
+        "classification_counts": {
+          "other:rejected": 5
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "tilda_official_chat",
+      "peer_id": -1001363136000,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T15:02:30+00:00",
+      "rules_state": "reviewed",
+      "rules_url": "https://blog.tilda.cc/community-chat-rules",
+      "rules_note": "Public Q&A community. Own/third-party service advertising prohibited; this is not evidence of permission for private offers. Reading only; check the exact request before any manual response.",
+      "reply_route": "only_explicit_request_route_otherwise_unknown",
+      "publish_permission": "advertising_prohibited",
+      "read_permission": "local_client",
+      "last_received": "2026-11-06T13:50:00+00:00",
+      "events_during_observation": 13,
+      "new_messages_during_observation": 13,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 17899.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-06T06:22:22+00:00",
+          "end_at": "2026-11-06T06:22:33+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:24:45+00:00",
+          "end_at": "2026-11-06T06:26:16+00:00",
+          "reason": "ConnectionError"
+        },
+        {
+          "start_at": "2026-11-06T06:33:43+00:00",
+          "end_at": "2026-11-06T06:34:12+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:41:35+00:00",
+          "end_at": "2026-11-06T06:41:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:46:35+00:00",
+          "end_at": "2026-11-06T06:46:50+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:05:12+00:00",
+          "end_at": "2026-11-06T07:17:43+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:20:45+00:00",
+          "end_at": "2026-11-06T07:26:14+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:28:05+00:00",
+          "end_at": "2026-11-06T07:30:13+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T07:44:43+00:00",
+          "end_at": "2026-11-06T07:45:14+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:46:04+00:00",
+          "end_at": "2026-11-06T07:46:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T08:00:03+00:00",
+          "end_at": "2026-11-06T08:04:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:05:39+00:00",
+          "end_at": "2026-11-06T08:09:41+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T08:27:51+00:00",
+          "end_at": "2026-11-06T08:28:18+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:02:22+00:00",
+          "end_at": "2026-11-06T09:04:08+00:00",
+          "reason": "ConnectionError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:34+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:24:32+00:00",
+          "end_at": "2026-11-06T09:24:59+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T09:30:33+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "ConnectionError"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:47:06+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T10:49:51+00:00",
+          "end_at": "2026-11-06T10:50:21+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T10:51:24+00:00",
+          "end_at": "2026-11-06T10:52:13+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:40:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:50:15+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:50:38+00:00",
+          "end_at": "2026-11-06T11:51:04+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:54:30+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:24+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:08:40+00:00",
+          "end_at": "2026-11-06T12:09:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:12:46+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:14+00:00",
+          "end_at": "2026-11-06T12:15:50+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:21:40+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:36:49+00:00",
+          "end_at": "2026-11-06T12:38:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:16+00:00",
+          "end_at": "2026-11-06T12:50:16+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:57:30+00:00",
+          "end_at": "2026-11-06T13:04:28+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:09:32+00:00",
+          "end_at": "2026-11-06T13:10:00+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:10:11+00:00",
+          "end_at": "2026-11-06T13:10:44+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:17:42+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:21:59+00:00",
+          "end_at": "2026-11-06T13:28:16+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T14:04:09+00:00",
+          "end_at": "2026-11-07T14:41:35+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-07T14:51:51+00:00",
+          "end_at": "2026-11-07T14:52:19+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:01:01+00:00",
+          "end_at": "2026-11-07T15:01:14+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T15:02:12+00:00",
+          "end_at": "2026-11-07T15:02:37+00:00",
+          "reason": "BrowserAccessError"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 13,
+        "max": 28.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 3,
+        "max": 22.0,
+        "min": 5.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 28.959254,
+      "last_attempt": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "stage": "verify_own_account",
+        "error_type": "TimeoutError",
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:04:53+00:00",
+        "visible_messages": 14,
+        "latest_at": "2026-11-06T07:47:23+00:00",
+        "classification_counts": {
+          "other:rejected": 10,
+          "ambiguous:digest": 2,
+          "demand:urgent": 2
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "top_ads_freelance",
+      "peer_id": -1001513982592,
+      "type": "group",
+      "enabled": 1,
+      "access": "joined",
+      "checked_at": "2026-11-07T14:59:10+00:00",
+      "rules_state": "reviewed",
+      "rules_url": null,
+      "rules_note": "Existing accepted source; no unsolicited advertising or automated replies.",
+      "reply_route": "verify_each_request",
+      "publish_permission": "unknown",
+      "read_permission": "local_client",
+      "last_received": "2026-11-07T15:02:15+00:00",
+      "events_during_observation": 54,
+      "new_messages_during_observation": 41,
+      "observed_edits_during_observation": 4,
+      "observed_seconds": 23142.0,
+      "gaps": [
+        {
+          "start_at": "2026-11-05T18:19:20+00:00",
+          "end_at": "2026-11-05T18:21:57+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T18:28:51+00:00",
+          "end_at": "2026-11-05T18:29:13+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-05T18:32:43+00:00",
+          "end_at": "2026-11-05T18:33:17+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T18:58:30+00:00",
+          "end_at": "2026-11-05T18:58:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-05T19:20:53+00:00",
+          "end_at": "2026-11-05T19:21:37+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:11:18+00:00",
+          "end_at": "2026-11-06T06:11:41+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:24:48+00:00",
+          "end_at": "2026-11-06T06:27:52+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:33:43+00:00",
+          "end_at": "2026-11-06T06:34:23+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T06:40:46+00:00",
+          "end_at": "2026-11-06T06:41:51+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T06:46:35+00:00",
+          "end_at": "2026-11-06T06:47:24+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:05:11+00:00",
+          "end_at": "2026-11-06T07:17:43+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:21:23+00:00",
+          "end_at": "2026-11-06T07:21:50+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:22:37+00:00",
+          "end_at": "2026-11-06T07:23:07+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:28:05+00:00",
+          "end_at": "2026-11-06T07:30:13+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T07:44:43+00:00",
+          "end_at": "2026-11-06T07:45:14+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T07:46:04+00:00",
+          "end_at": "2026-11-06T07:46:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T08:00:03+00:00",
+          "end_at": "2026-11-06T08:04:28+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T08:05:39+00:00",
+          "end_at": "2026-11-06T08:09:41+00:00",
+          "reason": "context_closed"
+        },
+        {
+          "start_at": "2026-11-06T08:27:51+00:00",
+          "end_at": "2026-11-06T08:28:18+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:02:13+00:00",
+          "end_at": "2026-11-06T09:03:09+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T09:16:03+00:00",
+          "end_at": "2026-11-06T09:16:33+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:18:34+00:00",
+          "end_at": "2026-11-06T09:19:03+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T09:23:17+00:00",
+          "end_at": "2026-11-06T09:24:47+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:40:21+00:00",
+          "end_at": "2026-11-06T10:42:06+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T10:44:30+00:00",
+          "end_at": "2026-11-06T10:47:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:29:04+00:00",
+          "end_at": "2026-11-06T11:29:31+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:35:23+00:00",
+          "end_at": "2026-11-06T11:40:10+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:47:20+00:00",
+          "end_at": "2026-11-06T11:49:02+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T11:50:38+00:00",
+          "end_at": "2026-11-06T11:51:04+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:54:29+00:00",
+          "end_at": "2026-11-06T11:55:00+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T11:55:23+00:00",
+          "end_at": "2026-11-06T11:55:56+00:00",
+          "reason": "sampling_gap_or_sleep"
+        },
+        {
+          "start_at": "2026-11-06T12:07:12+00:00",
+          "end_at": "2026-11-06T12:08:58+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:11:18+00:00",
+          "end_at": "2026-11-06T12:13:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T12:14:13+00:00",
+          "end_at": "2026-11-06T12:15:39+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:22:00+00:00",
+          "end_at": "2026-11-06T12:28:50+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T12:36:48+00:00",
+          "end_at": "2026-11-06T12:37:25+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:49:17+00:00",
+          "end_at": "2026-11-06T12:51:44+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T12:53:24+00:00",
+          "end_at": "2026-11-06T13:03:57+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:04:21+00:00",
+          "end_at": "2026-11-06T13:09:49+00:00",
+          "reason": "BrowserAccessError"
+        },
+        {
+          "start_at": "2026-11-06T13:14:12+00:00",
+          "end_at": "2026-11-06T13:16:48+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-06T13:19:02+00:00",
+          "end_at": "2026-11-06T13:23:04+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-06T13:52:08+00:00",
+          "end_at": "2026-11-07T14:41:24+00:00",
+          "reason": "not_reading"
+        },
+        {
+          "start_at": "2026-11-07T14:44:39+00:00",
+          "end_at": "2026-11-07T14:52:07+00:00",
+          "reason": "runtime_start_no_backfill"
+        },
+        {
+          "start_at": "2026-11-07T14:59:05+00:00",
+          "end_at": "2026-11-07T15:01:13+00:00",
+          "reason": "runtime_start_no_backfill"
+        }
+      ],
+      "receive_delay_s": {
+        "count": 91,
+        "max": 24.0,
+        "min": 0.0
+      },
+      "notification_delay_s": {
+        "count": 15,
+        "max": 506.0,
+        "min": -2.0
+      },
+      "phase": "reading",
+      "live_age_s": 1.959254,
+      "capture_running": true,
+      "web_transport_age_s": 14.959254,
+      "last_attempt": null,
+      "visible_tail_review": null
+    },
+    {
+      "username": "bit24dev",
+      "peer_id": -1001141178844,
+      "type": "unknown",
+      "enabled": 0,
+      "access": "joined",
+      "checked_at": "2026-11-06T06:28:48+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "visible_messages": 30,
+        "latest_at": "2026-11-06T05:50:11+00:00",
+        "classification_counts": {
+          "other:rejected": 30
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "bitrixfordevelopers",
+      "peer_id": -1001039787275,
+      "type": "unknown",
+      "enabled": 0,
+      "access": "not_joined",
+      "checked_at": "2026-11-06T06:28:48+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "visible_messages": 18,
+        "latest_at": "2026-11-06T05:41:44+00:00",
+        "classification_counts": {
+          "other:rejected": 16,
+          "ambiguous:digest": 2
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "businessclass_rbc",
+      "peer_id": -1001853486481,
+      "type": "group",
+      "enabled": 0,
+      "access": "not_joined",
+      "checked_at": "2026-11-06T07:19:00+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T11:39:55+00:00",
+        "stage": null,
+        "error_type": "TimeoutError",
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "visible_messages": 17,
+        "latest_at": "2026-11-06T06:08:39+00:00",
+        "classification_counts": {
+          "other:rejected": 17
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "chat_frilans",
+      "peer_id": -1001471337719,
+      "type": "group",
+      "enabled": 0,
+      "access": "joined",
+      "checked_at": "2026-11-06T09:09:10+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": "No public about/rules returned in verified profile; not enough to enable.",
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "visible_messages": 0,
+        "latest_at": null,
+        "classification_counts": {},
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "chat_kovalev",
+      "peer_id": -1001297002353,
+      "type": "group",
+      "enabled": 0,
+      "access": "not_joined",
+      "checked_at": "2026-11-06T09:09:10+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T09:09:10+00:00",
+        "visible_messages": 19,
+        "latest_at": "2026-11-06T08:43:11+00:00",
+        "classification_counts": {
+          "other:rejected": 12,
+          "ambiguous:digest": 3,
+          "offer:rejected": 4
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "expopeople",
+      "peer_id": -1001197922390,
+      "type": "group",
+      "enabled": 0,
+      "access": "not_joined",
+      "checked_at": "2026-11-06T06:28:48+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "visible_messages": 7,
+        "latest_at": "2026-11-03T11:35:05+00:00",
+        "classification_counts": {
+          "other:rejected": 7
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "frilanser_100",
+      "peer_id": -1002101594712,
+      "type": "group",
+      "enabled": 0,
+      "access": "joined",
+      "checked_at": "2026-11-06T13:14:46+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": "Service-ad board; ad publishing via platform bot; direct-order response rules unknown.",
+      "reply_route": "unknown",
+      "publish_permission": "via_platform_bot_unknown_terms",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T13:14:46+00:00",
+        "visible_messages": 8,
+        "latest_at": "2026-11-02T03:06:54+00:00",
+        "classification_counts": {
+          "other:rejected": 8
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "imweek_ru",
+      "peer_id": -1001206164114,
+      "type": "unknown",
+      "enabled": 0,
+      "access": "joined",
+      "checked_at": "2026-11-06T06:28:48+00:00",
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "visible_messages": 6,
+        "latest_at": "2026-11-05T10:46:07+00:00",
+        "classification_counts": {
+          "ambiguous:digest": 2,
+          "other:rejected": 4
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    },
+    {
+      "username": "marketologiyuga",
+      "peer_id": null,
+      "type": "unknown",
+      "enabled": 0,
+      "access": "unknown",
+      "checked_at": null,
+      "rules_state": "unknown",
+      "rules_url": null,
+      "rules_note": null,
+      "reply_route": "unknown",
+      "publish_permission": "unknown",
+      "read_permission": "unknown",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T06:28:48+00:00",
+        "stage": "click_exact_search_result",
+        "error_type": "TimeoutError",
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": null
+    },
+    {
+      "username": "spbeventchat",
+      "peer_id": -1001745289232,
+      "type": "unknown",
+      "enabled": 0,
+      "access": "not_joined",
+      "checked_at": "2026-11-06T11:39:55+00:00",
+      "rules_state": "reviewed",
+      "rules_url": "https://telegra.ph/Podrobnye-pravila-bigfingerchat-02-10",
+      "rules_note": "Linked full rules reviewed 2026-11-06: explicit-request replies within 48h, reply in chat unless requester asks for DM. Clause 8.13 prohibits client/organizer search and contact database collection; suitability for this monitor purpose unconfirmed. Not enabled; no special reading permission asserted.",
+      "reply_route": "explicit_request_under_48h_chat_reply_or_requested_dm_client_search_restricted",
+      "publish_permission": "advertising_by_prior_agreement",
+      "read_permission": "purpose_unconfirmed",
+      "last_received": null,
+      "events_during_observation": 0,
+      "new_messages_during_observation": 0,
+      "observed_edits_during_observation": 0,
+      "observed_seconds": 0,
+      "gaps": [],
+      "receive_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "notification_delay_s": {
+        "count": 0,
+        "max": null,
+        "min": null
+      },
+      "phase": "disabled",
+      "live_age_s": null,
+      "capture_running": false,
+      "web_transport_age_s": null,
+      "last_attempt": {
+        "at": "2026-11-06T11:39:55+00:00",
+        "stage": "complete",
+        "error_type": null,
+        "rules_fetch_error": null
+      },
+      "visible_tail_review": {
+        "at": "2026-11-06T11:39:55+00:00",
+        "visible_messages": 15,
+        "latest_at": "2026-11-06T01:15:13+00:00",
+        "classification_counts": {
+          "other:rejected": 15
+        },
+        "scope": "visible_tail_only_not_history_or_new_event_proof"
+      }
+    }
+  ],
+  "observation": {
+    "id": 1,
+    "start_at": "2026-11-06T06:14:04+00:00",
+    "end_at": null,
+    "label": "20261106 staged 2 -> 5 -> 10 -> 20",
+    "sources": [
+      {
+        "run_id": 1,
+        "username": "freelead",
+        "start_at": "2026-11-06T06:14:04+00:00",
+        "observed_seconds": 18601.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "top_ads_freelance",
+        "start_at": "2026-11-06T06:14:04+00:00",
+        "observed_seconds": 18506.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "smmruschats",
+        "start_at": "2026-11-06T06:19:34+00:00",
+        "observed_seconds": 18470.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "tilda_official_chat",
+        "start_at": "2026-11-06T06:22:22+00:00",
+        "observed_seconds": 17899.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "biznes_chat",
+        "start_at": "2026-11-06T06:30:10+00:00",
+        "observed_seconds": 17574.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "free_chat_for_freelance",
+        "start_at": "2026-11-06T09:05:23+00:00",
+        "observed_seconds": 10787.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "bitrixinside24",
+        "start_at": "2026-11-06T09:09:10+00:00",
+        "observed_seconds": 10457.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "business_assistants",
+        "start_at": "2026-11-06T09:11:03+00:00",
+        "observed_seconds": 10484.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "odp2021",
+        "start_at": "2026-11-06T09:13:25+00:00",
+        "observed_seconds": 10035.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      },
+      {
+        "run_id": 1,
+        "username": "onpeak_chat",
+        "start_at": "2026-11-06T11:44:18+00:00",
+        "observed_seconds": 5720.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-07T15:02:57+00:00"
+      }
+    ]
+  },
+  "counts": {
+    "events": 391,
+    "candidates": 391,
+    "deliveries": 46
+  },
+  "owner_statuses": {
+    "new": 390,
+    "taken": 1
+  },
+  "delivery_states": {
+    "pending": 3,
+    "sent": 43
+  },
+  "five_source_trials": [
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 20.89,
+      "all_other_samples_live": true,
+      "both_paused": null,
+      "fully_stopped": null,
+      "stayed_stopped": null,
+      "started_at": "2026-11-06T06:31:10+00:00"
+    },
+    {
+      "case": "reload",
+      "result": "recovered",
+      "elapsed_s": 32.11,
+      "all_other_samples_live": true,
+      "both_paused": null,
+      "fully_stopped": null,
+      "stayed_stopped": null,
+      "started_at": "2026-11-06T06:32:20+00:00"
+    },
+    {
+      "case": "context_offline_online",
+      "result": "not_recovered_in_budget",
+      "elapsed_s": null,
+      "all_other_samples_live": null,
+      "both_paused": true,
+      "fully_stopped": null,
+      "stayed_stopped": null,
+      "started_at": "2026-11-06T06:33:42+00:00"
+    },
+    {
+      "case": "operator_stop_start_and_host_restart",
+      "result": "recovered",
+      "elapsed_s": 82.38,
+      "all_other_samples_live": null,
+      "both_paused": null,
+      "fully_stopped": true,
+      "stayed_stopped": true,
+      "started_at": "2026-11-06T06:40:24+00:00"
+    },
+    {
+      "case": "context_offline_online",
+      "result": "recovered",
+      "elapsed_s": 54.64,
+      "all_other_samples_live": null,
+      "both_paused": true,
+      "fully_stopped": null,
+      "stayed_stopped": null,
+      "started_at": "2026-11-06T06:46:34+00:00"
+    },
+    {
+      "case": "unexpected_context_close",
+      "result": "recovered",
+      "elapsed_s": 136.83,
+      "all_other_samples_live": null,
+      "both_paused": null,
+      "fully_stopped": null,
+      "stayed_stopped": null,
+      "started_at": "2026-11-06T07:28:05+00:00"
+    }
+  ],
+  "incremental_source_trials": [
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 22.42,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T09:10:02+00:00",
+      "configured": 7,
+      "target": "bitrixinside24"
+    },
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 20.67,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T09:12:27+00:00",
+      "configured": 8,
+      "target": "business_assistants"
+    },
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 42.72,
+      "all_other_samples_live": false,
+      "started_at": "2026-11-06T09:14:35+00:00",
+      "configured": 9,
+      "target": "odp2021"
+    },
+    {
+      "case": "reload",
+      "result": "recovered",
+      "elapsed_s": 35.56,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T10:49:47+00:00",
+      "configured": 9,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 44.52,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T10:51:22+00:00",
+      "configured": 9,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "close",
+      "result": "recovered",
+      "elapsed_s": 30.8,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T11:46:01+00:00",
+      "configured": 10,
+      "target": "onpeak_chat"
+    },
+    {
+      "case": "reload",
+      "result": "recovered",
+      "elapsed_s": 60.17,
+      "all_other_samples_live": false,
+      "started_at": "2026-11-06T11:53:25+00:00",
+      "configured": 10,
+      "target": "onpeak_chat"
+    },
+    {
+      "case": "reload",
+      "result": "not_recovered_in_budget",
+      "elapsed_s": null,
+      "all_other_samples_live": false,
+      "started_at": "2026-11-06T11:58:12+00:00",
+      "configured": 10,
+      "target": "onpeak_chat"
+    },
+    {
+      "case": "operator_stop_start_and_host_restart",
+      "result": "recovered",
+      "elapsed_s": 117.22,
+      "all_other_samples_live": null,
+      "started_at": "2026-11-06T12:10:59+00:00",
+      "configured": 10,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "context_offline_online",
+      "result": "recovered",
+      "elapsed_s": 140.61,
+      "all_other_samples_live": null,
+      "started_at": "2026-11-06T12:14:12+00:00",
+      "configured": 10,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "reload",
+      "result": "recovered",
+      "elapsed_s": 27.83,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-06T13:10:08+00:00",
+      "configured": 10,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "operator_stop_start_and_host_restart",
+      "result": "recovered",
+      "elapsed_s": 151.64,
+      "all_other_samples_live": null,
+      "started_at": "2026-11-07T14:58:29+00:00",
+      "configured": 10,
+      "target": "tilda_official_chat"
+    },
+    {
+      "case": "reload",
+      "result": "recovered",
+      "elapsed_s": 24.25,
+      "all_other_samples_live": true,
+      "started_at": "2026-11-07T15:02:08+00:00",
+      "configured": 10,
+      "target": "tilda_official_chat"
+    }
+  ],
+  "resources": [
+    {
+      "enabled_sources": 2,
+      "samples": 2,
+      "browser_page_counts_seen": [
+        4
+      ],
+      "working_set_min_bytes": 2810134528,
+      "working_set_max_bytes": 2846523392,
+      "free_ram_min_bytes": 1738354688,
+      "last_sample": {
+        "at": "2026-11-06T06:19:20+00:00",
+        "host_tree_working_set_bytes": 2846523392,
+        "available_physical_bytes": 1738354688,
+        "browser_page_count": 4
+      }
+    },
+    {
+      "enabled_sources": 3,
+      "samples": 2,
+      "browser_page_counts_seen": [
+        4
+      ],
+      "working_set_min_bytes": 2555584512,
+      "working_set_max_bytes": 2790694912,
+      "free_ram_min_bytes": 1553645568,
+      "last_sample": {
+        "at": "2026-11-06T06:21:34+00:00",
+        "host_tree_working_set_bytes": 2790694912,
+        "available_physical_bytes": 1553645568,
+        "browser_page_count": 4
+      }
+    },
+    {
+      "enabled_sources": 4,
+      "samples": 7,
+      "browser_page_counts_seen": [
+        5,
+        6
+      ],
+      "working_set_min_bytes": 2115633152,
+      "working_set_max_bytes": 3453968384,
+      "free_ram_min_bytes": 1242185728,
+      "last_sample": {
+        "at": "2026-11-06T06:29:41+00:00",
+        "host_tree_working_set_bytes": 3077132288,
+        "available_physical_bytes": 1888722944,
+        "browser_page_count": 5
+      }
+    },
+    {
+      "enabled_sources": 5,
+      "samples": 117,
+      "browser_page_counts_seen": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "working_set_min_bytes": 228966400,
+      "working_set_max_bytes": 4984684544,
+      "free_ram_min_bytes": 1114718208,
+      "last_sample": {
+        "at": "2026-11-06T09:04:39+00:00",
+        "host_tree_working_set_bytes": 4371968000,
+        "available_physical_bytes": 3185709056,
+        "browser_page_count": 7
+      }
+    },
+    {
+      "enabled_sources": 6,
+      "samples": 5,
+      "browser_page_counts_seen": [
+        7,
+        8
+      ],
+      "working_set_min_bytes": 3589480448,
+      "working_set_max_bytes": 4763914240,
+      "free_ram_min_bytes": 2712195072,
+      "last_sample": {
+        "at": "2026-11-06T09:08:53+00:00",
+        "host_tree_working_set_bytes": 4433985536,
+        "available_physical_bytes": 3390328832,
+        "browser_page_count": 8
+      }
+    },
+    {
+      "enabled_sources": 7,
+      "samples": 3,
+      "browser_page_counts_seen": [
+        8
+      ],
+      "working_set_min_bytes": 3861352448,
+      "working_set_max_bytes": 4295454720,
+      "free_ram_min_bytes": 3764584448,
+      "last_sample": {
+        "at": "2026-11-06T09:10:48+00:00",
+        "host_tree_working_set_bytes": 3861352448,
+        "available_physical_bytes": 4014755840,
+        "browser_page_count": 8
+      }
+    },
+    {
+      "enabled_sources": 8,
+      "samples": 3,
+      "browser_page_counts_seen": [
+        8,
+        9
+      ],
+      "working_set_min_bytes": 3869401088,
+      "working_set_max_bytes": 4460896256,
+      "free_ram_min_bytes": 3652878336,
+      "last_sample": {
+        "at": "2026-11-06T09:13:21+00:00",
+        "host_tree_working_set_bytes": 4054634496,
+        "available_physical_bytes": 3705135104,
+        "browser_page_count": 9
+      }
+    },
+    {
+      "enabled_sources": 9,
+      "samples": 68,
+      "browser_page_counts_seen": [
+        9,
+        10,
+        11
+      ],
+      "working_set_min_bytes": 0,
+      "working_set_max_bytes": 8006201344,
+      "free_ram_min_bytes": 249937920,
+      "last_sample": {
+        "at": "2026-11-06T11:44:13+00:00",
+        "host_tree_working_set_bytes": 5229416448,
+        "available_physical_bytes": 2795581440,
+        "browser_page_count": 10
+      }
+    },
+    {
+      "enabled_sources": 10,
+      "samples": 150,
+      "browser_page_counts_seen": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "working_set_min_bytes": 1698045952,
+      "working_set_max_bytes": 12514357248,
+      "free_ram_min_bytes": 225824768,
+      "last_sample": {
+        "at": "2026-11-07T15:02:32+00:00",
+        "host_tree_working_set_bytes": 5498818560,
+        "available_physical_bytes": 2951614464,
+        "browser_page_count": 11
+      }
+    }
+  ],
+  "resource_scope": "host descendant working set sum, shared pages may be counted twice; mixed desktop/test load, not isolated benchmark",
+  "tests": {
+    "complete_ok": true,
+    "log_sha256": "8e886e2c5528dead7b07855e6f410bd3996cad98503aeee0d7484271d0fa3f38",
+    "scope": "19 focused multi-source/identity/reflow/heartbeat checks after last native-control change"
+  },
+  "technical_delivery": {
+    "started_at": "2026-11-06T06:37:31+00:00",
+    "synthetic": true,
+    "live_business_db_used": false,
+    "send_state": "sent",
+    "message_id": 54,
+    "sent_at": "2026-11-06T06:37:34+00:00",
+    "first_deliveries": 1,
+    "repeat_deliveries": 0,
+    "repeat_events": 0,
+    "network_intercepted": true
+  },
+  "operator_checks": {
+    "cards": [
+      {
+        "card": "T-20261106-01",
+        "state": "accepted",
+        "message_id": 50,
+        "accepted_at": "2026-11-06T07:01:47+00:00"
+      }
+    ],
+    "closed_codex_check": {
+      "armed_at": "2026-11-06T06:17:21+00:00",
+      "expected_sources": [
+        "top_ads_freelance",
+        "freelead",
+        "smmruschats",
+        "tilda_official_chat",
+        "biznes_chat"
+      ],
+      "accepted": false,
+      "requires": "user closes/reopens app; inspect persisted samples and per-source events afterwards",
+      "roster_history": [
+        {
+          "at": "2026-11-06T06:33:40+00:00",
+          "sources": [
+            "top_ads_freelance",
+            "freelead",
+            "smmruschats",
+            "tilda_official_chat",
+            "biznes_chat"
+          ]
+        }
+      ],
+      "user_intervals": {
+        "2026-11-06T07:03:00+00:00_2026-11-06T07:08:00+00:00": {
+          "start_at": "2026-11-06T07:03:00+00:00",
+          "end_at": "2026-11-06T07:08:00+00:00",
+          "user_confirmed_app_closed": true,
+          "process_count_is_not_ui_closure_proof": true,
+          "expected_sources": [
+            "top_ads_freelance",
+            "freelead",
+            "smmruschats",
+            "tilda_official_chat",
+            "biznes_chat"
+          ],
+          "samples": 3,
+          "fresh_five_source_samples": 2,
+          "failed_samples": [
+            {
+              "at": "2026-11-06T07:06:14+00:00",
+              "not_fresh_sources": [
+                "top_ads_freelance",
+                "freelead",
+                "smmruschats",
+                "tilda_official_chat",
+                "biznes_chat"
+              ]
+            }
+          ],
+          "maximum_sampling_gap_s": 112.0,
+          "new_originals_in_interval": {
+            "freelead": 2,
+            "tilda_official_chat": 1
+          },
+          "background_reading_observed": true,
+          "continuous_source_checks_accepted": false,
+          "full_stream_completeness_proven": false,
+          "recorded_at": "2026-11-06T07:17:27+00:00"
+        }
+      }
+    },
+    "persisted_samples": 375,
+    "samples_without_app_processes": 50,
+    "first_absent_at": "2026-11-06T08:04:30+00:00",
+    "last_absent_at": "2026-11-06T09:00:02+00:00",
+    "acceptance_requires": "inspect source checks/events within the user-confirmed closed interval"
+  },
+  "closed_codex_result": {
+    "start_at": "2026-11-06T07:03:00+00:00",
+    "end_at": "2026-11-06T07:08:00+00:00",
+    "user_confirmed_app_closed": true,
+    "process_count_is_not_ui_closure_proof": true,
+    "expected_sources": [
+      "top_ads_freelance",
+      "freelead",
+      "smmruschats",
+      "tilda_official_chat",
+      "biznes_chat"
+    ],
+    "samples": 3,
+    "fresh_five_source_samples": 2,
+    "failed_samples": [
+      {
+        "at": "2026-11-06T07:06:14+00:00",
+        "not_fresh_sources": [
+          "top_ads_freelance",
+          "freelead",
+          "smmruschats",
+          "tilda_official_chat",
+          "biznes_chat"
+        ]
+      }
+    ],
+    "maximum_sampling_gap_s": 112.0,
+    "new_originals_in_interval": {
+      "freelead": 2,
+      "tilda_official_chat": 1
+    },
+    "background_reading_observed": true,
+    "continuous_source_checks_accepted": false,
+    "full_stream_completeness_proven": false,
+    "recorded_at": "2026-11-06T07:17:27+00:00"
+  },
+  "manual_membership_review": {
+    "at": "2026-11-06T07:34:35+00:00",
+    "expected_account": "@maxmade_pro",
+    "automatic_joins": 0
+  },
+  "manual_membership_rows": [
+    {
+      "username": "onpeak_chat",
+      "membership": "not_joined",
+      "account_verified": true,
+      "source_verified": true,
+      "error_type": null,
+      "stage": "complete"
+    },
+    {
+      "username": "businessclass_rbc",
+      "membership": null,
+      "account_verified": null,
+      "source_verified": null,
+      "error_type": "TimeoutError",
+      "stage": "click_pinned_chat"
+    },
+    {
+      "username": "spbeventchat",
+      "membership": "not_joined",
+      "account_verified": true,
+      "source_verified": true,
+      "error_type": null,
+      "stage": "complete"
+    }
+  ],
+  "pipeline_verification": {
+    "at": "2026-11-07T15:02:20+00:00",
+    "integrity": "ok",
+    "counts": {
+      "events": 391,
+      "candidates": 391,
+      "deliveries": 46
+    },
+    "owner_statuses": {
+      "new": 390,
+      "taken": 1
+    },
+    "delivery_states": {
+      "pending": 3,
+      "sent": 43
+    },
+    "old_manual_status_mismatches": 0,
+    "old_delivery_mismatches": 0,
+    "env_unchanged": true,
+    "bot_check": "accepted_uffweb_bot"
+  },
+  "stage_review": {
+    "stage": 10,
+    "technical_stage_accepted": false,
+    "reasons": [
+      "business_assistants:no_real_event_during_observation"
+    ],
+    "direct_order_accepted": false,
+    "full_stream_completeness_proven": false,
+    "automatic_expansion": false,
+    "windows_login_accepted": false,
+    "codex_closed_accepted": false,
+    "observation_24h_accepted": false,
+    "at": "2026-11-07T15:02:56+00:00",
+    "test_log_sha256": "8e886e2c5528dead7b07855e6f410bd3996cad98503aeee0d7484271d0fa3f38",
+    "code_sha256": {
+      "multi_source.py": "f3c0e79141847fea4f02a2a42385dc953d9b09922d5d81ed2dfbf18ebb941dd0",
+      "source_registry.py": "eb90be06a866d82cf9c07ea1f64078d496ff05c3664a443afa1261a0e8c8f607",
+      "automation.py": "c592e554c717757c13f61bb603a127ce6509032cf2b0ae14d7ac03d916a1460c",
+      "browser_ingest.py": "bb2656d1b451d3cefe54df270d85247144360aa74150875fce44da8cfda862a6",
+      "browser_capture.py": "5f868aab4a3d4411da2f5135741c7742d2c9c76d5659f08b3bb70a14cd595436"
+    },
+    "recorded": false
+  },
+  "current_resources": {
+    "available_physical_bytes": 2951614464,
+    "process_count": 24,
+    "app_process_count": 1,
+    "total_physical_bytes": 16040079360,
+    "host_tree_working_set_bytes": 5498818560,
+    "at": "2026-11-07T15:02:32+00:00",
+    "enabled_sources": 10
+  },
+  "windows_sleep": {
+    "event_at": "2026-11-06T10:38:32.1965802Z",
+    "provider": "Microsoft-Windows-Power-Troubleshooter",
+    "event_id": 1,
+    "SleepTime": "2026-11-06T09:30:25.2240444Z",
+    "WakeTime": "2026-11-06T10:38:30.4461986Z"
+  },
+  "wake_recovery": {
+    "at": "2026-11-06T10:42:11+00:00",
+    "result": "all_nine_fresh_after_wake",
+    "elapsed_since_wake_s": 220.885013,
+    "sources": [
+      "top_ads_freelance",
+      "bitrixinside24",
+      "biznes_chat",
+      "business_assistants",
+      "free_chat_for_freelance",
+      "freelead",
+      "odp2021",
+      "smmruschats",
+      "tilda_official_chat"
+    ],
+    "host_pid": 25868,
+    "windows_login_verified": false,
+    "sleep": {
+      "event_at": "2026-11-06T10:38:32.1965802Z",
+      "provider": "Microsoft-Windows-Power-Troubleshooter",
+      "event_id": 1,
+      "SleepTime": "2026-11-06T09:30:25.2240444Z",
+      "WakeTime": "2026-11-06T10:38:30.4461986Z"
+    },
+    "backfill": false
+  },
+  "onpeak_membership": [
+    {
+      "username": "onpeak_chat",
+      "peer_id": -1001942100197,
+      "membership": "joined",
+      "account_verified": true,
+      "source_verified": true,
+      "message_metadata_accessible": true,
+      "stage": "complete",
+      "error_type": null
+    }
+  ],
+  "onpeak_rule_pages": [
+    {
+      "url": "https://telegra.ph/Pravila-soobshchestva-predprinimatelej-Na-vershinu-10-24",
+      "http_status": 200,
+      "article_found": true,
+      "error_type": null,
+      "text_sha256": "3d0f0874d35597639f31679451f1f3e023510cbb426fa0686dfae952e0e36347"
+    },
+    {
+      "url": "https://telegra.ph/Informaciya-po-reklamnuyu-pyatnicu-soobshchestva-Na-vershinu-10-24",
+      "http_status": 200,
+      "article_found": true,
+      "error_type": null,
+      "text_sha256": "2c5dbe74cca68b7195eb0fdbada5f611836b2cb54fc98a5b7a810a8bda577228"
+    }
+  ],
+  "presend_delivery_repair": {
+    "at": "2026-11-06T12:00:35+00:00",
+    "candidate_id": 266,
+    "repair": "one normal queued attempt after proven pre-HTTP failure",
+    "original_trace": {
+      "at": "2026-11-06T11:55:33+00:00",
+      "pid": 25868,
+      "method": "sendMessage",
+      "backend": "urllib",
+      "timeout_s": 20,
+      "via_proxy": false,
+      "elapsed_ms": 21453,
+      "phase": "tls",
+      "timings_ms": {
+        "setup": 1453,
+        "origin_tcp": 0,
+        "tls": 20000
+      },
+      "outcome": "network_error",
+      "error_category": "timeout"
+    },
+    "attempts_preserved": true,
+    "manual_status_unchanged": true,
+    "backup_name": "before-proven-presend-repair266.sqlite3",
+    "after": {
+      "state": "sent",
+      "attempts": 2,
+      "sent_at": "2026-11-06T12:00:49+00:00",
+      "message_id": 94,
+      "error_code": null
+    }
+  },
+  "real_order_acceptance": {
+    "recorded_at": "2026-11-06T12:52:59+00:00",
+    "accepted": true,
+    "attested_by": "Maxim in chat",
+    "user_reply": "Да, подходит как прямой заказ",
+    "source": "freelead",
+    "delivery": {
+      "candidate_id": 271,
+      "kind": "demand",
+      "priority": "urgent",
+      "owner_status": "new",
+      "source_id": "client:-1001428955589",
+      "source_message_id": "1346406",
+      "link": "https://t.me/freelead/1346406",
+      "published_at": "2026-11-06T11:59:53+00:00",
+      "received_at": "2026-11-06T11:59:56+00:00",
+      "sent_at": "2026-11-06T12:00:02+00:00",
+      "state": "sent",
+      "message_id": 93
+    },
+    "scope": "One delivered card accepted by the owner as a current direct order matching his services; not general classifier quality or client outreach acceptance",
+    "business_status_mutated": false,
+    "client_messages_sent": false
+  },
+  "heartbeat_deployment": {
+    "at": "2026-11-06T12:53:00+00:00",
+    "case": "operational_restart_for_heartbeat_fix",
+    "before_resources": {
+      "measurement": "unconfirmed",
+      "error_type": "TimeoutExpired",
+      "at": "2026-11-06T12:52:50+00:00",
+      "enabled_sources": 10
+    },
+    "windows_session_touched": false,
+    "fully_stopped": true,
+    "stayed_stopped": true,
+    "result": "not_all_restored_in_budget",
+    "finished_at": "2026-11-06T13:04:38+00:00"
+  },
+  "after_tests_recovery": {
+    "at": "2026-11-06T13:05:19+00:00",
+    "case": "operational_restart_after_tests_finished",
+    "before_resources": {
+      "available_physical_bytes": 2813349888,
+      "process_count": 24,
+      "app_process_count": 1,
+      "total_physical_bytes": 16040079360,
+      "host_tree_working_set_bytes": 6966378496,
+      "at": "2026-11-06T13:04:14+00:00",
+      "enabled_sources": 10
+    },
+    "windows_session_touched": false,
+    "fully_stopped": true,
+    "stayed_stopped": true,
+    "result": "all_ten_restored",
+    "elapsed_after_start_s": 248.7,
+    "finished_at": "2026-11-06T13:09:52+00:00"
+  },
+  "candidate_audit_overlap": {
+    "at": "2026-11-06T13:14:12+00:00",
+    "case": "candidate_audit_overlap_guard_pause",
+    "source_count": 10,
+    "failure_class": "identity_check_pending",
+    "guard_stage": "public_source_link",
+    "causality": "temporal_overlap_not_proven",
+    "account_mismatch_confirmed": false,
+    "business_data_mutated": false,
+    "future_live_candidate_audits": "hold until isolation checked",
+    "result": "all_ten_restored",
+    "elapsed_since_incident_s": 259.99,
+    "finished_at": "2026-11-06T13:18:31+00:00"
+  },
+  "public_web_head_diagnostic": {
+    "at": "2026-11-06T13:03:39+00:00",
+    "scope": "anonymous local urllib HEAD; not authenticated browser transport or Telegram message delivery",
+    "http_status": 200,
+    "elapsed_s": 8.72
+  },
+  "operational_cold_restart": {
+    "at": "2026-11-06T12:06:43+00:00",
+    "case": "operational_cold_restart_low_memory",
+    "before_resources": {
+      "measurement": "unconfirmed",
+      "error_type": "TimeoutExpired",
+      "at": "2026-11-06T12:06:24+00:00",
+      "enabled_sources": 10
+    },
+    "windows_session_touched": false,
+    "fully_stopped": true,
+    "stayed_stopped": true,
+    "result": "all_ten_restored",
+    "elapsed_after_start_s": 121.16,
+    "finished_at": "2026-11-06T12:09:05+00:00"
+  },
+  "spbevent_rule_pages": [
+    {
+      "url": "https://telegra.ph/Podrobnye-pravila-bigfingerchat-02-10",
+      "http_status": 200,
+      "article_found": true,
+      "error_type": null,
+      "text_sha256": "ea52b33d6877bebf7856fce29971bb1421e97cf540a7b1a89e52719180fdd00d"
+    }
+  ],
+  "bot_transport_summary_since_wake": {
+    "records": 822,
+    "counts": {
+      "network_error": 185,
+      "ok": 637
+    },
+    "scope": "allowlisted transport metadata; complete original journal stays private locally"
+  },
+  "bot_transport_since_wake": [
+    {
+      "at": "2026-11-07T14:54:52+00:00",
+      "method": "getUpdates",
+      "outcome": "network_error",
+      "phase": "tls",
+      "error_category": "timeout",
+      "http_status": null,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 5765
+    },
+    {
+      "at": "2026-11-07T14:55:54+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 3906
+    },
+    {
+      "at": "2026-11-07T14:56:05+00:00",
+      "method": "getUpdates",
+      "outcome": "network_error",
+      "phase": "tls",
+      "error_category": "timeout",
+      "http_status": null,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 8187
+    },
+    {
+      "at": "2026-11-07T14:57:05+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 953
+    },
+    {
+      "at": "2026-11-07T14:57:16+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 1469
+    },
+    {
+      "at": "2026-11-07T14:57:27+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 812
+    },
+    {
+      "at": "2026-11-07T14:57:38+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 828
+    },
+    {
+      "at": "2026-11-07T14:57:50+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 891
+    },
+    {
+      "at": "2026-11-07T14:58:01+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 1016
+    },
+    {
+      "at": "2026-11-07T14:58:12+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 828
+    },
+    {
+      "at": "2026-11-07T14:58:23+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 1015
+    },
+    {
+      "at": "2026-11-07T14:58:45+00:00",
+      "method": "getMe",
+      "outcome": "network_error",
+      "phase": "tls",
+      "error_category": "timeout",
+      "http_status": null,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 5265
+    },
+    {
+      "at": "2026-11-07T14:58:48+00:00",
+      "method": "getMe",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 15,
+      "elapsed_ms": 10843
+    },
+    {
+      "at": "2026-11-07T14:58:59+00:00",
+      "method": "getWebhookInfo",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 10,
+      "elapsed_ms": 6000
+    },
+    {
+      "at": "2026-11-07T14:59:51+00:00",
+      "method": "getMe",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 3578
+    },
+    {
+      "at": "2026-11-07T14:59:55+00:00",
+      "method": "sendMessage",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 8,
+      "elapsed_ms": 3359
+    },
+    {
+      "at": "2026-11-07T15:01:13+00:00",
+      "method": "getUpdates",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 5375
+    },
+    {
+      "at": "2026-11-07T15:01:25+00:00",
+      "method": "getUpdates",
+      "outcome": "network_error",
+      "phase": "tls",
+      "error_category": "timeout",
+      "http_status": null,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 5688
+    },
+    {
+      "at": "2026-11-07T15:02:20+00:00",
+      "method": "getMe",
+      "outcome": "ok",
+      "phase": "http_body",
+      "error_category": null,
+      "http_status": 200,
+      "api_code": null,
+      "timeout_s": 10,
+      "elapsed_ms": 3016
+    },
+    {
+      "at": "2026-11-07T15:02:34+00:00",
+      "method": "getUpdates",
+      "outcome": "network_error",
+      "phase": "tls",
+      "error_category": "timeout",
+      "http_status": null,
+      "api_code": null,
+      "timeout_s": 5,
+      "elapsed_ms": 5812
+    }
+  ],
+  "latest_browser_delivery_metadata": {
+    "deliveries": [
+      {
+        "candidate_id": 383,
+        "kind": "demand",
+        "priority": "urgent",
+        "owner_status": "new",
+        "source_id": "client:-1001740614212",
+        "source_message_id": "1930581",
+        "link": "https://t.me/free_chat_for_freelance/1930581",
+        "published_at": "2026-11-07T14:51:10+00:00",
+        "received_at": "2026-11-07T14:51:16+00:00",
+        "sent_at": "2026-11-07T14:52:28+00:00",
+        "state": "sent",
+        "message_id": 144,
+        "first_observation": [
+          {
+            "username": "free_chat_for_freelance",
+            "message_id": "1930581",
+            "change": "first_ingest",
+            "observed_at": "2026-11-07T14:51:16+00:00"
+          }
+        ]
+      },
+      {
+        "candidate_id": 380,
+        "kind": "ambiguous",
+        "priority": "digest",
+        "owner_status": "new",
+        "source_id": "client:-1001740614212",
+        "source_message_id": "1930579",
+        "link": "https://t.me/free_chat_for_freelance/1930579",
+        "published_at": "2026-11-07T14:40:45+00:00",
+        "received_at": "2026-11-07T14:40:47+00:00",
+        "sent_at": "2026-11-07T14:41:43+00:00",
+        "state": "sent",
+        "message_id": 137,
+        "first_observation": [
+          {
+            "username": "free_chat_for_freelance",
+            "message_id": "1930579",
+            "change": "first_ingest",
+            "observed_at": "2026-11-07T14:40:47+00:00"
+          }
+        ]
+      },
+      {
+        "candidate_id": 266,
+        "kind": "ambiguous",
+        "priority": "digest",
+        "owner_status": "new",
+        "source_id": "client:-1001942100197",
+        "source_message_id": "172357",
+        "link": "https://t.me/onpeak_chat/172357",
+        "published_at": "2026-11-06T11:55:27+00:00",
+        "received_at": "2026-11-06T11:55:28+00:00",
+        "sent_at": "2026-11-06T12:00:49+00:00",
+        "state": "sent",
+        "message_id": 94,
+        "first_observation": [
+          {
+            "username": "onpeak_chat",
+            "message_id": "172357",
+            "change": "first_ingest",
+            "observed_at": "2026-11-06T11:55:28+00:00"
+          }
+        ]
+      },
+      {
+        "candidate_id": 148,
+        "kind": "ambiguous",
+        "priority": "digest",
+        "owner_status": "new",
+        "source_id": "client:-1001513982592",
+        "source_message_id": "1834574",
+        "link": "https://t.me/top_ads_freelance/1834574",
+        "published_at": "2026-11-06T07:01:55+00:00",
+        "received_at": "2026-11-06T07:02:00+00:00",
+        "sent_at": "2026-11-06T07:01:58+00:00",
+        "state": "sent",
+        "message_id": 58,
+        "first_observation": [
+          {
+            "username": "top_ads_freelance",
+            "message_id": "1834574",
+            "change": "first_ingest",
+            "observed_at": "2026-11-06T07:01:57+00:00"
+          },
+          {
+            "username": "top_ads_freelance",
+            "message_id": "1834574",
+            "change": "edited",
+            "observed_at": "2026-11-06T07:02:00+00:00"
+          }
+        ]
+      }
+    ],
+    "latency_note": "event.received_at can change after initial delivery on edit; do not subtract current received_at from prior sent_at"
+  },
+  "open_acceptance": [
+    "10 and 20 sources; verified access and new originals of each required",
+    "24 hours per source; Windows sleep excluded",
+    "closed Codex: partial background reading observed, full source continuity not accepted",
+    "real Windows login at agreed time",
+    "candidate audit isolation: live audit coincided with ten identity-check timeouts; keep further audits separate until checked"
+  ],
+  "no_client_messages": true,
+  "tinyfish_used": false,
+  "full_stream_completeness_proven": false,
+  "windows_power_20261107": [
+    {
+      "provider": "Microsoft-Windows-Power-Troubleshooter",
+      "times": {
+        "SleepTime": "2026-11-07T14:31:57.2855280Z",
+        "WakeTime": "2026-11-07T14:33:21.5818088Z"
+      },
+      "id": 1,
+      "at": "2026-11-07T14:33:23.5534172Z"
+    },
+    {
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "times": {},
+      "id": 107,
+      "at": "2026-11-07T14:32:04.2215237Z"
+    },
+    {
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "times": {},
+      "id": 42,
+      "at": "2026-11-07T14:32:02.1639457Z"
+    },
+    {
+      "provider": "Microsoft-Windows-Power-Troubleshooter",
+      "times": {
+        "SleepTime": "2026-11-06T14:43:32.0537990Z",
+        "WakeTime": "2026-11-07T14:30:26.9909291Z"
+      },
+      "id": 1,
+      "at": "2026-11-07T14:30:28.9561309Z"
+    },
+    {
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "times": {},
+      "id": 107,
+      "at": "2026-11-06T14:43:37.3015914Z"
+    },
+    {
+      "provider": "Microsoft-Windows-Kernel-Power",
+      "times": {},
+      "id": 42,
+      "at": "2026-11-06T14:43:33.2443249Z"
+    }
+  ],
+  "wake_recovery_20261107": {
+    "at": "2026-11-07T14:40:29+00:00",
+    "wake_at": "2026-11-07T14:33:21.581808+00:00",
+    "windows_login_proven": false,
+    "host_restart_requested_by_agent": false,
+    "backfill": false,
+    "result": "not_all_restored_in_budget",
+    "finished_at": "2026-11-07T14:47:31+00:00"
+  },
+  "code_publication_sha": "847493e4f553c70863698623d0f6fb3b1ed3c337",
+  "snapshot_guard_deployment": {
+    "at": "2026-11-07T14:47:50+00:00",
+    "case": "operational_deploy_single_snapshot_guard",
+    "before_resources": {
+      "available_physical_bytes": 389939200,
+      "process_count": 25,
+      "app_process_count": 1,
+      "total_physical_bytes": 16040079360,
+      "host_tree_working_set_bytes": 7316877312,
+      "at": "2026-11-07T14:44:11+00:00",
+      "enabled_sources": 10
+    },
+    "windows_session_touched": false,
+    "fully_stopped": true,
+    "stayed_stopped": true,
+    "result": "not_all_restored_in_budget",
+    "finished_at": "2026-11-07T14:56:03+00:00"
+  },
+  "profile_reflow_deployment": {
+    "case": "operator_stop_start_and_host_restart",
+    "started_at": "2026-11-07T14:58:29+00:00",
+    "fully_stopped": true,
+    "stayed_stopped": true,
+    "result": "recovered",
+    "elapsed_s": 151.64,
+    "scope": "controlled own host Stop/Start on final native-live-end code; Windows session untouched",
+    "code_test_scope": "145 broad before reflow +19 focused after reflow"
+  },
+  "odp_live_end_probe": {
+    "observed_at": "2026-11-07T14:53:04+00:00",
+    "captured_at": "2026-11-07T14:57:38+00:00",
+    "inspection": {
+      "username": "odp2021",
+      "closed": false,
+      "topbar_peers": [
+        "-1113778769"
+      ],
+      "own_visible": true,
+      "roots": 1,
+      "at_end": false,
+      "down_buttons": [
+        {
+          "classes": "btn-circle btn-corner z-depth-1 bubbles-corner-button chat-secondary-button bubbles-go-down rp",
+          "visible": true
+        }
+      ],
+      "links": [
+        "t.me/odp2021"
+      ],
+      "overlay": 0,
+      "auth": 0
+    },
+    "method": "existing metadata-only runtime_multi_inspect; no UI actions or message bodies"
+  },
+  "broad_regression_before_native_reflow": {
+    "complete_ok": true,
+    "log_sha256": "02e936f43cda29e28c727bcd000c11639d4c5fa4b3a1fd378030ec74ceaaea8f",
+    "scope": "145 complete checks on single-snapshot guard before the final native live-end reflow change"
+  },
+  "metadata_recovery": {
+    "snapshot": "D:\\привлечение клиентов\\telegram-monitor\\state\\local-chrome\\metadata-recovery-20261107T144657Z",
+    "at": "2026-11-07T14:46:59+00:00",
+    "code_sha": "847493e4f553c70863698623d0f6fb3b1ed3c337",
+    "databases_checked": 4,
+    "integrity": "ok",
+    "portable_encrypted_package": false
+  }
+}

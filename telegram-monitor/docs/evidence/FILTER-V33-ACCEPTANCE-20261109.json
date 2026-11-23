@@ -1,0 +1,298 @@
+{
+  "at": "2026-11-09T16:28:00+00:00",
+  "profile": "maxmadepro-2026-11-09-v3.3",
+  "rules": "local-role-rules-20261109-v3-r1",
+  "code_sha": "18af1a1eb0fe2f28eab548f67ccd119bc0f5cebc",
+  "connected": 3,
+  "reading": 3,
+  "disabled": 17,
+  "sources": [
+    {
+      "username": "biznes_chat",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T16:18:58+00:00",
+      "credited_hours": 7.434,
+      "gaps": 17,
+      "gap_seconds": 1024.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 8,
+        "ConnectionError": 1,
+        "not_reading": 2
+      }
+    },
+    {
+      "username": "freelead",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T16:18:58+00:00",
+      "credited_hours": 7.382,
+      "gaps": 18,
+      "gap_seconds": 1157.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 8,
+        "ConnectionError": 2,
+        "not_reading": 2
+      }
+    },
+    {
+      "username": "top_ads_freelance",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T16:18:58+00:00",
+      "credited_hours": 7.314,
+      "gaps": 17,
+      "gap_seconds": 1529.0,
+      "gap_reasons": {
+        "runtime_start_no_backfill": 6,
+        "BrowserAccessError": 9,
+        "ConnectionError": 1,
+        "sampling_gap_or_sleep": 1
+      }
+    }
+  ],
+  "source_transport_changed": false,
+  "full_tests": 220,
+  "test_result": {
+    "exit_code": 0,
+    "inputs": 88,
+    "log_sha256": "54596bf79a7337b2ccf77001c5df2d72580230a3ed57d06c149d6feabfcb35bf"
+  },
+  "criteria_discrepancies": [
+    {
+      "id": "U23",
+      "text": "С телефона кнопка заявки не нажимается, кто исправит?",
+      "original": "Проект, если достоверно известен контекст сайта",
+      "actual": "review без контекста; main с явным контекстом сайта (E1)",
+      "status": "Условный критерий, не изменение ожидания",
+      "basis": "Без полученного веб-контекста условие исходного критерия не выполнено; контекст не угадываем"
+    },
+    {
+      "id": "U57",
+      "text": "Нашей студии нужен дизайнер на конкретный проект",
+      "original": "Проект",
+      "actual": "review; main при указанном веб-предмете (E2)",
+      "status": "Исходное ожидание изменено по явному уточнению владельца",
+      "basis": "Максим подтвердил: при известном веб-контексте проект, иначе проверка. Не считать выполнением исходного безусловного main"
+    },
+    {
+      "id": "U62",
+      "text": "Нужен партнёр, который возьмёт разработку, продажи наши",
+      "original": "Субподряд, если подходящие работы названы",
+      "actual": "review без предмета; partnership с лендингами Tilda (E4)",
+      "status": "Условный критерий, не изменение ожидания",
+      "basis": "Направление work_to_us известно; неизвестен предмет, а не направление. Условие подходящих работ в коротком тексте не выполнено"
+    },
+    {
+      "id": "U73",
+      "text": "Ищем дизайнера на постоянный проектный подряд",
+      "original": "Субподряд",
+      "actual": "review без предмета; partnership с веб-дизайном (E5)",
+      "status": "Ожидание изменено исполнителем по делегированному выбору",
+      "basis": "Новый ответ Максима: «как сам считаешь так и сделай». Выбран review, чтобы не обещать соответствие интерьеру/другому дизайну. Это изменение, не выполнение исходного безусловного partnership"
+    },
+    {
+      "id": "U89",
+      "text": "Не обязательно Tilda, платформу обсудим",
+      "original": "Не считать Tilda обязательным ограничением",
+      "actual": "review у самостоятельного фрагмента; paired запрос сайта main без обязательной Tilda",
+      "status": "Исходный критерий не задаёт маршрут",
+      "basis": "Прежняя нормализация в none была ошибкой парсера задания. Маршрут review сам по себе критерия не доказывает; отдельный probe проверил отсутствие обязательной Tilda"
+    },
+    {
+      "id": "U91",
+      "text": "Без разработки: нужен только дизайн в Figma",
+      "original": "Проект",
+      "actual": "review без предмета; main при явном сайте (E3)",
+      "status": "Исходное ожидание изменено по явному уточнению владельца",
+      "basis": "Максим подтвердил границу веб-контекста. Figma сама по себе не означает сайт/интерфейс; исходный безусловный main не объявляется выполненным"
+    }
+  ],
+  "criteria_accounting": {
+    "original_examples": 105,
+    "unchanged_route": 99,
+    "conditional_scope": 2,
+    "amended": 3,
+    "not_a_route_criterion": 1,
+    "extra_synthetic": 10,
+    "claim_all_original_criteria_met": false
+  },
+  "known_regression": {
+    "rows": 218,
+    "sources": 9,
+    "expected_routes": {
+      "partnership": 3,
+      "none": 204,
+      "employment": 3,
+      "main": 4,
+      "review": 4
+    },
+    "new_routes": {
+      "partnership": 3,
+      "none": 197,
+      "review": 12,
+      "main": 4,
+      "employment": 2
+    },
+    "review": 12,
+    "owner_confirmed_positives": 1,
+    "old": {
+      "main": 4,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 3
+    },
+    "new": {
+      "main": 4,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 3
+    }
+  },
+  "new_frozen_negative_sample": {
+    "rows": 35,
+    "sources": 3,
+    "expected_routes": {
+      "none": 34,
+      "review": 1
+    },
+    "new_routes": {
+      "none": 33,
+      "review": 2
+    },
+    "review": 2,
+    "owner_confirmed_positives": 0,
+    "old": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    },
+    "new": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    }
+  },
+  "post_freeze_originals_reviewed": 12,
+  "separate_audits": {
+    "new_declined": 43,
+    "new_review": 5,
+    "new_total": 48,
+    "late_review_audit_ids": [
+      796
+    ],
+    "unaudited_latest_review_ids": [],
+    "current_local_review_rows": 12,
+    "current_review_ids": [
+      796,
+      504,
+      791,
+      781,
+      774,
+      772,
+      722,
+      703,
+      665,
+      594,
+      588,
+      515
+    ],
+    "known_positive_in_historical_review": 722,
+    "new_positive_count": 0,
+    "same_ad_families_may_repeat": true,
+    "all_historical_rejections_reviewed": false
+  },
+  "criterion_probes": {
+    "punctuation_variants_checked": 230,
+    "punctuation_passed": true,
+    "optional_tilda": {
+      "route": "main",
+      "mandatory_tilda": false
+    },
+    "scope": "Local pure probes; no new delivery, no real recall percentage",
+    "known_positive_count": 7,
+    "new_holdout_positive_count": 0,
+    "original504_offline_route": "review"
+  },
+  "historical504": {
+    "candidate_id": 504,
+    "decision_id": 305,
+    "route": "review",
+    "mode": "append_only_local_audit",
+    "delivery_calls": 0,
+    "preservation": {
+      "manual_status_mismatches": 0,
+      "sent_mismatches": 0,
+      "settings_unchanged": true,
+      "integrity": "ok",
+      "historical504_card_unchanged": true,
+      "historical504_event_unchanged": true,
+      "historical504_delivery_unchanged": true,
+      "historical504_old_decisions_unchanged": true,
+      "review_audit_rows_added": 1,
+      "initial_cutoff": "487"
+    }
+  },
+  "preservation": {
+    "manual_status_mismatches": 0,
+    "sent_mismatches": 0,
+    "settings_unchanged": true,
+    "integrity": "ok",
+    "historical504_card_unchanged": true,
+    "historical504_event_unchanged": true,
+    "historical504_delivery_unchanged": true,
+    "historical504_old_decisions_unchanged": true,
+    "review_audit_rows_added": 1,
+    "initial_cutoff": "487"
+  },
+  "new_live_decisions": [
+    {
+      "rules": "local-role-rules-20261109-v3",
+      "route": "none",
+      "count": 27
+    },
+    {
+      "rules": "local-role-rules-20261109-v3",
+      "route": "review",
+      "count": 4
+    },
+    {
+      "rules": "local-role-rules-20261109-v3-r1",
+      "route": "none",
+      "count": 3
+    },
+    {
+      "rules": "local-role-rules-20261109-v3-r1",
+      "route": "review",
+      "count": 1
+    }
+  ],
+  "first_live_card_status": "awaiting_first_new_suitable_card",
+  "owner_assessment": "not_requested_without_actual_card",
+  "acceptance_complete": false,
+  "real_positive_recall_measured": false,
+  "real_positive_acceptance_complete": false,
+  "owner_criteria_question_pending": false,
+  "unimplemented_or_unverified": [
+    "Reliable reply-to-order binding is not implemented; observer strips reply block",
+    "Real forwarded-message metadata acceptance not demonstrated",
+    "New suitable v3.3 card and separate owner judgement pending",
+    "24h / Windows-login / wake acceptance deferred, not closed"
+  ],
+  "limits": [
+    "данных для оценки полноты недостаточно",
+    "Seven known positives are regression, not a new positive holdout",
+    "No synthetic percentage substitutes for real recall",
+    "Local review still includes supplier ads772/781/791; no alert is sent",
+    "No guaranteed backlog restoration or continuous autonomy"
+  ]
+}

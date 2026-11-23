@@ -1,0 +1,681 @@
+{
+  "at": "2026-11-09T10:13:04+00:00",
+  "scope": "three fixed Chrome sources; twenty-source expansion postponed",
+  "account": "@maxmade_pro",
+  "bot": "@uffweb_bot",
+  "enabled": [
+    {
+      "username": "biznes_chat",
+      "peer_id": -1001371121321,
+      "access": "joined",
+      "rules_state": "reviewed",
+      "reply_route": "private_service_offers_prohibited",
+      "checked_at": "2026-11-09T10:06:35+00:00",
+      "adapter": "telegram_web_k",
+      "adapter_parameters": "{}"
+    },
+    {
+      "username": "freelead",
+      "peer_id": -1001428955589,
+      "access": "joined",
+      "rules_state": "reviewed",
+      "reply_route": "personal_reply_to_explicit_request",
+      "checked_at": "2026-11-09T10:06:55+00:00",
+      "adapter": "telegram_web_k",
+      "adapter_parameters": "{}"
+    },
+    {
+      "username": "top_ads_freelance",
+      "peer_id": -1001513982592,
+      "access": "joined",
+      "rules_state": "reviewed",
+      "reply_route": "verify_each_request",
+      "checked_at": "2026-11-09T10:06:45+00:00",
+      "adapter": "telegram_web_k",
+      "adapter_parameters": "{}"
+    }
+  ],
+  "disabled_count": 17,
+  "disabled_runtime": [
+    {
+      "username": "bit24dev",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "bitrixfordevelopers",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "bitrixinside24",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 2
+    },
+    {
+      "username": "business_assistants",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 1
+    },
+    {
+      "username": "businessclass_rbc",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "chat_frilans",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "chat_kovalev",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "expopeople",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "free_chat_for_freelance",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 3
+    },
+    {
+      "username": "frilanser_100",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "imweek_ru",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "marketologiyuga",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "odp2021",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 1
+    },
+    {
+      "username": "onpeak_chat",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 1
+    },
+    {
+      "username": "smmruschats",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 0
+    },
+    {
+      "username": "spbeventchat",
+      "phase": null,
+      "last_check": null,
+      "attempts": null
+    },
+    {
+      "username": "tilda_official_chat",
+      "phase": "disabled",
+      "last_check": null,
+      "attempts": 0
+    }
+  ],
+  "disabled_events_after_deployment": 0,
+  "operating_status": "работает",
+  "reading_count": 3,
+  "source_status": [
+    {
+      "username": "biznes_chat",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:12:55+00:00",
+      "last_transport_check": "2026-11-09T10:12:42+00:00",
+      "error_type": null,
+      "attempts": 0,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 5791.0,
+      "last_new_event": "2026-11-09T09:59:23+00:00",
+      "last_successful_delivery": "2026-11-07T17:23:52+00:00",
+      "delivery_states": {
+        "sent": 3
+      }
+    },
+    {
+      "username": "freelead",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:12:55+00:00",
+      "last_transport_check": "2026-11-09T10:12:30+00:00",
+      "error_type": null,
+      "attempts": 0,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 5677.0,
+      "last_new_event": "2026-11-09T10:07:25+00:00",
+      "last_successful_delivery": "2026-11-06T13:10:39+00:00",
+      "delivery_states": {
+        "sent": 2
+      }
+    },
+    {
+      "username": "top_ads_freelance",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:12:55+00:00",
+      "last_transport_check": "2026-11-09T10:12:53+00:00",
+      "error_type": null,
+      "attempts": 0,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 5767.0,
+      "last_new_event": "2026-11-09T10:07:39+00:00",
+      "last_successful_delivery": "2026-11-07T17:25:34+00:00",
+      "delivery_states": {
+        "sent": 26
+      }
+    }
+  ],
+  "filter_version": "maxmadepro-2026-11-07-v3.1",
+  "rules_version": "local-role-rules-20261109-v1",
+  "profile_version": "maxmadepro-2026-11-07-v3.1",
+  "observation": {
+    "id": 2,
+    "start_at": "2026-11-09T08:31:39+00:00",
+    "end_at": null,
+    "label": "TG-3S: three fixed Chrome sources from20261109",
+    "sources": [
+      {
+        "run_id": 2,
+        "username": "biznes_chat",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 5791.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:12:53+00:00",
+        "calendar_seconds_to_report": 6085.675194,
+        "uncredited_seconds_to_report": 294.675
+      },
+      {
+        "run_id": 2,
+        "username": "freelead",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 5677.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:12:53+00:00",
+        "calendar_seconds_to_report": 6085.675194,
+        "uncredited_seconds_to_report": 408.675
+      },
+      {
+        "run_id": 2,
+        "username": "top_ads_freelance",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 5778.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:13:04+00:00",
+        "calendar_seconds_to_report": 6085.675194,
+        "uncredited_seconds_to_report": 307.675
+      }
+    ]
+  },
+  "gaps_intersecting_run": [
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T08:40:36+00:00",
+      "end_at": "2026-11-09T08:41:01+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T08:40:45+00:00",
+      "end_at": "2026-11-09T08:41:01+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:40:51+00:00",
+      "end_at": "2026-11-09T08:41:11+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:41:44+00:00",
+      "end_at": "2026-11-09T08:42:01+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:42:17+00:00",
+      "end_at": "2026-11-09T08:42:41+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T08:43:36+00:00",
+      "end_at": "2026-11-09T08:43:58+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T08:43:44+00:00",
+      "end_at": "2026-11-09T08:43:58+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:43:50+00:00",
+      "end_at": "2026-11-09T08:44:09+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T08:44:45+00:00",
+      "end_at": "2026-11-09T08:44:59+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T08:44:45+00:00",
+      "end_at": "2026-11-09T08:45:10+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:44:45+00:00",
+      "end_at": "2026-11-09T08:45:20+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T08:45:37+00:00",
+      "end_at": "2026-11-09T08:45:59+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T08:45:44+00:00",
+      "end_at": "2026-11-09T08:45:59+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T08:45:51+00:00",
+      "end_at": "2026-11-09T08:45:59+00:00",
+      "reason": "runtime_start_no_backfill"
+    },
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T10:04:20+00:00",
+      "end_at": "2026-11-09T10:06:48+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T10:04:20+00:00",
+      "end_at": "2026-11-09T10:06:58+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T10:04:32+00:00",
+      "end_at": "2026-11-09T10:06:38+00:00",
+      "reason": "ConnectionError"
+    }
+  ],
+  "new_originals_in_run": [
+    {
+      "username": "biznes_chat",
+      "count": 8,
+      "latest": "2026-11-09T09:59:23+00:00"
+    },
+    {
+      "username": "freelead",
+      "count": 11,
+      "latest": "2026-11-09T10:07:25+00:00"
+    },
+    {
+      "username": "top_ads_freelance",
+      "count": 16,
+      "latest": "2026-11-09T10:07:39+00:00"
+    }
+  ],
+  "new_decisions_after_deployment": [
+    {
+      "route": "none",
+      "count": 33
+    },
+    {
+      "route": "review",
+      "count": 2
+    }
+  ],
+  "main_card_ids_after_deployment": [],
+  "preservation": {
+    "manual_status_mismatches": 0,
+    "historical_sent_mismatches": 0,
+    "env_unchanged": true,
+    "source_access_rules_identity_mismatches": 0,
+    "source_check_times_refreshed": 3,
+    "browser_profile_copied": false,
+    "business_integrity": "ok"
+  },
+  "live_trials": [
+    {
+      "case": "close",
+      "started_at": "2026-11-09T08:41:43+00:00",
+      "result": "recovered",
+      "elapsed_s": 14.64,
+      "all_other_samples_live": true
+    },
+    {
+      "case": "reload",
+      "started_at": "2026-11-09T08:42:15+00:00",
+      "result": "recovered",
+      "elapsed_s": 26.88,
+      "all_other_samples_live": true
+    },
+    {
+      "case": "operator_stop_start_and_host_restart",
+      "started_at": "2026-11-09T08:43:18+00:00",
+      "result": "recovered",
+      "elapsed_s": 32.81,
+      "fully_stopped": true,
+      "stayed_stopped": true
+    },
+    {
+      "case": "context_offline_online",
+      "started_at": "2026-11-09T08:44:43+00:00",
+      "result": "recovered",
+      "elapsed_s": 29.58,
+      "both_paused": true
+    },
+    {
+      "case": "owned_host_tree_terminated",
+      "started_at": "2026-11-09T08:45:32+00:00",
+      "result": "recovered",
+      "elapsed_s": 28.28
+    }
+  ],
+  "technical_dom": {
+    "started_at": "2026-11-09T08:41:32+00:00",
+    "synthetic": true,
+    "live_business_db_used": false,
+    "send_state": "sent",
+    "message_id": 207,
+    "sent_at": "2026-11-09T08:41:34+00:00",
+    "first_deliveries": 1,
+    "repeat_deliveries": 0,
+    "repeat_events": 0,
+    "network_intercepted": true
+  },
+  "operator_card": {
+    "card": "T-20261109-3S-01",
+    "state": "accepted",
+    "message_id": 205,
+    "accepted_at": "2026-11-09T08:54:29+00:00"
+  },
+  "closed_codex_result": {
+    "start_at": "2026-11-09T09:05:00+00:00",
+    "end_at": "2026-11-09T09:57:00+00:00",
+    "user_confirmed_app_closed": true,
+    "process_count_is_not_ui_closure_proof": true,
+    "expected_sources": [
+      "top_ads_freelance",
+      "biznes_chat",
+      "freelead"
+    ],
+    "samples": 49,
+    "fresh_source_samples": 49,
+    "fresh_five_source_samples": 49,
+    "failed_samples": [],
+    "maximum_sampling_gap_s": 67.0,
+    "new_originals_in_interval": {
+      "freelead": 3,
+      "top_ads_freelance": 5,
+      "biznes_chat": 5
+    },
+    "background_reading_observed": true,
+    "continuous_source_checks_accepted": true,
+    "full_stream_completeness_proven": false,
+    "recorded_at": "2026-11-09T09:59:09+00:00"
+  },
+  "runtime_inventory": {
+    "at": "2026-11-09T10:09:17+00:00",
+    "context_pages": 3,
+    "sources": [
+      {
+        "username": "top_ads_freelance",
+        "phase": "reading",
+        "page_closed": false,
+        "capture_active": true
+      },
+      {
+        "username": "biznes_chat",
+        "phase": "reading",
+        "page_closed": false,
+        "capture_active": true
+      },
+      {
+        "username": "freelead",
+        "phase": "reading",
+        "page_closed": false,
+        "capture_active": true
+      }
+    ],
+    "filter_active": "maxmadepro-2026-11-07-v3.1",
+    "loaded_profile_version": "maxmadepro-2026-11-07-v3.1",
+    "classify_module": "monitor",
+    "reader_started": true
+  },
+  "minimized_trial": {
+    "started_at": "2026-11-09T08:47:14+00:00",
+    "ended_at": "2026-11-09T08:48:44+00:00",
+    "requested_window_state": "minimized",
+    "samples": [
+      {
+        "at": "2026-11-09T08:47:13+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:18+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:22+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:29+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:33+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:38+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:43+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:48+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:52+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:47:58+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:03+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:09+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:13+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:17+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:23+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:28+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:33+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      },
+      {
+        "at": "2026-11-09T08:48:38+00:00",
+        "fresh": {
+          "top_ads_freelance": true,
+          "biznes_chat": true,
+          "freelead": true
+        }
+      }
+    ],
+    "all_samples_fresh": true,
+    "scope": "CDP minimize command succeeded; fresh DOM and origin checks; not proof of complete incoming stream"
+  },
+  "resource_after": {
+    "available_physical_bytes": 571887616,
+    "process_count": 16,
+    "app_process_count": 1,
+    "total_physical_bytes": 16040079360,
+    "host_tree_working_set_bytes": 1486704640,
+    "at": "2026-11-09T10:13:02+00:00",
+    "enabled_sources": 3
+  },
+  "resource_before": {
+    "at": "2026-11-09T08:15:11+00:00",
+    "enabled_sources": 10,
+    "host_tree_working_set_bytes": 4539502592,
+    "available_physical_bytes": 1046679552,
+    "process_count": 21,
+    "actual_tabs": null,
+    "cpu_machine_percent": null,
+    "limitation": "actual tabs and CPU not captured before reduction; configured slots are not actual tabs"
+  },
+  "offline_tests": {
+    "count": 183,
+    "seconds": 254.49,
+    "result": "OK",
+    "inputs": 77,
+    "test_log_sha256": "ff52b4ede88beea2bc8632dd1b02392c3b75ffed4eac7d4d0647bda69bdab0ff"
+  },
+  "open_acceptance": [
+    "24 calendar hours with per-source credited time and gaps",
+    "24 continuous hours not established",
+    "actual Windows logon at agreed time",
+    "new suitable v3.1 order and owner usefulness review if none arrives"
+  ],
+  "limitations": [
+    "no guaranteed backfill",
+    "no reading while PC sleeps or is off",
+    "Chrome must remain open",
+    "prior closed-Codex interval on five sources had a gap; not continuous acceptance",
+    "CPU/resource samples are current desktop load, not an isolated benchmark"
+  ]
+}

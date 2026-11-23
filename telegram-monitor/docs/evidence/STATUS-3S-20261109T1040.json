@@ -1,0 +1,122 @@
+{
+  "at": "2026-11-09T10:44:34+00:00",
+  "enabled": 3,
+  "reading": 3,
+  "disabled": 17,
+  "source_status": [
+    {
+      "username": "biznes_chat",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:44:28+00:00",
+      "last_transport_check": "2026-11-09T10:44:04+00:00",
+      "error_type": null,
+      "attempts": 4,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 7364.0,
+      "last_new_event": "2026-11-09T10:38:32+00:00",
+      "last_successful_delivery": "2026-11-09T10:14:40+00:00",
+      "delivery_states": {
+        "sent": 4
+      }
+    },
+    {
+      "username": "freelead",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:44:28+00:00",
+      "last_transport_check": "2026-11-09T10:44:18+00:00",
+      "error_type": null,
+      "attempts": 4,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 7240.0,
+      "last_new_event": "2026-11-09T10:16:16+00:00",
+      "last_successful_delivery": "2026-11-06T13:10:39+00:00",
+      "delivery_states": {
+        "sent": 2
+      }
+    },
+    {
+      "username": "top_ads_freelance",
+      "reading_fresh": true,
+      "phase": "reading",
+      "last_successful_read_check": "2026-11-09T10:44:28+00:00",
+      "last_transport_check": "2026-11-09T10:44:23+00:00",
+      "error_type": null,
+      "attempts": 4,
+      "state": "читает",
+      "open_gaps": [],
+      "observed_seconds_in_run": 6975.0,
+      "last_new_event": "2026-11-09T10:27:10+00:00",
+      "last_successful_delivery": "2026-11-07T17:25:34+00:00",
+      "delivery_states": {
+        "sent": 26
+      }
+    }
+  ],
+  "observation": {
+    "id": 2,
+    "start_at": "2026-11-09T08:31:39+00:00",
+    "end_at": null,
+    "label": "TG-3S: three fixed Chrome sources from20261109",
+    "sources": [
+      {
+        "run_id": 2,
+        "username": "biznes_chat",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 7364.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:44:31+00:00"
+      },
+      {
+        "run_id": 2,
+        "username": "freelead",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 7240.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:44:31+00:00"
+      },
+      {
+        "run_id": 2,
+        "username": "top_ads_freelance",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 6975.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T10:44:31+00:00"
+      }
+    ]
+  },
+  "card_615": {
+    "message_id": "950673",
+    "published_at": "2026-11-09T10:14:37+00:00",
+    "received_at": "2026-11-09T10:14:39+00:00",
+    "owner_status": "new",
+    "state": "sent",
+    "sent_at": "2026-11-09T10:14:40+00:00",
+    "source": "biznes_chat",
+    "category_review": "concrete landing-page request; fits published MAXMADE services",
+    "safe_excerpt": "Нужно сделать сайт лендинг",
+    "owner_usefulness_confirmed": false
+  },
+  "recovery_issue": {
+    "source": "top_ads_freelance",
+    "observed_pause_at": "2026-11-09T10:32:21+00:00",
+    "phase": "manual_attention",
+    "stage": "initial_navigation",
+    "error": "BrowserAccessError",
+    "exact_identity_snapshot_at_failure": "not retained; wrong-account conclusion not established",
+    "action": "one explicit isolated reattach, all account/source/member guards repeated; other two readers kept running",
+    "result": "reading with verified configured account/source",
+    "root_cause_resolved": false
+  },
+  "open": [
+    "24 calendar hours with gaps and per-source credited time",
+    "24 continuous hours not established",
+    "actual Windows login and sleep/wake",
+    "unattended recovery of initial identity-verification pause",
+    "owner usefulness review of card615"
+  ],
+  "code_sha": "659bcbcca5c760f6b8938107a7950b1356959c9d"
+}

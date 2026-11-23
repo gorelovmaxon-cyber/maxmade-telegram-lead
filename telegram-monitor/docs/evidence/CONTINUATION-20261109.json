@@ -1,0 +1,266 @@
+{
+  "at": "2026-11-09T07:57:04+00:00",
+  "active_version": "maxmadepro-2026-11-07-v3.1",
+  "cutoff": 487,
+  "applied_at": "2026-11-09T07:40:39+00:00",
+  "apply_method": "validated_offline_switch_after_confirmed_full_stop",
+  "host_pid": 39400,
+  "previous_host_pid": 17112,
+  "host_state_at": "2026-11-09T07:57:03+00:00",
+  "connected_sources": 10,
+  "attached_sources": 10,
+  "fresh_sources": 0,
+  "code_matches_validation": true,
+  "manual_mismatches": [],
+  "sent_history_mismatches": [],
+  "protected_card_mismatches": [],
+  "env_unchanged": true,
+  "integrity": "ok",
+  "new_rule_decisions": [
+    {
+      "candidate_id": 558,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:43:55+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@top_ads_freelance",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    },
+    {
+      "candidate_id": 559,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:44:59+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@free_chat_for_freelance",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    },
+    {
+      "candidate_id": 560,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:45:14+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@free_chat_for_freelance",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    },
+    {
+      "candidate_id": 561,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:45:24+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@onpeak_chat",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    },
+    {
+      "candidate_id": 562,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:50:27+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@bitrixinside24",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    },
+    {
+      "candidate_id": 563,
+      "version": "maxmadepro-2026-11-07-v3.1",
+      "decided_at": "2026-11-09T07:51:31+00:00",
+      "route": "none",
+      "kind": "other",
+      "duplicate_of": null,
+      "change_kind": "new",
+      "source_name": "@free_chat_for_freelance",
+      "delivery_state": null,
+      "sent_at": null,
+      "message_id": null
+    }
+  ],
+  "live_v3_delivery_evidence": [
+    {
+      "id": 523,
+      "source": "@biznes_chat",
+      "published_at": "2026-11-07T17:23:43+00:00",
+      "received_at": "2026-11-07T17:23:46+00:00",
+      "sent_at": "2026-11-07T17:23:52+00:00",
+      "message_id": 173,
+      "state": "sent",
+      "owner_status": "new",
+      "delivery_after_receive_s": 6.0,
+      "review_result": "concrete_request_for_two_websites",
+      "owner_fit_acceptance": "not_requested_not_assumed"
+    },
+    {
+      "id": 529,
+      "source": "@top_ads_freelance",
+      "published_at": "2026-11-07T17:25:24+00:00",
+      "received_at": "2026-11-07T17:25:26+00:00",
+      "sent_at": "2026-11-07T17:25:34+00:00",
+      "message_id": 174,
+      "state": "sent",
+      "owner_status": "new",
+      "delivery_after_receive_s": 8.0,
+      "review_result": "incorrect_main_pool_should_be_partnership_fixed_for_future_only",
+      "owner_fit_acceptance": "not_requested_not_assumed"
+    }
+  ],
+  "counts": {
+    "events": 563,
+    "candidates": 563,
+    "deliveries": 58,
+    "filter_decisions": 60
+  },
+  "delivery_states": {
+    "pending": 3,
+    "sent": 55
+  },
+  "sources": [
+    {
+      "username": "bitrixinside24",
+      "enabled": 1,
+      "observed_minutes": 355.3,
+      "new_originals": 12,
+      "gaps": 37,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "biznes_chat",
+      "enabled": 1,
+      "observed_minutes": 473.5,
+      "new_originals": 44,
+      "gaps": 53,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "business_assistants",
+      "enabled": 1,
+      "observed_minutes": 355.8,
+      "new_originals": 0,
+      "gaps": 38,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "free_chat_for_freelance",
+      "enabled": 1,
+      "observed_minutes": 338.2,
+      "new_originals": 89,
+      "gaps": 38,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "freelead",
+      "enabled": 1,
+      "observed_minutes": 563.1,
+      "new_originals": 97,
+      "gaps": 55,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "odp2021",
+      "enabled": 1,
+      "observed_minutes": 344.1,
+      "new_originals": 24,
+      "gaps": 35,
+      "open_gap": true,
+      "phase": "retry_limit_reached"
+    },
+    {
+      "username": "onpeak_chat",
+      "enabled": 1,
+      "observed_minutes": 275.1,
+      "new_originals": 68,
+      "gaps": 34,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "smmruschats",
+      "enabled": 1,
+      "observed_minutes": 487.6,
+      "new_originals": 12,
+      "gaps": 50,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "tilda_official_chat",
+      "enabled": 1,
+      "observed_minutes": 478.8,
+      "new_originals": 18,
+      "gaps": 54,
+      "open_gap": true,
+      "phase": "recovering"
+    },
+    {
+      "username": "top_ads_freelance",
+      "enabled": 1,
+      "observed_minutes": 521.6,
+      "new_originals": 62,
+      "gaps": 57,
+      "open_gap": true,
+      "phase": "recovering"
+    }
+  ],
+  "power_evidence": {
+    "sleep_at_utc": "2026-11-07T17:45:47.8100014Z",
+    "wake_at_utc": "2026-11-09T05:00:49.3553335Z",
+    "providers": [
+      "Microsoft-Windows-Kernel-Power/42",
+      "Microsoft-Windows-Power-Troubleshooter/1"
+    ],
+    "scope": "read-only System event log; not Windows-login proof",
+    "interval_credited": false
+  },
+  "resources": {
+    "available_physical_bytes": 509681664,
+    "process_count": 24,
+    "app_process_count": 1,
+    "total_physical_bytes": 16040079360,
+    "host_tree_working_set_bytes": 6488301568,
+    "at": "2026-11-09T07:56:44+00:00",
+    "enabled_sources": 10
+  },
+  "test_receipt": {
+    "labels_sha256": "a145cecee4f359884d22b4a9be0e7b7d99fbb218356ecfdf03d06b41eacff284",
+    "tests_passed": true,
+    "tests": 118,
+    "test_inputs_matched": 68,
+    "test_log_sha256": "23d562060cfed9c41c49d80ab9544226a5f701bee482e82493a7dbde654e8277",
+    "development_fn": 0,
+    "holdout_fn": 0,
+    "quality_report": "docs/evidence/FILTER-QUALITY-20261107.json"
+  },
+  "remaining": [
+    "first_original_business_assistants",
+    "24_observed_hours_each",
+    "Windows_login_by_agreed_time",
+    "closed_Codex_continuity",
+    "live_main_delivery_on_v3.1",
+    "stable_ten_before_fifteen_twenty"
+  ]
+}

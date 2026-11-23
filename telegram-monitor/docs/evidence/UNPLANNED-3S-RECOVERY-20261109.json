@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-09T10:08:30+00:00",
+  "case": "unplanned transient errors after closed-Codex interval",
+  "gaps": [
+    {
+      "username": "top_ads_freelance",
+      "start_at": "2026-11-09T10:04:20+00:00",
+      "end_at": "2026-11-09T10:06:48+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "freelead",
+      "start_at": "2026-11-09T10:04:20+00:00",
+      "end_at": "2026-11-09T10:06:58+00:00",
+      "reason": "BrowserAccessError"
+    },
+    {
+      "username": "biznes_chat",
+      "start_at": "2026-11-09T10:04:32+00:00",
+      "end_at": "2026-11-09T10:06:38+00:00",
+      "reason": "ConnectionError"
+    }
+  ],
+  "resource_sample": {
+    "available_physical_bytes": 762396672,
+    "process_count": 16,
+    "app_process_count": 1,
+    "total_physical_bytes": 16040079360,
+    "host_tree_working_set_bytes": 2157617152,
+    "at": "2026-11-09T10:07:37+00:00",
+    "enabled_sources": 3
+  },
+  "recovered_without_manual_restart": true,
+  "scope": "memory pressure and transport timeouts coincided; exclusive causation not established; gaps not credited; missed history not reconstructed"
+}

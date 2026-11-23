@@ -1,0 +1,659 @@
+{
+  "captured_at": "2026-11-09T17:52:52+00:00",
+  "code_sha": "d963cd1fd16bf073fd1fe24fa7d4b75a5ae2a0e8",
+  "publication_sha": "HEAD of telegram/staged-sources-20261105",
+  "semantic_code_sha": "18af1a1eb0fe2f28eab548f67ccd119bc0f5cebc",
+  "filter_version": "maxmadepro-2026-11-09-v3.3",
+  "rules_version": "local-role-rules-20261109-v3-r1",
+  "policy_version": "maxmade-context-work-v3",
+  "context_version": "browser-context-20261109-v1",
+  "criteria_stage": "complete_per_owner",
+  "selection_recall": "unmeasured",
+  "selection_rules_changed": false,
+  "sources_connected": 3,
+  "sources_reading": 3,
+  "sources_disabled": 17,
+  "observation": [
+    {
+      "username": "biznes_chat",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T17:52:44+00:00",
+      "credited_seconds": 32205.0,
+      "calendar_seconds": 33665.390047,
+      "new_originals": 81,
+      "edits": 0,
+      "gaps": [
+        {
+          "start_at": "2026-11-09T08:40:45+00:00",
+          "end_at": "2026-11-09T08:41:01+00:00",
+          "seconds": 16.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:43:44+00:00",
+          "end_at": "2026-11-09T08:43:58+00:00",
+          "seconds": 14.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:44:45+00:00",
+          "end_at": "2026-11-09T08:45:10+00:00",
+          "seconds": 25.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:45:44+00:00",
+          "end_at": "2026-11-09T08:45:59+00:00",
+          "seconds": 15.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:04:32+00:00",
+          "end_at": "2026-11-09T10:06:38+00:00",
+          "seconds": 126.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:20:08+00:00",
+          "end_at": "2026-11-09T10:20:23+00:00",
+          "seconds": 15.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:32:22+00:00",
+          "end_at": "2026-11-09T10:33:41+00:00",
+          "seconds": 79.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:41:15+00:00",
+          "end_at": "2026-11-09T10:44:11+00:00",
+          "seconds": 176.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T11:54:06+00:00",
+          "end_at": "2026-11-09T11:54:24+00:00",
+          "seconds": 18.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T12:47:37+00:00",
+          "end_at": "2026-11-09T12:48:38+00:00",
+          "seconds": 61.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T12:49:34+00:00",
+          "end_at": "2026-11-09T12:50:14+00:00",
+          "seconds": 40.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:18:42+00:00",
+          "end_at": "2026-11-09T13:23:34+00:00",
+          "seconds": 292.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:40:30+00:00",
+          "end_at": "2026-11-09T13:40:41+00:00",
+          "seconds": 11.0,
+          "reason": "not_reading",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:47:01+00:00",
+          "end_at": "2026-11-09T13:47:12+00:00",
+          "seconds": 11.0,
+          "reason": "not_reading",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T14:34:37+00:00",
+          "end_at": "2026-11-09T14:34:57+00:00",
+          "seconds": 20.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:13:52+00:00",
+          "end_at": "2026-11-09T15:14:59+00:00",
+          "seconds": 67.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:29:11+00:00",
+          "end_at": "2026-11-09T15:29:49+00:00",
+          "seconds": 38.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T17:39:01+00:00",
+          "end_at": "2026-11-09T17:41:55+00:00",
+          "seconds": 174.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        }
+      ],
+      "transition_counts": {
+        "operator_stopped -> recovering": 5,
+        "recovering -> reading": 17,
+        "reading -> operator_stopped": 4,
+        "reading -> recovering": 12,
+        "recovering -> context_closed": 1,
+        "context_closed -> recovering": 1
+      },
+      "transition_counts_are_not_automatic_recovery_counts": true
+    },
+    {
+      "username": "freelead",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T17:52:44+00:00",
+      "credited_seconds": 32049.0,
+      "calendar_seconds": 33665.390047,
+      "new_originals": 119,
+      "edits": 7,
+      "gaps": [
+        {
+          "start_at": "2026-11-09T08:40:51+00:00",
+          "end_at": "2026-11-09T08:41:11+00:00",
+          "seconds": 20.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:41:44+00:00",
+          "end_at": "2026-11-09T08:42:01+00:00",
+          "seconds": 17.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:42:17+00:00",
+          "end_at": "2026-11-09T08:42:41+00:00",
+          "seconds": 24.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:43:50+00:00",
+          "end_at": "2026-11-09T08:44:09+00:00",
+          "seconds": 19.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:44:45+00:00",
+          "end_at": "2026-11-09T08:45:20+00:00",
+          "seconds": 35.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:45:51+00:00",
+          "end_at": "2026-11-09T08:45:59+00:00",
+          "seconds": 8.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:04:20+00:00",
+          "end_at": "2026-11-09T10:06:58+00:00",
+          "seconds": 158.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:20:14+00:00",
+          "end_at": "2026-11-09T10:20:33+00:00",
+          "seconds": 19.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:32:44+00:00",
+          "end_at": "2026-11-09T10:33:41+00:00",
+          "seconds": 57.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:41:19+00:00",
+          "end_at": "2026-11-09T10:44:21+00:00",
+          "seconds": 182.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T11:54:15+00:00",
+          "end_at": "2026-11-09T11:54:24+00:00",
+          "seconds": 9.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T12:47:36+00:00",
+          "end_at": "2026-11-09T12:49:54+00:00",
+          "seconds": 138.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:18:42+00:00",
+          "end_at": "2026-11-09T13:23:45+00:00",
+          "seconds": 303.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:40:30+00:00",
+          "end_at": "2026-11-09T13:40:41+00:00",
+          "seconds": 11.0,
+          "reason": "not_reading",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:46:48+00:00",
+          "end_at": "2026-11-09T13:47:12+00:00",
+          "seconds": 24.0,
+          "reason": "not_reading",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T14:34:37+00:00",
+          "end_at": "2026-11-09T14:35:08+00:00",
+          "seconds": 31.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:13:55+00:00",
+          "end_at": "2026-11-09T15:15:09+00:00",
+          "seconds": 74.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:29:11+00:00",
+          "end_at": "2026-11-09T15:29:39+00:00",
+          "seconds": 28.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T17:39:21+00:00",
+          "end_at": "2026-11-09T17:41:34+00:00",
+          "seconds": 133.0,
+          "reason": "not_reading",
+          "still_open": false
+        }
+      ],
+      "transition_counts": {
+        "operator_stopped -> recovering": 5,
+        "recovering -> reading": 19,
+        "reading -> recovering": 14,
+        "reading -> operator_stopped": 4,
+        "recovering -> context_closed": 1,
+        "context_closed -> recovering": 1
+      },
+      "transition_counts_are_not_automatic_recovery_counts": true
+    },
+    {
+      "username": "top_ads_freelance",
+      "window_start": "2026-11-09T08:31:39+00:00",
+      "window_end": "2026-11-09T17:52:44+00:00",
+      "credited_seconds": 31814.0,
+      "calendar_seconds": 33665.390047,
+      "new_originals": 89,
+      "edits": 11,
+      "gaps": [
+        {
+          "start_at": "2026-11-09T08:40:36+00:00",
+          "end_at": "2026-11-09T08:41:01+00:00",
+          "seconds": 25.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:43:36+00:00",
+          "end_at": "2026-11-09T08:43:58+00:00",
+          "seconds": 22.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:44:45+00:00",
+          "end_at": "2026-11-09T08:44:59+00:00",
+          "seconds": 14.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T08:45:37+00:00",
+          "end_at": "2026-11-09T08:45:59+00:00",
+          "seconds": 22.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:04:20+00:00",
+          "end_at": "2026-11-09T10:06:48+00:00",
+          "seconds": 148.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:20:01+00:00",
+          "end_at": "2026-11-09T10:20:23+00:00",
+          "seconds": 22.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:32:18+00:00",
+          "end_at": "2026-11-09T10:39:57+00:00",
+          "seconds": 459.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T10:41:13+00:00",
+          "end_at": "2026-11-09T10:44:00+00:00",
+          "seconds": 167.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T11:53:55+00:00",
+          "end_at": "2026-11-09T11:54:24+00:00",
+          "seconds": 29.0,
+          "reason": "runtime_start_no_backfill",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T11:55:38+00:00",
+          "end_at": "2026-11-09T11:55:55+00:00",
+          "seconds": 17.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T12:47:36+00:00",
+          "end_at": "2026-11-09T12:48:17+00:00",
+          "seconds": 41.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T12:49:25+00:00",
+          "end_at": "2026-11-09T12:50:04+00:00",
+          "seconds": 39.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:18:42+00:00",
+          "end_at": "2026-11-09T13:23:34+00:00",
+          "seconds": 292.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T13:46:34+00:00",
+          "end_at": "2026-11-09T13:47:12+00:00",
+          "seconds": 38.0,
+          "reason": "sampling_gap_or_sleep",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T14:34:37+00:00",
+          "end_at": "2026-11-09T14:35:39+00:00",
+          "seconds": 62.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:13:55+00:00",
+          "end_at": "2026-11-09T15:15:19+00:00",
+          "seconds": 84.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T15:29:11+00:00",
+          "end_at": "2026-11-09T15:29:59+00:00",
+          "seconds": 48.0,
+          "reason": "BrowserAccessError",
+          "still_open": false
+        },
+        {
+          "start_at": "2026-11-09T17:39:01+00:00",
+          "end_at": "2026-11-09T17:41:14+00:00",
+          "seconds": 133.0,
+          "reason": "ConnectionError",
+          "still_open": false
+        }
+      ],
+      "transition_counts": {
+        "operator_stopped -> recovering": 5,
+        "recovering -> reading": 18,
+        "reading -> operator_stopped": 4,
+        "reading -> recovering": 12,
+        "recovering -> manual_attention": 1,
+        "manual_attention -> recovering": 1,
+        "reading -> context_closed": 1,
+        "context_closed -> recovering": 1
+      },
+      "transition_counts_are_not_automatic_recovery_counts": true
+    }
+  ],
+  "full_tests": 228,
+  "frozen_inputs": 92,
+  "full_test_log_sha256": "381f1b5b521268197a9bfe742da4461fa2cc97bc765ed10be8150e6160568a93",
+  "isolated_context_test_methods": 8,
+  "deployment": {
+    "at": "2026-11-09T17:49:10+00:00",
+    "source_restarts": 0,
+    "host_pid_unchanged": true,
+    "source_generations_unchanged": true,
+    "baselines_unchanged": true,
+    "preservation": {
+      "manual_status_mismatches": 0,
+      "sent_mismatches": 0,
+      "settings_unchanged": true,
+      "integrity": "ok",
+      "context_table_present": true,
+      "initial_cutoff": "487"
+    }
+  },
+  "real_visible_dom_audit": {
+    "at": "2026-11-09T17:02:25+00:00",
+    "source_count": 3,
+    "replies": 22,
+    "forwards": 1,
+    "resolutions": {
+      "not_reply": 1,
+      "same_source_saved_parent": 20,
+      "parent_not_saved": 2
+    },
+    "original_author_date_link_inferred": false,
+    "scope": "Existing visible DOM; not ingested as new messages, not replayed or delivered",
+    "database_writes": 0,
+    "delivery_calls": 0
+  },
+  "live_context_capture": {
+    "table_rows": 2,
+    "unique_candidates": 1,
+    "breakdown": [
+      {
+        "source_id": "client:-1001428955589",
+        "status": "observed_dom",
+        "reply_resolution": "same_source_saved_parent",
+        "forwarded": 0,
+        "count": 2
+      }
+    ],
+    "scope": "Only events ingested after context activation; visible audit was not inserted"
+  },
+  "real_new_context_cases": {
+    "captured_at": "2026-11-09T17:52:43+00:00",
+    "rows": [
+      {
+        "candidate_id": 867,
+        "event_version": "browser:fb95d1fda03f7bb6316666b6c3f7f1d2adce2fe8c8b379870094b43def29eda4",
+        "observed_at": "2026-11-09T17:49:52+00:00",
+        "status": "observed_dom",
+        "reply_resolution": "same_source_saved_parent",
+        "reply_candidate_id": 809,
+        "forwarded": 0,
+        "source_id": "client:-1001428955589",
+        "message_id": "1347161",
+        "published_at": "2026-11-09T17:49:51+00:00",
+        "decision": {
+          "route": "review",
+          "reason": "Запрос на выполнение работ не подтверждён: недостаточно контекста сообщения",
+          "decided_at": "2026-11-09T17:49:52+00:00"
+        },
+        "deliveries": []
+      },
+      {
+        "candidate_id": 867,
+        "event_version": "browser:e8080917e1e3c7e9711d17916f7b8d9931cc90fe4d47b744ca7d7a1e78f7a1aa",
+        "observed_at": "2026-11-09T17:50:21+00:00",
+        "status": "observed_dom",
+        "reply_resolution": "same_source_saved_parent",
+        "reply_candidate_id": 809,
+        "forwarded": 0,
+        "source_id": "client:-1001428955589",
+        "message_id": "1347161",
+        "published_at": "2026-11-09T17:49:51+00:00",
+        "decision": {
+          "route": "review",
+          "reason": "Запрос на выполнение работ не подтверждён: недостаточно контекста сообщения",
+          "decided_at": "2026-11-09T17:50:20+00:00"
+        },
+        "deliveries": []
+      }
+    ],
+    "original_versions_verified": true,
+    "historical_replay": false,
+    "source": "new runtime browser_message_context rows, not old visible-DOM audit"
+  },
+  "offline_database_restore": {
+    "at": "2026-11-09T17:53:23+00:00",
+    "source_capture": "2026-11-09T17:52:52+00:00",
+    "databases": [
+      {
+        "database": "business.sqlite3",
+        "integrity": "ok",
+        "table_counts_preserved": true,
+        "table_count": 9,
+        "context_rows": 2
+      },
+      {
+        "database": "sources.sqlite3",
+        "integrity": "ok",
+        "table_counts_preserved": true,
+        "table_count": 12,
+        "context_rows": null
+      },
+      {
+        "database": "operations.sqlite3",
+        "integrity": "ok",
+        "table_counts_preserved": true,
+        "table_count": 4,
+        "context_rows": null
+      },
+      {
+        "database": "operator-checks.sqlite3",
+        "integrity": "ok",
+        "table_counts_preserved": true,
+        "table_count": 1,
+        "context_rows": null
+      }
+    ],
+    "live_database_writes": 0,
+    "profile_copied": false,
+    "settings_exported": false,
+    "cross_database_atomic": false,
+    "runtime_boot_on_another_pc_tested": false
+  },
+  "first_new_v33_positive": {
+    "candidate_id": 799,
+    "source": "biznes_chat",
+    "original": "Ищу разработчика, нужен сайт",
+    "original_link": "https://t.me/biznes_chat/950739",
+    "original_evidence_status": "saved_publication_version",
+    "published_at": "2026-11-09T16:29:49+00:00",
+    "received_at": "2026-11-09T16:29:52+00:00",
+    "decision_at": "2026-11-09T16:29:52+00:00",
+    "route": "main",
+    "reason": "Ищут исполнителя для подходящей задачи MAXMADE",
+    "service_fit": "matched",
+    "unknown_details": [
+      "budget",
+      "deadline",
+      "platform",
+      "response_route",
+      "author_identity"
+    ],
+    "filter_version": "maxmadepro-2026-11-09-v3.3",
+    "rules_version": "local-role-rules-20261109-v3-r1",
+    "policy_version": "maxmade-context-work-v3",
+    "sent_at": "2026-11-09T16:29:58+00:00",
+    "attempts": 1,
+    "bot_message_id": 221,
+    "duplicate_sent_rows": 0,
+    "owner_assessment": "accepted_current_direct_order",
+    "owner_assessed_at": "2026-11-09T16:52:04+00:00",
+    "owner_manual_status_changed_by_acceptance": false,
+    "context_capture_release": "Earlier v3.3 r1 semantic release; before browser-context v1",
+    "population_recall": "unmeasured"
+  },
+  "resources": {
+    "available_physical_bytes": 4737232896,
+    "process_count": 14,
+    "app_process_count": 1,
+    "total_physical_bytes": 16040079360,
+    "host_tree_working_set_bytes": 2031112192,
+    "at": "2026-11-09T17:50:05+00:00"
+  },
+  "open": [
+    "population recall",
+    "24-hour per-source acceptance with gap review",
+    "owner-operated Windows logout/login and sleep/wake",
+    "real reply closure with verified same-author authority; never infer from text",
+    "original forward author/date/link remain unknown when unavailable"
+  ],
+  "manual_interventions": [
+    "Earlier explicit source reconnect 09-Nov 13:39 MSK retained",
+    "Current planned code upgrade; no source Start/Stop"
+  ],
+  "recorded_operator_action_counts": {
+    "planned_code_deployment": 3,
+    "planned_fault_injection": 5,
+    "planned_stop_start": 1,
+    "manual_source_resume": 1,
+    "planned_filter_hot_switch": 3,
+    "planned_context_hot_switch": 1
+  },
+  "no_client_or_group_messages": true,
+  "tinyfish_used": false,
+  "browser_session_published": false,
+  "code_matches_manifest": true
+}

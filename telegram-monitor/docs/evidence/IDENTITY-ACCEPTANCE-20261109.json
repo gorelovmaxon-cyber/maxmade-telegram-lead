@@ -1,0 +1,636 @@
+{
+  "at": "2026-11-09T12:18:39+00:00",
+  "base_published_sha": "434008e808cdca4ca8d88d640ef5e4c47dcf7a91",
+  "guard_version": "identity-guards-20261109-r1",
+  "filter_version": "maxmadepro-2026-11-07-v3.1",
+  "enabled": 3,
+  "reading": 3,
+  "disabled": 17,
+  "historical_failure": {
+    "at": "2026-11-09T10:32:21+00:00",
+    "source": "top_ads_freelance",
+    "controller_events": [
+      {
+        "at": "2026-11-09T10:32:16+00:00",
+        "kind": "outage",
+        "reason": "connection_or_process_lost"
+      },
+      {
+        "at": "2026-11-09T10:32:16+00:00",
+        "kind": "retry",
+        "reason": "heartbeat_stale"
+      },
+      {
+        "at": "2026-11-09T10:32:18+00:00",
+        "kind": "recovered",
+        "reason": "new_verified_baseline_no_backfill"
+      },
+      {
+        "at": "2026-11-09T10:32:20+00:00",
+        "kind": "outage",
+        "reason": "connection_or_process_lost"
+      },
+      {
+        "at": "2026-11-09T10:33:34+00:00",
+        "kind": "recovered",
+        "reason": "new_verified_baseline_no_backfill"
+      }
+    ],
+    "source_transitions": [
+      {
+        "username": "top_ads_freelance",
+        "at": "2026-11-09T10:32:16+00:00",
+        "previous_phase": "reading",
+        "phase": "operator_stopped",
+        "error_type": null
+      },
+      {
+        "username": "biznes_chat",
+        "at": "2026-11-09T10:32:16+00:00",
+        "previous_phase": "reading",
+        "phase": "operator_stopped",
+        "error_type": null
+      },
+      {
+        "username": "freelead",
+        "at": "2026-11-09T10:32:16+00:00",
+        "previous_phase": "reading",
+        "phase": "operator_stopped",
+        "error_type": null
+      },
+      {
+        "username": "top_ads_freelance",
+        "at": "2026-11-09T10:32:18+00:00",
+        "previous_phase": "operator_stopped",
+        "phase": "recovering",
+        "error_type": null
+      },
+      {
+        "username": "top_ads_freelance",
+        "at": "2026-11-09T10:32:21+00:00",
+        "previous_phase": "recovering",
+        "phase": "manual_attention",
+        "error_type": "BrowserAccessError"
+      },
+      {
+        "username": "biznes_chat",
+        "at": "2026-11-09T10:32:22+00:00",
+        "previous_phase": "operator_stopped",
+        "phase": "recovering",
+        "error_type": null
+      },
+      {
+        "username": "biznes_chat",
+        "at": "2026-11-09T10:32:44+00:00",
+        "previous_phase": "recovering",
+        "phase": "reading",
+        "error_type": null
+      },
+      {
+        "username": "freelead",
+        "at": "2026-11-09T10:32:44+00:00",
+        "previous_phase": "operator_stopped",
+        "phase": "recovering",
+        "error_type": null
+      },
+      {
+        "username": "biznes_chat",
+        "at": "2026-11-09T10:32:51+00:00",
+        "previous_phase": "reading",
+        "phase": "recovering",
+        "error_type": "ConnectionError"
+      },
+      {
+        "username": "freelead",
+        "at": "2026-11-09T10:33:29+00:00",
+        "previous_phase": "recovering",
+        "phase": "reading",
+        "error_type": null
+      },
+      {
+        "username": "biznes_chat",
+        "at": "2026-11-09T10:33:39+00:00",
+        "previous_phase": "recovering",
+        "phase": "reading",
+        "error_type": null
+      },
+      {
+        "username": "top_ads_freelance",
+        "at": "2026-11-09T10:39:49+00:00",
+        "previous_phase": "manual_attention",
+        "phase": "recovering",
+        "error_type": null
+      },
+      {
+        "username": "top_ads_freelance",
+        "at": "2026-11-09T10:39:55+00:00",
+        "previous_phase": "recovering",
+        "phase": "reading",
+        "error_type": null
+      }
+    ],
+    "exact_original_account_snapshot_available": false,
+    "actual_different_account_proven": false,
+    "failed_before_verified_element_handles_created": true,
+    "stale_capture_element_handle_explanation_supported": false,
+    "conclusion": "Historical cause cannot be uniquely identified because the identity snapshot was absent. A confirmed code defect conflated missing/replaced pane with account mismatch, reproduced on synthetic Chrome. Delayed automatic restart of live source runtime also reproduced and prevented."
+  },
+  "fixed_behavior": {
+    "own_identity_snapshot_atomic": true,
+    "missing_or_duplicate_expected_evidence": "bounded retry, no ingestion",
+    "positive_wrong_account_public_source_peer_or_join": "manual attention; no automated identity override",
+    "stale_supervisor_retry": "does not replace live source runtime or clear manual pause",
+    "safe_failure_evidence": "counts and match flags; no foreign username values"
+  },
+  "offline_tests": {
+    "count": 195,
+    "seconds": 171.939,
+    "inputs": 78,
+    "result": "OK",
+    "log_sha256": "3649e50f7acf9752fc60fdcd806adc4e43e4c144d514145cda727230a3dce67a",
+    "red_before_fix": "7 test methods: 7 assertion failures including subtests and one unsupported automatic-activation argument"
+  },
+  "live_recovery": {
+    "started_at": "2026-11-09T11:55:37+00:00",
+    "ended_at": "2026-11-09T11:55:54+00:00",
+    "result": "recovered_without_manual_resume",
+    "elapsed_s": 15.25,
+    "operator_resume_commands": 0,
+    "other_sources_fresh_at_every_sample": true,
+    "other_generations_unchanged": true,
+    "observed_failure": {
+      "at": "2026-11-09T11:55:38+00:00",
+      "error_type": "BrowserAccessError",
+      "stage": "attached",
+      "failure_class": "identity_check_pending",
+      "guard_stage": "identity_snapshot",
+      "guard": null,
+      "identity_evidence": {
+        "username_rows": 0,
+        "expected_username_rows": 0,
+        "contradictory_username": false,
+        "public_source_present": true,
+        "public_source_matches": true
+      }
+    },
+    "delayed_auto_probe": {
+      "skip_reason": "source_runtime_owns_recovery",
+      "same_host": true,
+      "same_generations": true,
+      "all_three_fresh": true
+    }
+  },
+  "fresh_checkout": {
+    "code_sha": "1e0584faee8ae47d7194ec267370b2edbbd000c8",
+    "smoke_tests": 23,
+    "seconds": 8.84,
+    "result": "OK",
+    "log_sha256": "df957cd87e946ff7507a0d73ad2b7d094ca5f23dd725b004c7ab36e35b80763a",
+    "data_restore": {
+      "at": "2026-11-09T12:13:01.755510+00:00",
+      "source_snapshot_name": "metadata-recovery-20261109T121201Z",
+      "restored_directory_name": "identity-data-restore-fresh-20261109",
+      "checks": [
+        {
+          "database": "business.sqlite3",
+          "tables_checked": 8,
+          "integrity": "ok",
+          "all_table_rows_match": true
+        },
+        {
+          "database": "sources.sqlite3",
+          "tables_checked": 12,
+          "integrity": "ok",
+          "all_table_rows_match": true
+        },
+        {
+          "database": "operations.sqlite3",
+          "tables_checked": 4,
+          "integrity": "ok",
+          "all_table_rows_match": true
+        },
+        {
+          "database": "operator-checks.sqlite3",
+          "tables_checked": 1,
+          "integrity": "ok",
+          "all_table_rows_match": true
+        }
+      ],
+      "settings_hash_match": true,
+      "current_schema_opened": true,
+      "enabled_sources": 3,
+      "disabled_sources": 17,
+      "active_filter": "maxmadepro-2026-11-07-v3.1",
+      "cutoff": 487,
+      "network_calls": 0,
+      "browser_profile_copied": false,
+      "scope": "offline state restore from current individual SQLite backups; not a portable browser session or cross-database atomic snapshot"
+    }
+  },
+  "observation": {
+    "id": 2,
+    "start_at": "2026-11-09T08:31:39+00:00",
+    "end_at": null,
+    "label": "TG-3S: three fixed Chrome sources from20261109",
+    "sources": [
+      {
+        "run_id": 2,
+        "username": "biznes_chat",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 12943.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T12:18:38+00:00",
+        "calendar_seconds": 13620.238694,
+        "uncredited_seconds": 677.239,
+        "gaps": [
+          {
+            "start_at": "2026-11-09T08:40:45+00:00",
+            "end_at": "2026-11-09T08:41:01+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:43:44+00:00",
+            "end_at": "2026-11-09T08:43:58+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:44:45+00:00",
+            "end_at": "2026-11-09T08:45:10+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T08:45:44+00:00",
+            "end_at": "2026-11-09T08:45:59+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:04:32+00:00",
+            "end_at": "2026-11-09T10:06:38+00:00",
+            "reason": "ConnectionError"
+          },
+          {
+            "start_at": "2026-11-09T10:20:08+00:00",
+            "end_at": "2026-11-09T10:20:23+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:32:22+00:00",
+            "end_at": "2026-11-09T10:33:41+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:41:15+00:00",
+            "end_at": "2026-11-09T10:44:11+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T11:54:06+00:00",
+            "end_at": "2026-11-09T11:54:24+00:00",
+            "reason": "runtime_start_no_backfill"
+          }
+        ]
+      },
+      {
+        "run_id": 2,
+        "username": "freelead",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 12819.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T12:18:38+00:00",
+        "calendar_seconds": 13620.238694,
+        "uncredited_seconds": 801.239,
+        "gaps": [
+          {
+            "start_at": "2026-11-09T08:40:51+00:00",
+            "end_at": "2026-11-09T08:41:11+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:41:44+00:00",
+            "end_at": "2026-11-09T08:42:01+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T08:42:17+00:00",
+            "end_at": "2026-11-09T08:42:41+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T08:43:50+00:00",
+            "end_at": "2026-11-09T08:44:09+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:44:45+00:00",
+            "end_at": "2026-11-09T08:45:20+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T08:45:51+00:00",
+            "end_at": "2026-11-09T08:45:59+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:04:20+00:00",
+            "end_at": "2026-11-09T10:06:58+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T10:20:14+00:00",
+            "end_at": "2026-11-09T10:20:33+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:32:44+00:00",
+            "end_at": "2026-11-09T10:33:41+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:41:19+00:00",
+            "end_at": "2026-11-09T10:44:21+00:00",
+            "reason": "ConnectionError"
+          },
+          {
+            "start_at": "2026-11-09T11:54:15+00:00",
+            "end_at": "2026-11-09T11:54:24+00:00",
+            "reason": "runtime_start_no_backfill"
+          }
+        ]
+      },
+      {
+        "run_id": 2,
+        "username": "top_ads_freelance",
+        "start_at": "2026-11-09T08:31:39+00:00",
+        "observed_seconds": 12534.0,
+        "complete_24h": false,
+        "last_sample_at": "2026-11-09T12:18:38+00:00",
+        "calendar_seconds": 13620.238694,
+        "uncredited_seconds": 1086.239,
+        "gaps": [
+          {
+            "start_at": "2026-11-09T08:40:36+00:00",
+            "end_at": "2026-11-09T08:41:01+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:43:36+00:00",
+            "end_at": "2026-11-09T08:43:58+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T08:44:45+00:00",
+            "end_at": "2026-11-09T08:44:59+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T08:45:37+00:00",
+            "end_at": "2026-11-09T08:45:59+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:04:20+00:00",
+            "end_at": "2026-11-09T10:06:48+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T10:20:01+00:00",
+            "end_at": "2026-11-09T10:20:23+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:32:18+00:00",
+            "end_at": "2026-11-09T10:39:57+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T10:41:13+00:00",
+            "end_at": "2026-11-09T10:44:00+00:00",
+            "reason": "BrowserAccessError"
+          },
+          {
+            "start_at": "2026-11-09T11:53:55+00:00",
+            "end_at": "2026-11-09T11:54:24+00:00",
+            "reason": "runtime_start_no_backfill"
+          },
+          {
+            "start_at": "2026-11-09T11:55:38+00:00",
+            "end_at": "2026-11-09T11:55:55+00:00",
+            "reason": "BrowserAccessError"
+          }
+        ]
+      }
+    ]
+  },
+  "preservation": {
+    "old_manual_status_mismatches": 0,
+    "old_sent_mismatches": 0,
+    "settings_unchanged": true,
+    "business_integrity": "ok"
+  },
+  "confirmed_controller_retry_events": [
+    {
+      "at": "2026-11-09T08:40:32+00:00",
+      "reason": "host_missing"
+    },
+    {
+      "at": "2026-11-09T08:43:31+00:00",
+      "reason": "host_missing"
+    },
+    {
+      "at": "2026-11-09T08:45:33+00:00",
+      "reason": "host_missing"
+    },
+    {
+      "at": "2026-11-09T10:19:55+00:00",
+      "reason": "host_missing"
+    },
+    {
+      "at": "2026-11-09T10:32:16+00:00",
+      "reason": "heartbeat_stale"
+    },
+    {
+      "at": "2026-11-09T11:53:49+00:00",
+      "reason": "host_missing"
+    },
+    {
+      "at": "2026-11-09T12:06:05+00:00",
+      "reason": "heartbeat_stale"
+    }
+  ],
+  "recorded_actions": [
+    {
+      "at": "2026-11-09T08:40:28+00:00",
+      "kind": "planned_code_deployment",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "three-source release; confirmed Stop/Start"
+    },
+    {
+      "at": "2026-11-09T08:41:43+00:00",
+      "kind": "planned_fault_injection",
+      "sources": [
+        "freelead"
+      ],
+      "reason": "close one page; no manual recovery"
+    },
+    {
+      "at": "2026-11-09T08:42:15+00:00",
+      "kind": "planned_fault_injection",
+      "sources": [
+        "freelead"
+      ],
+      "reason": "reload one page; no manual recovery"
+    },
+    {
+      "at": "2026-11-09T08:43:18+00:00",
+      "kind": "planned_stop_start",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "operator Stop/Start acceptance"
+    },
+    {
+      "at": "2026-11-09T08:44:43+00:00",
+      "kind": "planned_fault_injection",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "context offline/online; no manual recovery"
+    },
+    {
+      "at": "2026-11-09T08:45:32+00:00",
+      "kind": "planned_fault_injection",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "owned host terminated; no manual recovery"
+    },
+    {
+      "at": "2026-11-09T10:19:33+00:00",
+      "kind": "planned_code_deployment",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "quiet notification release; confirmed Stop/Start; timestamp is pre-stop snapshot"
+    },
+    {
+      "at": "2026-11-09T10:39:49+00:00",
+      "kind": "manual_source_resume",
+      "sources": [
+        "top_ads_freelance"
+      ],
+      "reason": "explicit executor retry after incomplete initial identity check; not autonomous"
+    },
+    {
+      "at": "2026-11-09T11:53:17+00:00",
+      "kind": "planned_code_deployment",
+      "sources": [
+        "top_ads_freelance",
+        "freelead",
+        "biznes_chat"
+      ],
+      "reason": "validated identity recovery release; no account/source selection change"
+    },
+    {
+      "at": "2026-11-09T11:55:37+00:00",
+      "kind": "planned_fault_injection",
+      "sources": [
+        "top_ads_freelance"
+      ],
+      "reason": "one username metadata row absent locally for 4 seconds; automatic recovery observed only"
+    }
+  ],
+  "manual_corrective_resumes_since_run_start": 1,
+  "manual_corrective_resumes_since_fix": 0,
+  "post_fix_observation_start": "2026-11-09T11:54:35+00:00",
+  "post_fix_24h_end": "2026-11-10T11:54:35+00:00",
+  "windows_plan": {
+    "prepared_at": "2026-11-09T11:36:51+00:00",
+    "sources": [
+      "top_ads_freelance",
+      "freelead",
+      "biznes_chat"
+    ],
+    "steps": [
+      "before: all three fresh; save metadata and delivery identities",
+      "owner puts PC to sleep for 1 minute then wakes; observe without Start/Resume",
+      "only after recovered three: owner signs out/in Windows at agreed time",
+      "inspect boot/power events, three guards, gaps and notification uniqueness; no group messages"
+    ],
+    "owner_time_confirmed": true,
+    "agent_will_not_logoff_or_reboot": true,
+    "agreed_start_moscow": "2026-11-09T18:00:00+03:00",
+    "agreed_start_utc": "2026-11-09T15:00:00+00:00",
+    "confirmed_at": "2026-11-09T11:44:11+00:00"
+  },
+  "scheduled_capture_jobs": [
+    {
+      "task": "MaxMade-Acceptance-Before-20261109",
+      "at_utc": "2026-11-09T14:55:00+00:00",
+      "enabled": true,
+      "wake_to_run": false,
+      "read_only": true
+    },
+    {
+      "task": "MaxMade-Acceptance-After1810-20261109",
+      "at_utc": "2026-11-09T15:10:00+00:00",
+      "enabled": true,
+      "wake_to_run": false,
+      "read_only": true
+    },
+    {
+      "task": "MaxMade-Acceptance-After1820-20261109",
+      "at_utc": "2026-11-09T15:20:00+00:00",
+      "enabled": true,
+      "wake_to_run": false,
+      "read_only": true
+    },
+    {
+      "task": "MaxMade-Acceptance-Run2-24h-20261110",
+      "at_utc": "2026-11-10T08:31:45+00:00",
+      "enabled": true,
+      "wake_to_run": false,
+      "read_only": true
+    },
+    {
+      "task": "MaxMade-Acceptance-Identity24h-20261110",
+      "at_utc": "2026-11-10T11:54:40+00:00",
+      "enabled": true,
+      "wake_to_run": false,
+      "read_only": true
+    }
+  ],
+  "scheduler_selftest": {
+    "captured_at": "2026-11-09T12:08:01+00:00",
+    "reading_sources": 3,
+    "network_calls": 0,
+    "code_matches_manifest": true,
+    "acceptance_automatically_claimed": false,
+    "independent_scheduled_capture_succeeded": true
+  },
+  "fully_accepted": false,
+  "open": [
+    "mixed-code calendar24 report at 2026-11-10 11:31:39 Moscow",
+    "post-fix calendar24 report at the explicit deployment observation deadline",
+    "actual sleep/wake and Windows logon at 18:00 Moscow; verify ledger and guards",
+    "owner usefulness review of delivered direct orders"
+  ],
+  "limits": [
+    "Full-run manual source resume at13:39 Moscow remains counted; cannot call this entire run autonomous",
+    "Controlled recovery is one test, not 24h autonomy",
+    "Original historical mismatch cannot be reconstructed",
+    "No claim of missed-history recovery",
+    "No paid/background LLM or new sources"
+  ]
+}

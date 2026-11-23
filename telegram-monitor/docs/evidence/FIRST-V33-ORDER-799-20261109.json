@@ -1,0 +1,32 @@
+{
+  "candidate_id": 799,
+  "source": "biznes_chat",
+  "original": "Ищу разработчика, нужен сайт",
+  "original_link": "https://t.me/biznes_chat/950739",
+  "original_evidence_status": "saved_publication_version",
+  "published_at": "2026-11-09T16:29:49+00:00",
+  "received_at": "2026-11-09T16:29:52+00:00",
+  "decision_at": "2026-11-09T16:29:52+00:00",
+  "route": "main",
+  "reason": "Ищут исполнителя для подходящей задачи MAXMADE",
+  "service_fit": "matched",
+  "unknown_details": [
+    "budget",
+    "deadline",
+    "platform",
+    "response_route",
+    "author_identity"
+  ],
+  "filter_version": "maxmadepro-2026-11-09-v3.3",
+  "rules_version": "local-role-rules-20261109-v3-r1",
+  "policy_version": "maxmade-context-work-v3",
+  "sent_at": "2026-11-09T16:29:58+00:00",
+  "attempts": 1,
+  "bot_message_id": 221,
+  "duplicate_sent_rows": 0,
+  "owner_assessment": "accepted_current_direct_order",
+  "owner_assessed_at": "2026-11-09T16:52:04+00:00",
+  "owner_manual_status_changed_by_acceptance": false,
+  "context_capture_release": "Earlier v3.3 r1 semantic release; before browser-context v1",
+  "population_recall": "unmeasured"
+}

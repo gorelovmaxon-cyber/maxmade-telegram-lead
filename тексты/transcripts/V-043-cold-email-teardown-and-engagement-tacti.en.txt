@@ -1,0 +1,226 @@
+URL: https://www.youtube.com/watch?v=M77B8WI71Z4 | Автор: demandDrive | Длительность: 30:21 | Способ: авто-субтитры YouTube (yt-dlp), en | Скачано: 2026-11-11 | Качество: авто, числа и термины могут быть искажены
+00:00:00  [Music] [Music] [Music] hello everybody and welcome to another on-demand event powered by demand drive my name is AJ Alonso I will be the host today and I've got a fantastic guest with me Maggie Bloom the sales
+
+00:00:16  evangelist over at mailshake Maggie how are you I'm doing super well excited to be here thank you so much for having me AJ yeah I'm excited to have you here I'm really excited to dig into some uh engagement tactics for cold email tear down a cold email in the 30 minutes that
+
+00:00:33  we have and give you the listener and Watcher of this some good tips on how to structure a cold email take those back with you and start getting better and more positive engagement rates on your own messaging so I think this is going to be you know I get your hands dirty
+
+00:00:48  type session and really really figure out what we can change what levers we can pull and tweak to help you get more positive replies so I'm excited to dig in here in here in here awesome same here yeah so but before we we actually jump in and I have an email to share with everyone before we go
+
+00:01:03  ahead and do that let's get a quick introduction to you Maggie I know you've done some stuff with us before but if the audience doesn't know who you are at this point somehow um tell them a little bit about yourself thank you yeah for those of you who don't know me my name is Maggie I work at mailshake and I'm a sales evangelist
+
+00:01:20  there and what mail Shake does we're a sales engagement platform so I always like to tell people I'm a salesperson selling sales software to other sales people so I talk about sales a lot but specifically cold email our focus when it comes to mailshake and what sets us
+
+00:01:36  apart from other sales engagement platforms is deliverability which I could talk about deliverability all day but it's really important when it comes to outreach because it's your whole idea of getting your message through to the inbox so we'll be talking about a few of those things today but yeah that's all
+
+00:01:53  about me about me about me and Maggie did talk about deliverability at length in one of our podcast episodes so make sure to check that out I'll go ahead and Link it in the description but it is incredibly important and I know like you said we'll touch on some of those aspects here today but realistically when building a cold email
+
+00:02:09  you don't just have to think about the content you got to think about how it's getting into someone's inbox at all it's all connected totally awesome uh so what I wanted to do with you today Maggie was a sort of tear down a cold email that I got we can go
+
+00:02:26  through and pick out some areas in which the SDR did a good job in some spots where they could improve and then throughout that process kind of tease out a few different uh engagement tactics that you um as sort of the expert here have seen
+
+00:02:42  work really effectively in terms of getting someone to actually respond to cold emails what people typically do that doesn't work that might be pervasive with a lot of sdrs today and then we can kind of wrap up with some major points on how to help individuals get just better at writing cold emails
+
+00:02:58  so I'll go ahead and pull that up we can kind of start looking at the uh the email here one second can't wait can't wait can't wait and so yeah while we're gonna have like a first look at it AJ I know this email
+
+00:03:13  obviously went to you because it says Hey AJ so um well maybe I could ask these questions once we kind of read through it um it um it um but I just wanted to hear your like initial thoughts about it uh but I think giving some context and reading through it could be helpful too
+
+00:03:29  yeah let's let's go ahead and just kind of quickly Breeze through it and I'll give my initial like I got this email in my inbox what did I do with it totally Spiel Spiel Spiel um so the subject line was uh cheers to our love of whiskey says Hey AJ born and
+
+00:03:45  raised in Scotland home of whiskey I appreciate your love for it so please go treat yourself to this delicious bottle I know you like Eagle Rare but have you tried this before like in researching you in demand Drive I've identified where company can bring major value to our marketing team into the sdrs at your
+
+00:04:01  company our account based platform powered by AI can predict the timing of when accounts are in market for demand drive to help you increase and convert Pipeline with targeted messaging any chance I could grab time with you this week or next to have a quick 30 minute chat to discuss all things sales and our love for whiskey cheers Str
+
+00:04:19  um so yes this email did pop into my inbox and I did open and respond to it and I actually did take the meeting with this individual this individual this individual um wow I only did because it said cheers to our love of whiskey as the subject line and I'm not somebody who gets
+
+00:04:36  prospected a ton but I would say 90 of the messages that I do get the subject lines all look the same they're all like how to help you increase pipeline conversion or blah blah it's something very generic right so this one stood out
+
+00:04:51  immediately which is why I opened it and as I was reading through it and and the company company company um was one that I was familiar with we actually I responded because we actually have a need for a product like theirs that was top of mind for me at the
+
+00:05:07  moment that I opened the email so the window for me to respond to something like this was wide open and it was obviously relevant to like what I was doing in that exact moment so I responded because the timing of this prep was just perfect not because the
+
+00:05:23  email was exceptionally well written or anything like that but I did um note that obviously they had done some research they knew that I like whiskey it's all over my LinkedIn profile like I literally put in my profile about section that I love Eagle Rare so like they took the time to do
+
+00:05:38  that so kind of a combination of like you've done your homework you hooked me with the subject line it's something we talked about literally two days before I'll go ahead and take it lead it wow wow that's awesome so I want to give this SDR praise right now because obviously they got what they wanted out
+
+00:05:56  of the email or not what they wanted but what the goal was you booked a meeting with them the timing was right it was super targeted to you it was a problem that you were probably most likely going through at the time so that alone and any advice that we give today I'm gonna say it'll probably be nitpicky um
+
+00:06:11  because this scr did a great job um and just like you said from that personalization they used in a subject line and it wasn't just the boring old subject lines that you typically see or the ones that are overused so whether they use personalization to get your
+
+00:06:27  attention or they just use something new I always congratulate sdrs if they can do that and think outside the box you don't have to get crazy creative but at least mentioning something that resonates with you and it's something that's all over your LinkedIn profile so nothing too creepy that they would know that you like whiskey yeah they didn't
+
+00:06:44  dive into like some weird offshoot Foursquare account that I had everywhere yeah yeah absolutely all right cool right cool right cool um well yeah thanks for giving us your thoughts about that should we just kind of dive in and go over some pros and cons and break this down yeah go ahead
+
+00:07:00  so I know you you've got some notes about kind of each section of the email so we can start with the subject line if you want or we can kind of just glaze over that because clearly like they did their their research and they know what works works works um but any best practices maybe that you have for that we can kind of just move
+
+00:07:15  down from the top to the bottom of the email and go through each one yeah yeah absolutely absolutely absolutely um yeah let's start with the subject line and then that first paragraph there basically so yeah they like I just was talking with Samantha McKenna who's you know brought up the idea of show me you
+
+00:07:32  know me and this Str did this perfectly they went to your LinkedIn profile like we just mentioned they knew that you liked whiskey they even pointed out the Eagle Rare which I've never heard of that brand before but I don't drink whiskey but they knew all those things about it about you and um they used it to grab your attention so I
+
+00:07:49  think that's great and what I really like about it just like you said like it's not an email that starts out like we can help 10x your marketing and SDR team team team um but they started out with the preview text like born and raised in Scotland so like for me I'd be like okay what what
+
+00:08:06  is this gonna like turn into you know what I mean so I really like that they did that I think that's kind of going into show me you know me and then where people talk about flipping the script so it's not just starting out the same way as every other email of like hope you're doing well so I think that scr dropped it right there it's I just have a
+
+00:08:23  question this is just open Panel here because I've gotten prospected this way a few times in the past where people send me a gift on a prospecting email I knew this was going to come up yeah so what are your thoughts on it like I I don't know do you feel I hear some
+
+00:08:39  people saying like I feel guilted into taking a meeting some people like it what do you think about it I think if you do a good job at making the gift part of the the reason that you're reaching out
+
+00:08:55  um and it's it's related to maybe the message in some capacity that it's like totally fine totally fine totally fine um in this situation where it's like I've done my research I know that you like whiskey and there's we can talk about this in terms of like continuity and relevance but like yeah you're able
+
+00:09:10  to weave that that concept that bit of personalization into the the value proposition that you deliver um somehow kind of bringing whiskey like through the email into the CTA I think it's totally fine to include that as a gift
+
+00:09:25  gift gift um where I do see a lot of people talk about where I feel guilty about sort of taking a gift is if someone's like I'd love to love to love to get a meeting with you here's a hundred dollar amazon gift um but there's no like it's just them trying to essentially bribe you into
+
+00:09:42  taking the meeting versus like I think this is going to be so valuable for you and I've done my research and I know that's the case I'm willing to Pony up 100 bucks to kind of tell you that or like show you how confident I am yeah that that's like you don't get that
+
+00:09:57  a lot when someone's like here's 100 bucks please hop on a call that's that's yeah that might be a little bit yeah it's like you're getting an apology gift or something of like someone's like I don't know you that well but here's an Amazon gift card because I'm sorry or something so I I don't have more to add
+
+00:10:15  to that I think you said it perfectly I totally agree with you too I think if um it has to have some relevance to what you're actually asking them if it makes sense for them to if it's kind of showing them in that case you know them of course I think that that works out well so awesome job I'd say overall with
+
+00:10:32  with the SDR there any other comments before we kind of move into the next part um no I mean I've got a fun fact they can't deliver liquor to Massachusetts so I had to go work around with this one but that's a story for another time let's go ahead and jump into the second
+
+00:10:49  part of the email here and see uh Maggie what some of the pros and cons that you kind of picked out were yeah yeah absolutely so let's first start out with the pros the pros the pros um the style of what how they're kind of leading into things I think works well
+
+00:11:04  so let's just read it right here and researching you in demand Drive I've identified where you know their company can bring major value to your marketing team into the sdrs at your company I see what they're trying to do here so I have a bit more cons to note on here
+
+00:11:21  like I said I'm being nitpicky with a female it it did the job it got a meeting out of it but I think this is where there's a lot of vagueness and this is where like targeting and using some targeted messaging could really help out here so just where like I've
+
+00:11:37  identified where like we can bring you value like what have you identified um put that in there talk about like what you've identified and then also you know what's what's other major value that marketing teams have seen with working with you so can you use
+
+00:11:54  percentages in there can you use an actual place where you found in your research because you did do your research you at least did your research on AJ do research on the company just like you said in researching you in demand Drive demand Drive demand Drive um I think that's where they kind of
+
+00:12:09  miss out here it's too vague they could get really nitty-gritty and have like a great statistic in there or a great thing from your website of where um they can help out and I think from a continuity standpoint that's where they could say like in researching you not only that you like whiskey and
+
+00:12:27  then kind of going into it so that that whiskey comment which they do tie in at the end is really really naturally flown through that email but I'd say they need to be a little less vague here I I would agree and I think that in my
+
+00:12:42  opinion continuity is one of the biggest things that reps are missing that like jump from personalization to okay here's my pitch it's almost like the second part of the email could be for anybody and they've just copy pasted it below a
+
+00:12:59  bit of personalization that they've done so like they do the job and they hook you in but then it reads like you know I'm anybody getting this email uh and there are some I know you in the rewrite that you did which will show at the end of this of this of this um there's a really easy way for you to
+
+00:13:15  kind of keep the continuity of that personalization that hook into the value proposition proposition proposition um instead of just using phrases um like when I was doing research or that being said blah blah blah blah blah
+
+00:13:30  like that one kills me all the time like all right I've done my job personalizing this that being said let's jump into the non-personalized pitch that I have yeah absolutely and they're just personalizing it for you which is not a bad thing you're the person on the other
+
+00:13:46  side of this email but like they're not really talking about like any personalization they've done about like the space that you're in and what struggles you might be dealing with um and also that your company so demand Drive uh there's no like correlation in between there and that's such a good
+
+00:14:01  thing I think like the way you have to think of this personalization is the same way you have to think of Discovery questions if you're just rapid firing Discovery questions to someone and there's no context behind it it's gonna sound really awkward and you feel awkward it's like the sales rep they're
+
+00:14:17  doing it too so I definitely think if you can tie it back in there I think that would be great so being a bit more specific how and where have you identified it so you really feel like you're speaking to demand drive and you specifically specifically specifically um and what major value can you bring do you have percentages to back that up do
+
+00:14:33  you have any type of like factual advice that can do that so I think that's where they could have done a bit better there and then the next part um so this is kind of one of these Concepts that I like to say of like leaving out the how uh and so they talk
+
+00:14:51  about like a benefit that your team could use from you know the marketing team to the Ser team at your company they've identified major value there but then they go in here of saying our account based platform powered by AI can predict the timing of when accounts are in market for demand drive to help you
+
+00:15:06  increase and convert Pipeline with targeted messaging it's kind of a mouthful for one sentence just that's why I like to read these out loud when I'm going through it but it's leaving out the house so that's that's how their team could do that for you but I think they need to build up a bit more
+
+00:15:21  of that pain and why this is something that you would want to care about and then that how is something that could be tied into the CTA I mean this is something borrowed from my colleague Jed but I don't think you need to talk about all that and guess what it's going to shorten that email and everyone's always
+
+00:15:37  talking about like shorter emails shorter emails that's one way that you can short at um is leaving out the how in there in there in there I like that yeah I I I'm laughing because I think when you read your own email out loud sometimes you realize
+
+00:15:53  that like these little things like like you said leaving out the hell like you say it and you're like that either doesn't make any sense or that's a huge mouthful or I'm just like regurgitating something that exists on our website or in this piece of marketing collateral like what's the value of me just copy
+
+00:16:09  pasting something that this person could probably find out on their own in a very like like like flowery or corporate like speak that takes away from any authenticity or personalization that I've already done like it's a weird sort of like I did this thing for you and then here's this
+
+00:16:26  copy pasted yeah yeah exactly and it's like you want to make it seem like the whole email is written for you and that doesn't even always just happen with like adding personalization tokens in there like you know your name your company things like
+
+00:16:43  that it's going a bit deeper and figuring out like what is AJ complaining about over a bottle of whiskey to his SDR team SDR team SDR team yeah yeah yeah yeah yeah yeah no or a glass responsibly but yeah like
+
+00:16:59  that's a way that you can kind of tie up this email if you wanted to totally rewrite it with a whole different thing but you know really hit home at those things that or major pain points or I always like to say it's like something that could twist the knife uh when you send it over to someone so
+
+00:17:15  that's what I think about that part I think it could be just taken out or really put into that CTA so people are wondering like hey how could I do that uh so then that could be some collateral there too but the CTA so kind of the last part of this
+
+00:17:31  any chance I could grab time with you this week or next to have a quick 30 minute chat to discuss all things sales and our love for whiskey so I like that they tied in the whiskey part of this again again again um you know it's kind of going back to the thing that they said originally so it wasn't just like boom here's this
+
+00:17:48  whiskey and I'm never going to mention it again the rest of it which we said some areas where they could get a little bit better with that but at least they tied it in at the end and kind of made something like you know like we're gonna chat over whiskey or something like that um the things I don't like really love
+
+00:18:04  about this is it's all things sales is also vague so that's kind of the feedback that we've given overall like all things sales that sounds a bit overwhelming for me reading it it it and I also so that part of it the other part is really just having it clear and
+
+00:18:21  having it absolutely on one line it doesn't really need to be that long you could say like any chance I could grab time with you this week that's it or something like that and then mention the whiskey thing or I think what I have in my rewrite was interested in learning how we could do
+
+00:18:37  this with AI so if you take out the how that's where you're really enticing the how in there but those are just my thoughts on that what do you think yeah no I think um the CTA is an area that a lot of uh reps need work with because
+
+00:18:53  it's a awkward to ask somebody for something if you haven't really given them a reason to want it in a lot of cases cases cases um it's more of like uh I just talked about this on a podcast recently it's more of like an FYI than a CTA where it's like yeah here's all of this stuff
+
+00:19:10  that I think could be helpful for you and they leave the CTA either open enough or vague enough where it's like you make the next best move or it's so specific where they're like do you have 15 minutes on Tuesday the 13th to talk about this and it's like you're pigeon
+
+00:19:25  holding me into this one spot where I'm like no I don't have time for that so I feel like a CTA that allows me to take what I've learned in the email and asks me a simple question like is this worth learning more about or like have
+
+00:19:43  time next week to chat like something quick and Punchy I think is the best way to go about it I really like the read write that you did because it does tie a little bit into um some of the stuff that you left out from the original email the AI portion and bringing it into the CTA because it's a little bit of an interest peak
+
+00:19:59  right like oh with AI like now maybe that's something we've talked about internally maybe investing more in AI tools is something we want to do for for 2023. now I'm now I'm in now you got me yeah exactly use that as an enticing
+
+00:20:15  line at the end like what's going to get someone to respond um and like just read your own emails that you get like is this compelling enough for me to respond to and that's where you're gonna introduce and make that sales cycle really smooth you're
+
+00:20:30  going to talk about how AI can do that on the call with them it's not just going to be talking about all things sales it's going to be talking about Ai and how how this company can help your team and your SDR team so I think that's where um that could be really helpful in there and also mentioning something
+
+00:20:46  about the whiskey time that in there you can too and get creative with it but also making the CTA get something really easy yes or no and this person right here any chance just be confident about it like yeah hey do you want to grab time
+
+00:21:02  that's you know kind of the area that we'll want to go into yeah let me let me actually pull your rewrite up so people can see what you'll you'll did to this email to change it up and and kind of go through the changes that you made here so we'll share cool so this is your
+
+00:21:18  email Maggie go ahead and take it away what what did you say here yeah so subject line intro paragraph all stayed the same I loved it um and then just the couple of things that I mentioned here so you can see it's a bit shorter uh but right here you say in researching X so what is that x
+
+00:21:34  that you researched about the company about you and then in in like a semi or brackets I didn't know what to say there but not only your drinking habits because we know that that's something that they said yeah in a wing phase like whatever their branding is and if they feel comfortable putting that out there
+
+00:21:50  but they're tying in that previous paragraph with that one and then goes into I identified that my company can help you increase and convert pipeline so I actually borrowed that from that paragraph that was talking about Ai and the how but can help you increase and
+
+00:22:06  convert pipeline by X percent we've done it with other marketing teams like X and Y interested in learning how we can do this with AI so it's shortening it we're not talking so much about the high like we don't have that one liner in there like you said that you can find on their
+
+00:22:21  website that's like we're this company we can do this this and this and we're also putting some specifics in there and percentages and maybe even mentioning some other teams or brands that would resonate with you specifically like your competitors do you have to put those
+
+00:22:37  brands in there not all the time but they can help um and I like to do it as a tactic too yeah I think that's one of the biggest uh uh uh unlocks for sdrs is that oftentimes if they're referencing a customer of theirs
+
+00:22:52  marketing or their their managers will tell them in your emails go ahead and drop like the biggest juicy yeah right look we've worked with Amazon full Ripple and for me like I could care less if you've done great work for Oracle because like what you do for them won't
+
+00:23:08  be the same that you do for me yeah and so I think to your point like having some hard data to back it up like the whole leaving out the how but like coming into that paragraph with more of like a we've done this this is a stat that we can back that up with and these
+
+00:23:23  are the companies we've done it with if that's an impressive statistic and it's with a company that I recognize either in my space because it's a competitor or just someone that looks like me I'm a lot more compelled to get back to you rather than seeing what you've done for a whale of a company like Amazon a whole
+
+00:23:39  different story yeah also when you hear something that's such a great point when you hear someone like Amazon if someone's having an email like that the only thing I'm thinking of is Price Tag like okay Amazon can afford you yeah but can male Shake afford to you I have no
+
+00:23:54  clue clue clue um so yeah make sure that if you are gonna drop other company names that you worked with make sure it's relevant um and yeah someone that they would care about in there and that's at the end of the day when you're thinking about email write stuff that they would care about
+
+00:24:09  or talk about things that they would care about in there yeah I think that's like whenever I do an email tear down or talk with someone about like you know what are the best engagement tactics or things that you can do to get someone to open up your email and actually respond it all
+
+00:24:26  comes down to like just write something that they're going to care about yeah and and obviously that's difficult to do if you're an SDR and you're supposed to be doing hundreds of activities a day but if you can prioritize sort of like the Outreach that you're doing and you pick out 10 to 15 Target accounts that
+
+00:24:41  you know you absolutely want to get in touch with and you just write emails for Maggie at mailshake and not just general salespeople at tech companies I can almost guarantee you you'll get better engagement on your emails rather than some of the more generic stuff or
+
+00:24:57  templated stuff that you would send out to a larger Persona of yours yeah yeah and one more note to put on that is like yeah at the end of the day even if you are gonna write prospecting emails for a group of people pick one person out of there make sure that you're targeting
+
+00:25:12  pretty specific like I always tell people there's no reason you should have like more than 30 people in a Target Persona campaign like really split those up but yeah make sure you just pull one person out of that crowd write the email basically for them and it doesn't always have to have like
+
+00:25:28  really intense personalization in there and what I mean by that is like that's awesome that they did the research on you about whiskey but like do you have time to do that for every single person maybe yeah I don't think all of us do or maybe we have like a VA helping us do that that would be amazing but we most
+
+00:25:45  likely yeah we most likely don't so do something amazing like that for your Target account I'm sure it sounded like this was such a need for you at the time so maybe they knew that with intent data or anything else like that um and they really did a good job uh just like I said overall I don't I was
+
+00:26:02  being nitpicky on that email and you know they got what they wanted out of it too too too for sure I'm going to go ahead and stop sharing my screen now um is there anything else kind of in general after going through that tear down in regards to like best practices
+
+00:26:17  or things that you would recommend for um someone who crafts cold emails outside of what we talked about that they should keep in mind when they're writing for engagement like a big I guess like take away from this outside of you know some of the stuff we talked about like right for an individual
+
+00:26:33  person or person or person or um leaving out the how like any other tactics that you would have for someone yeah so outside of the things that we talked about when you're really trying to get engagement and a lot of us you know as sdrs out there have to have sequence set up it's part of our kpis
+
+00:26:49  like you know we're doing five to seven touches one of the easiest ways I feel like getting engagement and something to also back up those statistics that you talk about is sending using a case study or yeah case study as your CTA um it's giving them something for free maybe
+
+00:27:05  it's a how-to guy maybe it's a percentage that you did with another client again that resonates with them but I always think that's a great one to drive engagement and I love giving something for free over to people whether it be you know whiskey or a gift like that but really just valuable
+
+00:27:23  information that's gonna they're gonna care about at the end of the day so that's one of the things that I love doing and it's simple you can put statistics like that in there and use the CTA of like hey we did this with customer X do you want to see you know our case study that we did about it it
+
+00:27:39  or do you want to see how we could do it with you too so I always think that that's a really good one that you could have in there it's something that you can just whip up today basically yeah I like that idea like make the deposit right beforehand try and build up some of that trust um that credibility before you ask for
+
+00:27:56  something like 15 minutes on someone's calendar because like you know a lot of sdrs might not think it but like 30 minutes on uh on a Target accounts calendar is goal like that's that is an insane thing to ask for if they don't trust you know you feel like you can
+
+00:28:12  help them in any capacity um so the more deposits you can make I love the idea of like dropping sort of like the hint at we did this for XYZ company we can do it for you do you want to learn how like teasing it a little bit yeah um you're making that deposit you're showing them that you can back up what you're saying and it engages them
+
+00:28:29  to to follow up with you and actually like say yeah you know I'd love to learn more or whatever they might say absolutely yeah but really great job like I said with this SDR showing showing them that they know you you you um so I recommend that scrs do that as
+
+00:28:44  well just find pieces of information in there but yeah those are kind of my two cents around it awesome well hey this was this was a great session Maggie thanks so much for a tearing that email down and be rewriting it into something else I think um there's a lot of bits of information
+
+00:28:59  within that rewrite that sdrs can take home and try out like you said little little tweaks you can make that you can try today uh to get some positive results on your engagement um if people want to connect with you and maybe continue this conversation and
+
+00:29:15  learn more about you about mailshake how can they do that yeah so you can follow me on LinkedIn which is like the most basic basic thing that people say what they are done with episodes like this but follow me on LinkedIn it's just you know the LinkedIn handle slash Maggie
+
+00:29:31  blue blument and then I'm also coming out with uh Shake sales videos you can follow those on YouTube mail shakes Shake sales I'm where I interview sales leaders out there so they can teach you a little bit more about sales and then I also do my own weekly tear Downs on LinkedIn live it's actually bi-weekly
+
+00:29:48  but follow me on LinkedIn you can learn about all the things that I just mentioned mentioned mentioned awesome well thanks again for for being here Maggie really appreciate it um thank you listener for listening uh catch more on-demand events like this go ahead and sign up once and you get
+
+00:30:04  access to all future and past events it's a pretty good deal if I say so myself so myself so myself so um we'll catch you on the next one thanks again for being here Maggie I really appreciate it thank you so much AJ bye [Music]

@@ -1,0 +1,130 @@
+URL: https://www.youtube.com/watch?v=DVW6S0Vwgvk | Автор: Лера Краваль  | Длительность: 17:21 | Способ: авто-субтитры YouTube (yt-dlp), en | Скачано: 2026-11-11 | Качество: авто, числа и термины могут быть искажены
+00:00:00  If you do cold outreach, you've likely encountered this problem. You've found your ideal client, opened links, and started with one question: what should you actually write to them? Because writing a standard line like "We help companies increase sales" is
+
+00:00:16  practically guaranteed to be spam. Spending 15 minutes on each person, studying their experience and posts, and crafting a highly customized message isn't an option either. My team and I know this better than ever, because since 2024, we've had over 60
+
+00:00:33  business cases on implementing LinkedIn for various businesses. And today, I want to show you how I approach writing a cold initial message in all my client strategies. What should you really write, what definitely shouldn't be
+
+00:00:49  there, and how to avoid the person feeling like they've been sent some template that's already been used by thousands of others. I'll use a minimum of theory and as many specific examples as possible, including good and bad messages, and explanations of why one works so much better than another. I'm
+
+00:01:05  currently on the other side of this theory. I'm doing reach for my wine business here in Barcelona, attracting new clients for corporate orders, private events, and other B2B sales here in the Spanish market. So, I'm not going to share some abstract advice
+
+00:01:22  from the internet, but rather mechanics that I actually use in my sales right now. Chapter One. Don't overcomplicate the first message. First, check if the person is even a good fit. The first cold message shouldn't sell your product, um, explain all your expertise
+
+00:01:39  and your path, and convince the person to call you. Its first task is much simpler: to check if this person fits into your funnel and whether they have a potential need. Imagine showing this first message to your eighteen-year-old
+
+00:01:57  brother. He's not stupid, but he knows nothing about your business. Will he understand from the first two sentences who you are, why you're writing, and what you want from him? Well, if so, then you've passed the test of your first message. For example, if you sell
+
+00:02:13  consulting services—yes, for B2B companies on general development—you don't necessarily have to immediately explain how you build these strategies. You can ask, "What is your goal for 2027?" and your growth points? From
+
+00:02:29  their answer, you usually understand whether there's any point in continuing the conversation. I'm doing the same thing now for my wine business in Barcelona. If I'm writing to an event manager who organizes events, I don't necessarily have to describe my entire
+
+00:02:47  collection of producers in detail, my event formats, and our wines. I can first ask, "Are you organizing Barcelona events only or am I also organizing something outside of Barcelona?" If the person replies, " Listen, no, I only focus on Barcelona,"
+
+00:03:04  I'll tell them, "Great, we've done 30+ events in partnership with AI Summit, Liza, and twenty other partners, and we'll put on a similarly cool event for you." What if he replies, "No, I'm not just in Barcelona, I'm in other cities too?" I say, "That's great, we're
+
+00:03:19  currently expanding beyond Barcelona," because we've had over 30 events in Barcelona, and we want to expand beyond that city. What I'm getting at is that you shouldn't think of the first message as a pitch for your services, but rather as a qualifying step. Your
+
+00:03:35  goal is to somehow unobtrusively obtain information that will help you understand whether it's worth pursuing this lead further and retaining them. If you do B2B sales through LinkedIn and manage multiple accounts, you know
+
+00:03:51  how inconvenient it can be to switch between them every time. That's what anti-detection browsers are for. And today I wanted to talk about Octabrowser. It allows you to conveniently manage multiple profiles in one place. A separate browser profile is created for each account,
+
+00:04:07  with its own cookie settings and sessions. As we all know, LinkedIn often bans logins from different locations, browsers, and so on, so it's a really good tool for keeping you constantly working. And I have a nice bonus for my subscribers: the first 4
+
+00:04:22  days are free with the promo code " Kraly." I'll leave a link to Octobrower in the description below this video. Chapter two: Ask the person to do a very simple action. The second thing in general about outreach is that it should be very easy for the person to respond to your message. Remember, the
+
+00:04:40  more effort it takes from the person in your first message, the lower the likelihood of a response. So I wouldn't always start with "would you have 30 minutes for a call next week?" After all, you realize you're still a stranger, and you're already asking for
+
+00:04:56  half an hour. And that's a pretty big step, but it's clear that it greatly depends on the type of business, your niche, your industry, and your communication style. In general, it's much easier for people to respond to a CTA, a call to action, something like "
+
+00:05:11  would you like to join" or "if you're free next Thursday." This event is a nice way to meet new people. In general , I always recommend using LinkedIn strategies as an offline funnel for any of your events. Even if, for example,
+
+00:05:28  you're selling your design services, you could hold an event and, well, your target audience, make a list of 200 design professionals and invite them. Well, 10 of them will come, right? You'll set the table, and of course, it won't be free for you; you'll invest, I don't know, 100 euros in such an event.
+
+00:05:46  But your conversion rate will be much higher if you, as a designer, just message everyone and say, "Would you like 30 minutes next week?" Basically, what I'm saying is that a good first message requires one small action from someone. Answer, yes, no: are we doing
+
+00:06:01  echo-house within the team, or are we still only doing, say, inbound? For example, if you're writing, offering services, yes, but after a cold call, for example, after that, you generally already have some basis and some basis
+
+00:06:16  for moving on to the next step. And in general, this is always a very important thought. No, if your funnel is heading towards a phone call, don't try to jump straight from a stranger to a sales call. There may be several small touchpoints between these two
+
+00:06:33  points. So, look, my main point is that you can't overwhelm someone with multiple questions or immediately demand a call. But simply telling them about yourself and, well, not ending the conversation with anything is also wrong. The message should contain a
+
+00:06:49  clear question or hook that's easy for the person to respond to. Chapter number three. Read the response carefully and only then take the next step. After someone has responded to you, don't automatically assume, "Let's call, here's my candidacy." The next
+
+00:07:04  step depends on what exactly you've learned. Let's say, when I sell our LinkedIn services, even before I call the founder, who's my PR, yes, before I call him, I text him: "How many people do you have in your sales department?"
+
+00:07:21  He replies: "Two." I say: "Okay." Well, that is, now I can say: "Okay, I get it . Listen, do they generate leads themselves, or is it some contractor or marketer doing it for them?" It doesn't seem like they're spending a lot of
+
+00:07:38  time overall, and that's why your business isn't growing, because they can't do other things, and they're also busy generating leads. I'd be happy to show you a case study of how we added LinkedIn to a similar lead generation
+
+00:07:53  mix and earned $ 150,000 extra in our first year together. And only then can you ask him if he'd be interested in seeing how we do it. Because, again, this is cold sales. It's not about when the founder approaches me, but when it's cold sales. What I'm getting at is
+
+00:08:10  that every action, every touchpoint, should provide you with new information . And this information should determine the next step. If he told me we don't have a sales department, that I sell it myself, that's not my lead. I don't even need to waste time answering calls
+
+00:08:26  , because my time is my time. Yes, I have two businesses, so to speak, and I have work to do. So, look, if he told me that he, for example, handles sales himself, that would also tell me that his business is quite small, and, uh, he probably just doesn't have the funds
+
+00:08:43  for my services. This isn't a qualified lead, and I don't need to take him on a call. This is all important at the level of your Outbound cold system. If you sent 100 messages and no one responded, well, don't immediately assume that Linkin isn't working. Take
+
+00:09:00  a closer look. Are you writing the right leads? Well, does the question you're asking open up a normal, healthy conversation? How easy is it to respond to that first message overall? Look at the funnel to see where exactly people
+
+00:09:15  are dropping off. So, overall, there might be, for example, a good connection, right? You sent 100 connections, and 50 people joined your team. That's 50%—that's good, but you sent a message to those fifty people, and you're getting almost no responses. All you get is a "no, not interested"
+
+00:09:31  response. So, the problem likely isn't in the targeting, yes, or in the audience's activity, but in your script itself, in your message. Or you have responses, but no one wants to take the call. Then the problem may be in the transition, yes, from this text message
+
+00:09:48  , this correspondence, these microtouches, from this conversation to the offer. Therefore, Coldout Rich is " I haven't written a message and am waiting for a sale." It's a sequence of small actions, each of which can be tracked and improved. Chapter four. You
+
+00:10:03  don't need to personalize every message , but a generic message won't work either. Now, one of the biggest mistakes I always see in Coldout Rich is that people think they only have two options for their leads and clients. Ah , either sending one template to 1,000
+
+00:10:20  people, or spending 15 minutes on each lead and writing a completely personalized, individualized message. A good Callda Rich is actually somewhere in the middle. You don't necessarily have to read someone's last 20 posts
+
+00:10:35  and write, "I saw your photo from the conference in Lisbon." I really liked your idea about AI, especially if you're then trying to somehow transition from the conference to selling your product there. This kind
+
+00:10:50  of personalization often looks more artificial than a standard template. Oh , and the message: "Hi, we help companies generate more revenue, would you be interested?" And the message: " Hi, I help companies in the US higher in Europe. Would you or any of your
+
+00:11:06  clients be interested?" That won't work well either, because it can't be sent to, well, absolutely everyone. In general, I prefer to personalize the context, not each person. For example,
+
+00:11:22  if I've gathered 50 B2B companies in a segment, say, that are currently entering the US or UK market, I can write them a very simple message: I saw you starting to build presents in the
+
+00:11:38  US. Are you already doing outreach or are you mostly relying on your existing marketing channel? This could be the same framework for these five people. But for each of these people, if it's
+
+00:11:54  the right selection of companies, knowing that they're all entering the US market, then it will be relevant for each of the recipients, because most likely, if a company is entering the US market, then everyone in the company is involved. And that's the difference
+
+00:12:11  between a template and spam for me. The template itself isn't a problem. If you live in Barcelona, have a cool career, and work in marketing, sales, IT product, or F&B, then you've likely received a message like this from me on
+
+00:12:27  LinkedIn. It's also a template, but the reply rate is 35%. You see, the problem starts when you send the same template to people with completely different contexts, situations, and problems. If
+
+00:12:43  you accidentally send this template— yes, for example, about entering the US market—you'll send it to some company that operates the way it did in France. They're simply launching a new direction, for example, within the company. If you write this, well, it's clearly complete nonsense and spam. So,
+
+00:13:00  in general, know your recipients. Don't just randomly select some AI sample and hope for the best. That, well, almost never works. Chapter number five. The more niche the segmentation, the easier
+
+00:13:15  it is to write a good message. This leads us to, perhaps, the most important principle of all outreach. The narrower your segment, the easier it is to write a good first message. If your audience is founders, then you
+
+00:13:31  know practically nothing about these people. One founder is building a 200- person venture-backed company. Another just launched his own consulting firm yesterday. A third is selling some kind of e-commerce services. A fourth isn't
+
+00:13:47  doing any sales at all right now. He's focused on the product because he works in deep tech. Four different types of founders with four completely different sets of problems. If your segment sounds like, I don't know, B2B South Founders in Germany, companies with
+
+00:14:03  10-50 people who have built Sedraund over the last six months, and sort of started hiring sales teams in the US and UK. Okay, you already have some specific context. There are probably about 15 such companies in all of
+
+00:14:19  Germany, yes, but that's a segment. And then the message practically writes itself. I saw that you're building the new UK sales team. Are the new A's expected to generate their own pipeline or are you setting out the outbound
+
+00:14:36  separately? That is, this is also a normal question for the context they are in. Again, I'm doing the same thing now for Ella Wines. I'm not just targeting companies in Barcelona. I have one segment, specifically the
+
+00:14:52  event manager, and then there are People and HR, yes, teams, and then there are companies in general that regularly hold dinners for clients there, yes, there are networking events , that sponsor other dinners, yes, and they post. These are three different segments, but they all need wine and
+
+00:15:09  catering. And I will write to each of these segments completely differently, because each of them has a completely different reason for buying wine from me. Event managers are concerned about the supplier's reliability and making sure that on the day of the event there
+
+00:15:26  won't be this: "We're not coming, our glasses broke." Yes, because they care about how well everything will look at the event and whether they will get a future contract from the company to organize an event. HR professionals think about interesting teamwork, so
+
+00:15:43  employees can be proud and post photos. It's a kind of employee branding; yes, they're solving a different problem. But an event agency, for example, thinks about keeping the client happy and not having to check on the supplier every five minutes, keeping the price
+
+00:15:58  reasonable, and having some kind of insider advantage. That's why I'd rather create five small segments of, I don't know, 100 people—not necessarily one person per company, maybe eight people I target within one
+
+00:16:14  large event agency—than if I created, I don't know, a single list of 500 people and some kind of universal message. Basically, a good call-out doesn't start with the question of what to write. It begins with the question:
+
+00:16:29  "Who exactly am I writing this to, and why might this be relevant for this specific type of person right now?" Immediately after this video, write down in 3 dashes five narrow segments of your potential clients you can work with. Then choose one of them and write
+
+00:16:45  your first message specifically for that client. This will be your homework . You can, of course, write the context and message me privately on Telegram. For those who do it promptly, I will record a voice message and tell you what is already working in this message
+
+00:17:00  and what needs improvement. And if you need a strong and effective strategy for linkedin and sales, come work with me. I am always open to your projects, and I will be happy to understand what your problem is. The link, as always,
+
+00:17:15  to my personal Telegram in the description and here on the screen. Bye everyone. M.

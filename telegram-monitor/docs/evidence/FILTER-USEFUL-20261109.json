@@ -1,0 +1,650 @@
+{
+  "at": "2026-11-09T13:44:01+00:00",
+  "version": "maxmadepro-2026-11-09-v3.2",
+  "rules_version": "local-role-rules-20261109-v2",
+  "policy_version": "maxmade-useful-work-v2",
+  "development": {
+    "rows": 128,
+    "sources": 9,
+    "expected_routes": {
+      "none": 117,
+      "main": 4,
+      "employment": 3,
+      "review": 3,
+      "partnership": 1
+    },
+    "new_routes": {
+      "none": 117,
+      "main": 4,
+      "review": 4,
+      "employment": 2,
+      "partnership": 1
+    },
+    "review": 4,
+    "owner_confirmed_positives": 1,
+    "old": {
+      "main": 5,
+      "extra_main": 1,
+      "missed_main": 0,
+      "extra_auto": 1,
+      "missed_auto": 1,
+      "correct_subcontract": 0
+    },
+    "new": {
+      "main": 4,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 1
+    }
+  },
+  "holdout": {
+    "rows": 23,
+    "sources": 3,
+    "expected_routes": {
+      "none": 23
+    },
+    "new_routes": {
+      "none": 21,
+      "review": 2
+    },
+    "review": 2,
+    "owner_confirmed_positives": 0,
+    "old": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    },
+    "new": {
+      "main": 0,
+      "extra_main": 0,
+      "missed_main": 0,
+      "extra_auto": 0,
+      "missed_auto": 0,
+      "correct_subcontract": 0
+    }
+  },
+  "initial_failed_holdout": {
+    "stats": {
+      "rows": 30,
+      "sources": 3,
+      "expected_routes": {
+        "none": 30
+      },
+      "new_routes": {
+        "none": 29,
+        "main": 1
+      },
+      "review": 0,
+      "owner_confirmed_positives": 0,
+      "old": {
+        "main": 1,
+        "extra_main": 1,
+        "missed_main": 0,
+        "extra_auto": 1,
+        "missed_auto": 0,
+        "correct_subcontract": 0
+      },
+      "new": {
+        "main": 1,
+        "extra_main": 1,
+        "missed_main": 0,
+        "extra_auto": 1,
+        "missed_auto": 0,
+        "correct_subcontract": 0
+      }
+    },
+    "false_positive_ids": [
+      629
+    ],
+    "promoted_to_development": true,
+    "report_sha256": "cc08ccc5af117ed10375f4d7b93bc943c3de652e4587557f7b29be2c5216cda2"
+  },
+  "sample_sha256": "4e2fac340663fafb0ca386afbbb5bc7f581c7ea2610efce22605ba9732494406",
+  "development_labels_sha256": "603951580453900b29d7fb152258f207d2b6985ea4ea1aeaa8019e4fca9c9f82",
+  "holdout_labels_sha256": "6942f4f5cae2a1f549437a89ad612794ad0aa9b3cda29a398779ef34dff4679b",
+  "corpus_audit": {
+    "promoted": {
+      "590": "Conservative same-family placement with income advert669 despite longer rewritten heading",
+      "594": "Previously documented self-promotion594 in project context; cannot call it unseen holdout"
+    },
+    "reason": "Post-replay corpus audit only; no rule changes or labels/outcomes altered",
+    "original_25_report_preserved": true,
+    "old_holdout_extra_auto": 0,
+    "new_holdout_extra_auto": 0,
+    "development": 128,
+    "holdout": 23
+  },
+  "full_tests": 204,
+  "test_seconds": 202.778,
+  "test_inputs": 82,
+  "test_log_sha256": "e67b84d82c75feca2084b2f6202fb429e5d2d38a8201cb555efda48b03652e1f",
+  "synthetic_examples": 53,
+  "synthetic_passed": true,
+  "holdout_after_rule_freeze": true,
+  "classifier_unchanged_after_holdout": true,
+  "post_holdout_loader_fix": "Resolve cached V3 constant before switch; retain loaded profile reference; regression tested",
+  "rollback": {
+    "result": "OK",
+    "rollback_version": "maxmadepro-2026-11-07-v3.1",
+    "integrity": "ok",
+    "historical_statuses_checked": 694,
+    "historical_sent_checked": 58,
+    "old_sent_changed": 0,
+    "old_statuses_changed": 0,
+    "initial_cutoff_unchanged": true,
+    "old_code_new_event_delivery_to_fake_sink": 1,
+    "same_event_duplicate_deliveries": 0,
+    "network_calls": 0,
+    "live_database_writes": 0,
+    "scope": "Isolated SQLite copy with simulated v3.2 event then pinned v3.1 code; live rollback not performed"
+  },
+  "live_deployment": {
+    "at": "2026-11-09T13:28:39+00:00",
+    "version": "maxmadepro-2026-11-09-v3.2",
+    "activation_verified": true,
+    "full_tests": 204,
+    "inputs": {
+      "audit_candidate_rules.py": "7acc7804a62fc9efc37c8226a989f758158fb6c49269fe453c87df508f0db9c9",
+      "automation.py": "6fce5a459fbb5e7a440b4634b40cff8983a89e7ab55da800535146e2ef03d669",
+      "batch_group_tabs.py": "e959c38279eb09433ee746a83b1ac272d59feb46f1a3655722604f275fbcc37c",
+      "browser_candidates.py": "613987f5b3199b0e2a947ebca8f374733f8f8e4e599fc7789acb0e373dcdc115",
+      "browser_capture.py": "5f868aab4a3d4411da2f5135741c7742d2c9c76d5659f08b3bb70a14cd595436",
+      "browser_ingest.py": "bb2656d1b451d3cefe54df270d85247144360aa74150875fce44da8cfda862a6",
+      "chrome_pilot.py": "34b76a61f83b1a2fa382a909fac2995b289b2039bcffae0768df1644cf801741",
+      "chrome_startup.py": "299d5c11d0015e6e1bbe147047b34fe0421fcb8cc366650942731f410ab79d43",
+      "filter_control.py": "1137b5cce64469a653783314414320ba315a1b81b8e28e39e9ef51d1cb44b294",
+      "filter_policy.py": "f1bc525dde85e841b82de5cb1d4e05dc1a3fcfa102116f012eefef1a0e8df421",
+      "group_navigation.py": "26d422303f5e435b30f2f6f5d597bc2916b878fda1429e34b0a82e1a478bc619",
+      "join_authorized_groups.py": "20180bcb0c69ce8744f82d465bbbfdedf6eb8113d87b798d5afb91ed3839ec1b",
+      "live_context_trial.py": "17a5c6787b4ca1dce699943cf2ed29270f5d7944096fc55726c247d2f707fb7b",
+      "live_network_trial.py": "c34eb73abc6802f729ceb7846f46ae20fecc23333a6ffb826c25f8f4f2afbba9",
+      "live_restart_trial.py": "6d87aef20608bd7227f28bcf429c05670b8bc9bfcafc80cb8cac3165f29131b5",
+      "live_source_trials.py": "ce90dd118c5578f9a2998ec03cbbe5e82a39f864f717c39c4418d91edc85a4c9",
+      "local_chrome.py": "63b82ddf38be79182fa8cd108ae8c81101d099354b450566f395aa15f8255b83",
+      "local_chrome_runtime.py": "c91235f42a7bb1a7fbd47a9ed270cb80108f871ef68ab69457368ccc5e2cd65d",
+      "manual_group_tabs.py": "e840a6d8dbf770ca0063d90b247c55237de54c6db7d661bc4f71404aa147c20a",
+      "manual_membership.py": "44d80cc048b625123b75530a6c6bbd1f5dc2d37701f48b0fb2f3f49a09f34b97",
+      "message_classification.py": "3b1ce759335537aca4c3f648d5e686b4459829531fdcd3ee186a3f7c4f82a6c2",
+      "monitor.py": "637c9531addc1b42efc486ab351cc7598e69aad3b12abbc2892d877fb719ab10",
+      "multi_source.py": "ee3ea80a4daaaa6330e84fac91973f5dc6730e5bca7f2fa447a5fcb8928204a8",
+      "operator_checks.py": "b4420c7b65c4577efb708da2038896acf6fb7cc8be622a455804101c89f842ac",
+      "operator_status.py": "dde9e7cd9c2eb5aaf15656823396cc260aa8a2fff5abf1616d469c4f0afc5078",
+      "order_profile.py": "fa1fc9fae995d50323d38d8e37c0eff6b1c856359fe16e2d1980c430d2a3f66c",
+      "order_profile_v2.py": "5aaaa9936eb1021a9872268e782b12be8e1c8ba7f3000e3049b7ca18cd1f6048",
+      "order_selection.py": "def69293f07224101ffd35f2246e8704fe3f04765359c6539dd2b8c1d3bf94ca",
+      "pilot.py": "549429877402eeb1115a81cedb240f04d8dbaed4c8032e8dd5328bf32bedc36b",
+      "prepare_two_sources.py": "66f9c543c68585098e39359d1fb5632f5507a4534295200cd6221d41a0341f32",
+      "quality_replay.py": "567fb80b733d6a8f5b964dc307b8a0c3cb20fc7ced7df9106d67d9a1e6f27fd5",
+      "reader.py": "d4b2bd9371232a894c93fb7f76ed4e9f9b94aa3d78531b7dc1d5c62a7325d84e",
+      "reader_control.py": "c5c743d35e427d08ba10bd9ef70a7c8da287765e90c772b59bd27118d302a88a",
+      "resource_probe.py": "193a832fd08236903c3b2187f88cc6e64fb7393be22362e4364987e4a1caf6a4",
+      "reviewed_sources.py": "faa656cb8f15f66430304b1c63306cc321f4ce12e96b0e38991a6ceb3e39673f",
+      "runtime_status.py": "2f0df8276522b0e5702b7a2f841b9399e65b72deb369746470f2a003f3d48b2f",
+      "selection_engine.py": "6084c23f84c00a12b41167e919891e12355c8c08b913e6fdf79ee3d0400c18e7",
+      "show_source_membership.py": "cd6b9402a186b2822ab1d2e06c62207a048995397b750d59f10c21c0d3333e02",
+      "snapshot_recovery.py": "109ae5a9a35b0007a156560149d8c4c00aff7c94326e1bf334f1cfa3d174b4db",
+      "source_config.py": "94d181344e99dc019ffbf7f5abb7c7f5c0f83fc22f3c9320dc271d64422f19b1",
+      "source_notices.py": "68b68df398a811248ca43caa7bb6e05519a972ae222d9b4b24b04c00107aa993",
+      "source_registry.py": "843afbc47a92dc212df388051d7d064bbb89e293d1d689e2c1ef7c8cbcb4e21e",
+      "source_rules_probe.py": "3d19162d586c927f9361fc69f3677984cb6750b5bdc3eccf1603c5845209000b",
+      "staged_control.py": "e1103f2e460eb0d6d6b4d9772325b75af1f644bc28ba3b702317863edc384fba",
+      "stage_review.py": "4bacae38f6d5d403292d0d5a82a46777f7f872b40013342a6ca1028a84b9c277",
+      "technical_browser_test.py": "0e25293c3cbba3602169095d7e47f88827345ee9b35277013ea217ffa7a1c7da",
+      "transport_diagnostics.py": "cac159b8975f504236a619fc7b5451c6a9677a5dd37f8c4dd962aeea0e6d1d83",
+      "verify_pipeline_state.py": "6480424b97c1f14fe6800f9dedc0ab6e0e8078951e657787fd5a8c6962d34a66",
+      "verify_selected_groups.py": "8336989779bbbcf2206e3b29050b04842f57a7890c73efbd58c36d78dd63cd0e",
+      "browser_observer.js": "f3e24b3cfcaf976f0a02b7096f87efb75c15ff46e23cf0724780bf101c1c22bc",
+      "tests/test_automation.py": "9f9ae48de7680dc25ca881edb33db6c6877e9f657c812e100a4e799aa2ffaf5b",
+      "tests/test_browser_capture.py": "ba79521d73fb45ff5b6e44c8656190e261e2686d78e99d5fb42539099d93e9f4",
+      "tests/test_browser_delivery_scope.py": "c539b2fcc192ae814835c7880bdbc2165e8adde250e8e1699c5123ab5b641289",
+      "tests/test_browser_ingest.py": "fe4d13f49e78279c4c9c721059018ee10213dc0bfb7c7f48bed88cd59b5ce560",
+      "tests/test_chrome_host_control.py": "0e92f712d963768050010addbc8e96b978a7874996c90cdbab2c264ac446d6fe",
+      "tests/test_chrome_identity_guard.py": "39e922d73ad5ab087677d396975a692ae036e5f79ba212296d73b151031a9a7e",
+      "tests/test_chrome_startup.py": "415d896f2d90d93545cc93a67b290bc9154b25d22ae7c5b1576e2ca185f67fc7",
+      "tests/test_chrome_tab_lifecycle.py": "7089831409cb6858445b25c767e00a3462ebb9186820e8b69d15553e5e80645d",
+      "tests/test_filter_control.py": "026b93aa8586b09952d50344ae75faa01280d2c37aa76084a4f9858c3cc2e4d3",
+      "tests/test_filter_policy.py": "2a06370ccc9669a5e8e1c17a0abd18d33b3b15293bcf262f35aaf50e1e3c524e",
+      "tests/test_identity_recovery.py": "13a67e38051d47ccad5db28d0b42b90719f4e6e59123cb2e8af7f98f44415fe8",
+      "tests/test_monitor.py": "20368e7fa3b9697b3575cdce5fbefa4f7fa86e25fabfc6648c959fc3de588674",
+      "tests/test_multi_source.py": "bafb73b37e723c1a2ec51d2da0f3dcadad951fdfeffd8a181933a47b4e11a09e",
+      "tests/test_operator_checks.py": "142c3fcdd02f1e68d02e0188d69bba8853ed23aa2f9a5b2de16fc83020dbb609",
+      "tests/test_operator_status.py": "866101399568878601c7ea99e63c159ef28e744cd5f91e564eddbcb13132bce0",
+      "tests/test_order_profile.py": "4287f93330ebdddb6d9c59fadbd97d27b8f5b5b608342fe8a8020c34d4de4277",
+      "tests/test_profile_architecture.py": "4ee4ca9e1f2a614ebaf23ca3b323338effe2c20e1e659a8ae70aa5b5bfcd2f2d",
+      "tests/test_reader_setup.py": "73b966897d0a474f66f125aff7f5970d5745dd50eb35267b27287ffe976a759d",
+      "tests/test_response_regressions.py": "96b6850b612a3323ad752edb8cd64de11add02f2375ff20857897d5cbb82c3ac",
+      "tests/test_runtime_status.py": "b6f4a99eb8e3415ef483c62eaba5e96feea44fac7f35ce25f2b46fe28f29283b",
+      "tests/test_selection_v3.py": "ad926cc50f60ba17fc62ad023664c2c35fe79617acad21760105e1341e2edea5",
+      "tests/test_source_config.py": "acbaa7f7a5e3d957b194c3ced869bed2dd290f989c3dd41b8de8970873f65aa8",
+      "tests/test_source_recovery.py": "d0b2c475301112e7530a6bd4d4b40b80a236fc60d8e33ef969dd1f7662f842f5",
+      "tests/test_staged_incremental.py": "0c1a1cebd166509b79a1147c8d4f199701f63cd0ae779750ef6c84bd04c145f2",
+      "tests/test_stage_review.py": "a2c38e0175a79653a0d9f61cbd236be2c692e0ead78d3cea19a26aef59d038c3",
+      "tests/test_transport_diagnostics.py": "d1c265c36f332c8c139ad50a5a9e4fec1d6daba4af08be4d1fc3ec1126968856",
+      "config/order-profile-v2.json": "51415656a90448bfc11bbfb3b089fec75ab6c72b17b5600603d879170a4274a3",
+      "config/order-profile.json": "fabd67fbd9303eec60a30d4514950c6b75ef1c6dc7041a186ffb7f29a562d05d",
+      "maxmade_selection.py": "46d3ca5b4116ac4c3f3f8e37d6d55be70d3e7ee807402a2c6e4dd39fbef256fa",
+      "selection_facts.py": "0990ea617dd0a869b98e5170c82063da804106bc1738f837fc3281e48043681b",
+      "quality_evaluation.py": "f87a68e617bb050a5241d016dacd87c6a1a5c08baf2564d2df71fe0efe0496e3",
+      "tests/test_useful_selection.py": "d86500dc756188f6ec16a549a874739ce0c4e40bc4446de826c746cd4261bb9d"
+    },
+    "before": {
+      "at": "2026-11-09T13:28:38+00:00",
+      "pid": 484,
+      "sources": [
+        {
+          "username": "top_ads_freelance",
+          "peer_id": -1001513982592,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:37+00:00",
+          "last_web_transport": "2026-11-09T13:28:15+00:00",
+          "baseline": 1835262,
+          "generation": 2,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": {
+            "at": "2026-11-09T13:22:49+00:00",
+            "error_type": "Error",
+            "stage": "native_group_navigation",
+            "failure_class": null,
+            "guard_stage": "own_account_verified",
+            "guard": null,
+            "identity_evidence": {
+              "settings_count": 1,
+              "own_count": 1,
+              "visible_own_count": 1,
+              "username_rows": 1,
+              "expected_username_rows": 1,
+              "contradictory_username": false
+            }
+          }
+        },
+        {
+          "username": "biznes_chat",
+          "peer_id": -1001371121321,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:36+00:00",
+          "last_web_transport": "2026-11-09T13:28:26+00:00",
+          "baseline": 950725,
+          "generation": 1,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": null
+        },
+        {
+          "username": "freelead",
+          "peer_id": -1001428955589,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:36+00:00",
+          "last_web_transport": "2026-11-09T13:28:10+00:00",
+          "baseline": 1347060,
+          "generation": 1,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": null
+        }
+      ]
+    },
+    "operator_start_stop_commands": 0,
+    "old_cards_replayed": 0,
+    "holdout": {
+      "rows": 23,
+      "sources": 3,
+      "expected_routes": {
+        "none": 23
+      },
+      "new_routes": {
+        "none": 21,
+        "review": 2
+      },
+      "review": 2,
+      "owner_confirmed_positives": 0,
+      "old": {
+        "main": 0,
+        "extra_main": 0,
+        "missed_main": 0,
+        "extra_auto": 0,
+        "missed_auto": 0,
+        "correct_subcontract": 0
+      },
+      "new": {
+        "main": 0,
+        "extra_main": 0,
+        "missed_main": 0,
+        "extra_auto": 0,
+        "missed_auto": 0,
+        "correct_subcontract": 0
+      }
+    },
+    "development": {
+      "rows": 128,
+      "sources": 9,
+      "expected_routes": {
+        "none": 117,
+        "main": 4,
+        "employment": 3,
+        "review": 3,
+        "partnership": 1
+      },
+      "new_routes": {
+        "none": 117,
+        "main": 4,
+        "review": 4,
+        "employment": 2,
+        "partnership": 1
+      },
+      "review": 4,
+      "owner_confirmed_positives": 1,
+      "old": {
+        "main": 5,
+        "extra_main": 1,
+        "missed_main": 0,
+        "extra_auto": 1,
+        "missed_auto": 1,
+        "correct_subcontract": 0
+      },
+      "new": {
+        "main": 4,
+        "extra_main": 0,
+        "missed_main": 0,
+        "extra_auto": 0,
+        "missed_auto": 0,
+        "correct_subcontract": 1
+      }
+    },
+    "after": {
+      "at": "2026-11-09T13:28:41+00:00",
+      "pid": 484,
+      "sources": [
+        {
+          "username": "top_ads_freelance",
+          "peer_id": -1001513982592,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:40+00:00",
+          "last_web_transport": "2026-11-09T13:28:15+00:00",
+          "baseline": 1835262,
+          "generation": 2,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": {
+            "at": "2026-11-09T13:22:49+00:00",
+            "error_type": "Error",
+            "stage": "native_group_navigation",
+            "failure_class": null,
+            "guard_stage": "own_account_verified",
+            "guard": null,
+            "identity_evidence": {
+              "settings_count": 1,
+              "own_count": 1,
+              "visible_own_count": 1,
+              "username_rows": 1,
+              "expected_username_rows": 1,
+              "contradictory_username": false
+            }
+          }
+        },
+        {
+          "username": "biznes_chat",
+          "peer_id": -1001371121321,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:40+00:00",
+          "last_web_transport": "2026-11-09T13:28:26+00:00",
+          "baseline": 950725,
+          "generation": 1,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": null
+        },
+        {
+          "username": "freelead",
+          "peer_id": -1001428955589,
+          "phase": "reading",
+          "error_type": null,
+          "attempts": 0,
+          "last_live_check": "2026-11-09T13:28:41+00:00",
+          "last_web_transport": "2026-11-09T13:28:41+00:00",
+          "baseline": 1347060,
+          "generation": 1,
+          "capture_running": true,
+          "stage": "attached",
+          "last_failure": null
+        }
+      ]
+    },
+    "preservation": {
+      "manual_status_mismatches": 0,
+      "sent_mismatches": 0,
+      "settings_unchanged": true,
+      "business_integrity": "ok"
+    },
+    "active_receipt": {
+      "version": "maxmadepro-2026-11-09-v3.2",
+      "initial_cutoff": 487,
+      "at": "2026-11-09T13:28:40+00:00",
+      "pid": 484,
+      "sources": [
+        "top_ads_freelance",
+        "biznes_chat",
+        "freelead"
+      ],
+      "before_path": "D:\\привлечение клиентов\\telegram-monitor\\state\\local-chrome\\filter-switch-20261109T132839Z",
+      "sources_restarted": 0,
+      "callbacks_workers_added": 0,
+      "code_hashes": {
+        "monitor.py": "637c9531addc1b42efc486ab351cc7598e69aad3b12abbc2892d877fb719ab10",
+        "order_profile.py": "fa1fc9fae995d50323d38d8e37c0eff6b1c856359fe16e2d1980c430d2a3f66c",
+        "order_profile_v2.py": "5aaaa9936eb1021a9872268e782b12be8e1c8ba7f3000e3049b7ca18cd1f6048",
+        "order_selection.py": "def69293f07224101ffd35f2246e8704fe3f04765359c6539dd2b8c1d3bf94ca",
+        "filter_policy.py": "f1bc525dde85e841b82de5cb1d4e05dc1a3fcfa102116f012eefef1a0e8df421",
+        "filter_control.py": "1137b5cce64469a653783314414320ba315a1b81b8e28e39e9ef51d1cb44b294",
+        "quality_replay.py": "567fb80b733d6a8f5b964dc307b8a0c3cb20fc7ced7df9106d67d9a1e6f27fd5",
+        "quality_evaluation.py": "f87a68e617bb050a5241d016dacd87c6a1a5c08baf2564d2df71fe0efe0496e3",
+        "multi_source.py": "ee3ea80a4daaaa6330e84fac91973f5dc6730e5bca7f2fa447a5fcb8928204a8",
+        "local_chrome_runtime.py": "c91235f42a7bb1a7fbd47a9ed270cb80108f871ef68ab69457368ccc5e2cd65d",
+        "maxmade_selection.py": "46d3ca5b4116ac4c3f3f8e37d6d55be70d3e7ee807402a2c6e4dd39fbef256fa",
+        "selection_facts.py": "0990ea617dd0a869b98e5170c82063da804106bc1738f837fc3281e48043681b",
+        "message_classification.py": "3b1ce759335537aca4c3f648d5e686b4459829531fdcd3ee186a3f7c4f82a6c2",
+        "selection_engine.py": "6084c23f84c00a12b41167e919891e12355c8c08b913e6fdf79ee3d0400c18e7",
+        "source_config.py": "94d181344e99dc019ffbf7f5abb7c7f5c0f83fc22f3c9320dc271d64422f19b1",
+        "source_registry.py": "843afbc47a92dc212df388051d7d064bbb89e293d1d689e2c1ef7c8cbcb4e21e",
+        "operator_status.py": "dde9e7cd9c2eb5aaf15656823396cc260aa8a2fff5abf1616d469c4f0afc5078",
+        "source_notices.py": "68b68df398a811248ca43caa7bb6e05519a972ae222d9b4b24b04c00107aa993",
+        "operator_checks.py": "b4420c7b65c4577efb708da2038896acf6fb7cc8be622a455804101c89f842ac",
+        "technical_browser_test.py": "0e25293c3cbba3602169095d7e47f88827345ee9b35277013ea217ffa7a1c7da",
+        "automation.py": "6fce5a459fbb5e7a440b4634b40cff8983a89e7ab55da800535146e2ef03d669",
+        "config/order-profile.json": "fabd67fbd9303eec60a30d4514950c6b75ef1c6dc7041a186ffb7f29a562d05d",
+        "config/order-profile-v2.json": "51415656a90448bfc11bbfb3b089fec75ab6c72b17b5600603d879170a4274a3",
+        "tests/test_filter_policy.py": "2a06370ccc9669a5e8e1c17a0abd18d33b3b15293bcf262f35aaf50e1e3c524e",
+        "tests/test_filter_control.py": "026b93aa8586b09952d50344ae75faa01280d2c37aa76084a4f9858c3cc2e4d3",
+        "tests/test_selection_v3.py": "ad926cc50f60ba17fc62ad023664c2c35fe79617acad21760105e1341e2edea5",
+        "tests/test_monitor.py": "20368e7fa3b9697b3575cdce5fbefa4f7fa86e25fabfc6648c959fc3de588674",
+        "tests/test_order_profile.py": "4287f93330ebdddb6d9c59fadbd97d27b8f5b5b608342fe8a8020c34d4de4277",
+        "tests/test_profile_architecture.py": "4ee4ca9e1f2a614ebaf23ca3b323338effe2c20e1e659a8ae70aa5b5bfcd2f2d",
+        "tests/test_source_config.py": "acbaa7f7a5e3d957b194c3ced869bed2dd290f989c3dd41b8de8970873f65aa8",
+        "tests/test_source_recovery.py": "d0b2c475301112e7530a6bd4d4b40b80a236fc60d8e33ef969dd1f7662f842f5",
+        "tests/test_operator_status.py": "866101399568878601c7ea99e63c159ef28e744cd5f91e564eddbcb13132bce0",
+        "tests/test_useful_selection.py": "d86500dc756188f6ec16a549a874739ce0c4e40bc4446de826c746cd4261bb9d"
+      }
+    },
+    "source_generations_unchanged": true,
+    "host_pid_unchanged": true,
+    "code_sha": "ce815655063e5f90aa32d3692d80765a000e9447",
+    "live_new_decision_counts": [
+      {
+        "source_id": "client:-1001371121321",
+        "route": "none",
+        "events": 3,
+        "last_decision_at": "2026-11-09T13:36:18+00:00"
+      },
+      {
+        "source_id": "client:-1001371121321",
+        "route": "review",
+        "events": 1,
+        "last_decision_at": "2026-11-09T13:27:31+00:00"
+      },
+      {
+        "source_id": "client:-1001428955589",
+        "route": "none",
+        "events": 3,
+        "last_decision_at": "2026-11-09T13:42:14+00:00"
+      },
+      {
+        "source_id": "client:-1001513982592",
+        "route": "none",
+        "events": 3,
+        "last_decision_at": "2026-11-09T13:37:59+00:00"
+      }
+    ],
+    "loaded_runtime_inventory": {
+      "at": "2026-11-09T13:30:09+00:00",
+      "context_pages": 4,
+      "sources": [
+        {
+          "username": "top_ads_freelance",
+          "phase": "reading",
+          "page_closed": false,
+          "capture_active": true
+        },
+        {
+          "username": "biznes_chat",
+          "phase": "reading",
+          "page_closed": false,
+          "capture_active": true
+        },
+        {
+          "username": "freelead",
+          "phase": "reading",
+          "page_closed": false,
+          "capture_active": true
+        }
+      ],
+      "filter_active": "maxmadepro-2026-11-09-v3.2",
+      "loaded_profile_version": "maxmadepro-2026-11-09-v3.2",
+      "classify_module": "_selection_monitor_release",
+      "reader_started": true
+    },
+    "classifier_unchanged_since_holdout": true,
+    "first_effective_v32_decision_at": "2026-11-09T13:27:31+00:00",
+    "pre_explicit_switch_decisions": [
+      {
+        "route": "review",
+        "events": 1
+      }
+    ],
+    "activation_timeline_note": "Automatic host recovery loaded checked on-disk code after full tests completed but before explicit switch metadata; one review event, zero notifications. Same PID/generations during explicit hot switch only, not a continuous-host claim.",
+    "full_tests_completed_at": "2026-11-09T13:26:18.764151+00:00",
+    "corpus_audit": {
+      "promoted": {
+        "590": "Conservative same-family placement with income advert669 despite longer rewritten heading",
+        "594": "Previously documented self-promotion594 in project context; cannot call it unseen holdout"
+      },
+      "reason": "Post-replay corpus audit only; no rule changes or labels/outcomes altered",
+      "original_25_report_preserved": true,
+      "old_holdout_extra_auto": 0,
+      "new_holdout_extra_auto": 0,
+      "development": 128,
+      "holdout": 23
+    },
+    "existing_bot_verified": {
+      "at": "2026-11-09T13:43:59+00:00",
+      "method": "getMe",
+      "username": "uffweb_bot",
+      "token_replaced": false
+    },
+    "live_eligible_post_activation_deliveries": 0,
+    "live_eligible_post_activation_limit": "No qualifying project/subcontract has arrived yet; routing/delivery tested on fake sink, not a newly sent live business card"
+  },
+  "known_regressions": [
+    {
+      "id": 410,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 404,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 379,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 383,
+      "new_route": "employment",
+      "owner_confirmed": false
+    },
+    {
+      "id": 377,
+      "new_route": "employment",
+      "owner_confirmed": false
+    },
+    {
+      "id": 445,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 443,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 367,
+      "new_route": "none",
+      "owner_confirmed": false
+    },
+    {
+      "id": 271,
+      "new_route": "main",
+      "owner_confirmed": true
+    },
+    {
+      "id": 523,
+      "new_route": "main",
+      "owner_confirmed": false
+    },
+    {
+      "id": 529,
+      "new_route": "partnership",
+      "owner_confirmed": false
+    },
+    {
+      "id": 615,
+      "new_route": "main",
+      "owner_confirmed": false
+    },
+    {
+      "id": 629,
+      "new_route": "none",
+      "owner_confirmed": false
+    }
+  ],
+  "public_examples": 66,
+  "network_calls_for_classification": 0,
+  "full_originals_in_git": false,
+  "limits": [
+    "Agent labels, only #271 owner-confirmed",
+    "Final audited holdout contains 23 negatives and zero matching orders: recall not measurable",
+    "Initial failed holdout was promoted and is not independent anymore",
+    "Two final holdout rows were conservatively promoted after corpus audit, without classifier or label changes; original25 report retained",
+    "Small, selected sample and clustered repetitions do not prove population precision",
+    "Rollback tested offline, not applied to live reader",
+    "24h and Windows acceptance remain separate and incomplete"
+  ]
+}

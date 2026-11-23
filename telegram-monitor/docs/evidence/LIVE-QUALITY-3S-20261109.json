@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-11-09T10:03:00+00:00",
+  "scope": "selective review of retained originals after v3.1 deployment; not a new holdout",
+  "reviewed_candidates": [
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    594
+  ],
+  "count": 9,
+  "positive_direct_orders": 0,
+  "primary_notifications_from_reviewed": 0,
+  "non_profile_or_system_cases": [
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587
+  ],
+  "service_advertising_cases": [
+    588,
+    594
+  ],
+  "advertising_actual_route": "review",
+  "primary_policy_satisfied": true,
+  "limitation": "two clear service offers remain in conservative review rather than being categorised as offer; auxiliary queue is noisy; neither was delivered as a direct order",
+  "owner_usefulness_acceptance": "no new suitable order in this reviewed sample; historic #271 remains separate",
+  "historical_frozen_sample_not_extended": true
+}
