@@ -154,10 +154,31 @@ FEEDS: dict[str, tuple[str, Callable[[str], list[dict]], tuple[str, ...]]] = {
     "workspace": ("Workspace", parse_workspace, ("https://workspace.ru/tenders/rss/",)),
     "kwork": ("Kwork", parse_kwork, ("https://kwork.ru/projects", "https://kwork.ru/projects?page=2")),
     "connect": ("connect.tg (Telegram)", parse_connect, ("https://connect.tg/",)),
+    # Pages without RSS or API; snapshots come from a local changedetection.io.
+    "watch": ("Веб-мониторинг", None, ()),
+}
+
+# Retired by decision, not broken: the parser and its tests stay, the default
+# run skips the feed. `--only kwork` still works for a deliberate re-check.
+RETIRED = {
+    "kwork": "отключена 25.11.2026: заказы с Kwork не окупали отклик; возврат — явно через --only kwork",
 }
 
 
-def collect(name: str, getter: Callable[[str], str] = fetch) -> list[dict]:
+def active(names: list[str], explicit: bool = False) -> tuple[list[str], list[str]]:
+    """Split names into those that run and retired ones skipped by default."""
+    run: list[str] = []
+    skipped: list[str] = []
+    for name in names:
+        (skipped if name in RETIRED and not explicit else run).append(name)
+    return run, skipped
+
+
+def collect(name: str, getter: Callable[[str], str] = fetch, db=None,
+            at: dt.datetime | None = None) -> list[dict]:
+    if name == "watch":
+        import watch_feed
+        return watch_feed.collect(db, at or monitor.now())
     _, parser, urls = FEEDS[name]
     items: dict[str, dict] = {}
     for url in urls:
@@ -199,6 +220,12 @@ def main() -> int:
     if unknown or not names:
         print(f"Ошибка: неизвестные или пустые ленты {unknown or names}; есть {', '.join(FEEDS)}", file=sys.stderr)
         return 2
+    names, skipped = active(names, explicit=bool(args.only))
+    for name in skipped:
+        print(f"{name}: пропущена, {RETIRED[name]}", file=sys.stderr)
+    if not names:
+        print("Ошибка: все запрошенные ленты отключены", file=sys.stderr)
+        return 2
     max_age = float(os.getenv("MONITOR_FEED_MAX_AGE_HOURS", "24"))
     at = monitor.now()
     db = monitor.connect(cfg.db) if args.command == "run" else None
@@ -206,8 +233,12 @@ def main() -> int:
     status: dict[str, dict] = {}
     try:
         for name in names:
+            if name == "watch" and db is None:
+                import watch_feed
+                print(f"watch: {watch_feed.preview()}")
+                continue
             try:
-                items = fresh(collect(name), at, max_age)
+                items = fresh(collect(name, db=db, at=at), at, max_age)
             except Exception as exc:  # one broken site must not stop the others
                 failures += 1
                 status[name] = {"ok": False, "error": type(exc).__name__}

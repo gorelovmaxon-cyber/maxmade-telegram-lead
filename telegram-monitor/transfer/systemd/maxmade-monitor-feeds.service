@@ -1,5 +1,5 @@
 [Unit]
-Description=MaxMade monitor: read-only exchange feeds (FL.ru, Workspace, Kwork, connect.tg)
+Description=MaxMade monitor: read-only feeds (FL.ru, Workspace, connect.tg, web watches)
 After=network-online.target
 Wants=network-online.target
 
